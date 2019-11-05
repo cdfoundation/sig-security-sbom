@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<root>
+ <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
+ <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
+ <name>redie-archive_sbom</name>
+ <identifier>document https://mail.it-cisq.org redie-archive_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source-zip 1.0.0 checksumAlgorithm_sha256 e93c01eb62076c392b252b6419de9ec20decdab50eaf70738c0bc76074ff9c88 sha256 0ae477f1ab49b7bab585b5403e19c10abefeef56e4ddb518efd78770f298dbc7</identifier>
+ <created>2019-11-05T22:03:00+0100</created>
+ <modified>2019-11-05T22:03:00+0100</modified>
+ <checksums>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>0ae477f1ab49b7bab585b5403e19c10abefeef56e4ddb518efd78770f298dbc7</value>
+  </checksum>
+ </checksums>
+ <populationMethod>populationMethod_automated</populationMethod>
+ <creator>
+  <identificationAuthority>philippe-emmanuel@it-cisq.org</identificationAuthority>
+  <name>Philippe-Emmnanuel Douziech</name>
+  <identifier>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</identifier>
+  <creator>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</creator>
+  <type>agentType_person</type>
+ </creator>
+ <sourceOfRelationships>
+  <sourceOfRelationship>
+   <name>dependency on included installed module</name>
+   <identifier>. relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 bcb8c40435aedfdf8306fb3a70f2103463eb4bddc976c37b5b063abbda1ff9e2</identifier>
+   <target>document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 bcb8c40435aedfdf8306fb3a70f2103463eb4bddc976c37b5b063abbda1ff9e2</target>
+   <type>relationshipType_contains</type>
+  </sourceOfRelationship>
+  <sourceOfRelationship>
+   <name>zipped from source</name>
+   <identifier>. relationshipType_generatedFrom document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 6d7eab9ef1744122841d627d89241d502a106f197bdf43ca5dd35db62caf8f3f</identifier>
+   <target>document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 6d7eab9ef1744122841d627d89241d502a106f197bdf43ca5dd35db62caf8f3f</target>
+   <type>relationshipType_generatedFrom</type>
+  </sourceOfRelationship>
+ </sourceOfRelationships>
+ <artifact>
+  <identificationAuthority>https://github.com/Microsoft/redie.git@v1.0.0</identificationAuthority>
+  <name>redie-source-zip</name>
+  <identifier>artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source-zip 1.0.0 checksumAlgorithm_sha256 e93c01eb62076c392b252b6419de9ec20decdab50eaf70738c0bc76074ff9c88</identifier>
+  <component></component>
+  <version>1.0.0</version>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>e93c01eb62076c392b252b6419de9ec20decdab50eaf70738c0bc76074ff9c88</value>
+  </checksum>
+  <licenseInfo>
+   <specVersion>SPDX-2.1</specVersion>
+   <identificationAuthority>https://spdx.org</identificationAuthority>
+   <name>LGPL-2.1+</name>
+   <identifier>licenseInfo https://spdx.org LGPL-2.1+</identifier>
+   <expression>LGPL-2.1+</expression>
+  </licenseInfo>
+  <supplier>
+   <identificationAuthority>iamwillbar@github.com</identificationAuthority>
+   <name>William Bartholomew</name>
+   <identifier>agentType_person iamwillbar@github.com William Bartholomew</identifier>
+   <type>agentType_person</type>
+  </supplier>
+  <files>
+   <file>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>redie-1.0.0.tar.gz</name>
+    <identifier>fileType_archive https://github.com redie-1.0.0.tar.gz sha256 50b03079e3bf056f76e849f8800d5de044e8a91ec659e1a4b098e2e29fff9266</identifier>
+    <path>.</path>
+    <type>fileType_archive</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>50b03079e3bf056f76e849f8800d5de044e8a91ec659e1a4b098e2e29fff9266</value>
+     </checksum>
+    </checksums>
+   </file>
+  </files>
+ </artifact>
+</root>

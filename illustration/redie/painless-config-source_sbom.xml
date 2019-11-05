@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<root>
+ <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
+ <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
+ <name>painless-config-source_sbom</name>
+ <identifier>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 fbcf62cb31b5a97a44f2249e316bfa07c5f55596295faee13cfb53d2ad6f420c</identifier>
+ <created>2019-11-05T22:03:00+0100</created>
+ <modified>2019-11-05T22:03:00+0100</modified>
+ <checksums>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>fbcf62cb31b5a97a44f2249e316bfa07c5f55596295faee13cfb53d2ad6f420c</value>
+  </checksum>
+ </checksums>
+ <populationMethod>populationMethod_automated</populationMethod>
+ <creator>
+  <identificationAuthority>philippe-emmanuel@it-cisq.org</identificationAuthority>
+  <name>Philippe-Emmnanuel Douziech</name>
+  <identifier>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</identifier>
+  <creator>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</creator>
+  <type>agentType_person</type>
+ </creator>
+ <artifact>
+  <identificationAuthority>https://github.com/Microsoft/painless-config.git@v0.1.0</identificationAuthority>
+  <name>painless-config-source</name>
+  <identifier>artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596</identifier>
+  <version>0.1.0</version>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596</value>
+  </checksum>
+  <licenseInfo>
+   <specVersion>SPDX-2.1</specVersion>
+   <identificationAuthority>https://spdx.org</identificationAuthority>
+   <name>LGPL-2.1+</name>
+   <identifier>licenseInfo https://spdx.org LGPL-2.1+</identifier>
+   <expression>LGPL-2.1+</expression>
+  </licenseInfo>
+  <components>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>LICENSE</name>
+    <identifier>fileType_other https://github.com LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>README.md</name>
+    <identifier>fileType_documentation https://github.com README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd</identifier>
+    <path>.</path>
+    <type>fileType_documentation</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>index.js</name>
+    <identifier>fileType_source https://github.com index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22</identifier>
+    <path>.</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>package.json</name>
+    <identifier>fileType_source https://github.com package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d</identifier>
+    <path>.</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>screenshot.png</name>
+    <identifier>fileType_image https://github.com screenshot.png sha256 ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a</identifier>
+    <path>.</path>
+    <type>fileType_image</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>.gitattributes</name>
+    <identifier>fileType_other https://github.com .gitattributes sha256 89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>.gitignore</name>
+    <identifier>fileType_other https://github.com .gitignore sha256 1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f</value>
+     </checksum>
+    </checksums>
+   </component>
+   <component>
+    <identificationAuthority>https://github.com</identificationAuthority>
+    <name>launch.json</name>
+    <identifier>fileType_source https://github.com launch.json sha256 4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a</identifier>
+    <path>./.vscode</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a</value>
+     </checksum>
+    </checksums>
+   </component>
+  </components>
+  <supplier>
+   <identificationAuthority>iamwillbar@github.com</identificationAuthority>
+   <name>William Bartholomew</name>
+   <identifier>agentType_person iamwillbar@github.com William Bartholomew</identifier>
+   <type>agentType_person</type>
+  </supplier>
+ </artifact>
+</root>
