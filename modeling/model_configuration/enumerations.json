@@ -1,0 +1,44 @@
+[
+  {
+    "name": "FileType",
+    "package": "Definitions",
+    "description": "enumerated data type defines additional specifications of the the nature of the file.",
+    "id": "3T-SBOM-EMS-Definitions-FileType"
+  },
+  {
+    "name": "AgentType",
+    "package": "Definitions",
+    "description": "enumerated data type defines additional specifications of the of the nature of the agent.",
+    "id": "3T-SBOM-EMS-Definitions-AgentType"
+  },
+  {
+    "name": "ChecksumAlgorithm",
+    "package": "Definitions",
+    "description": "enumerated data type defines additional specifications of the of the algorithm used to compute the checksum.",
+    "id": "3T-SBOM-EMS-Definitions-ChecksumAlgorithm"
+  },
+  {
+    "name": "PopulationMethod",
+    "package": "Definitions",
+    "description": "enumerated data type defines additional specifications of the way the SBOM document was created.",
+    "id": "3T-SBOM-EMS-Definitions-PopulationMethod"
+  },
+  {
+    "name": "ToolType",
+    "package": "Activities",
+    "description": "enumerated data type defines additional specifications of the tool.",
+    "id": "3T-SBOM-EMS-Activities-ToolType"
+  },
+  {
+    "name": "AnnotationType",
+    "package": "Definitions",
+    "description": "enumerated data type defines additional specifications of the annotation.",
+    "id": "3T-SBOM-EMS-Definitions-AnnotationType"
+  },
+  {
+    "name": "RelationshipType",
+    "package": "Relationships",
+    "description": "enumerated data type defines additional specifications of the nature of the relation between the SBOM documents.",
+    "id": "3T-SBOM-EMS-Relationships-RelationshipType"
+  }
+]

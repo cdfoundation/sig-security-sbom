@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Node",
+    "package": "Definitions",
+    "description": "This class is the abstract parent class of all the classes from the 3T-SBOM-EMS specifications. It supports a graph-based approach to Software Bill of Material modeling where salient elements are the nodes of a graph.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-Node"
+  },
+  {
+    "name": "Document",
+    "package": "Definitions",
+    "generalization": "Node",
+    "description": "This class represents the Software Bill of Material document. It is deals with pieces of information pertaining to the following facets:",
+    "compositionDescription": ["The artifact the SBoM document is detailing,", "The SBoM document itself, such as the author, the time-stamp, the generation method, and the signature,", "Further information pieces related to the artifact, such as license information, pedigree information, document annotations, and related documents."],
+    "id": "3T-SBOM-EMS-Definitions-Document"
+  },
+  {
+    "name": "ComponentItem",
+    "package": "Definitions",
+    "generalization": "Node",
+    "description": "This class represents logical and physical deliverable files or group of files.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-ComponentItem"
+  },
+  {
+    "name": "Artifact",
+    "package": "Definitions",
+    "generalization": "ComponentItem",
+    "description": "This class represents the artifact detailed by the Software Bill of Material document. It is deals with pieces of information pertaining to the following facets:",
+    "compositionDescription": ["The component supplier,", "The component,", "The version of the component,", "The component checksum, to ensure the component has not been tampered with,", "The file elements to detail the composition of the delivered component."],
+    "id": "3T-SBOM-EMS-Definitions-Artifact"
+  },
+  {
+    "name": "FileItem",
+    "package": "Definitions",
+    "generalization": "ComponentItem",
+    "description": "This class represents physical deliverable files or group of files.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-FileItem"
+  },
+  {
+    "name": "File",
+    "package": "Definitions",
+    "generalization": "FileItem",
+    "description": "This class represents physical deliverable files. ",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-File"
+  },
+  {
+    "name": "FileGroup",
+    "package": "Definitions",
+    "generalization": "FileItem",
+    "description": "This class represents physical deliverable group of files. It is composed of files and/or file groups.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-FileGroup"
+  },
+  {
+    "name": "Agent",
+    "package": "Definitions",
+    "generalization": "Node",
+    "description": "This class represents the person, organization, system, entity which plays a role vis-a-vis the Software Bill of Material node elements. E.g.: creator of an SBoM node element, or supplier of the artifact, or performer of the pedigree-related action. It is deals with pieces of information pertaining to the following facets:",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-Agent"
+  },
+  {
+    "name": "Checksum",
+    "package": "Definitions",
+    "description": "This class represents the hash value using the provided hash algorithm of the related content: a document, a source file, a binary file, ... The following special situations should be processed as described:",
+    "compositionDescription": ["To compute the checksum of an Artifact supported by the delivery of multiple physical files, the checksum is computed as the checksum of files' checksum values, sorted alphabetically.", "To compute the SBOM document checksum, the checksum is computed as the checksum of all the SBOM document content, excluding the CreationInfo.checksum.checksumValue element(s)."],
+    "id": "3T-SBOM-EMS-Definitions-Checksum"
+  },
+  {
+    "name": "Configuration",
+    "package": "Activities",
+    "description": "This class represents the configuration settings of a tool.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Activities-Configuration"
+  },
+  {
+    "name": "Argument",
+    "package": "Activities",
+    "description": "This class represents the arguments of an action.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Activities-Argument"
+  },
+  {
+    "name": "Annotation",
+    "package": "Definitions",
+    "generalization": "Node",
+    "description": "This class represents information to convey about the document, the document creation, the artifact, ... that is not part of the structured model. Annotation node elements can be used to support:",
+    "compositionDescription": ["Exchange of information that are not part of the specification but that are agreed upon between consumer and supplier of the document,", "Information about vulnerability-related analysis results,", "Information about artifact topics and technologies,", "Data Marking", "...  "],
+    "id": "3T-SBOM-EMS-Definitions-Annotation"
+  },
+  {
+    "name": "LicenseInfo",
+    "package": "Definitions",
+    "generalization": "Node",
+    "description": "This class represents the licensing information, detailing the Intellectual Property of the artifact or of its constituant elements.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Definitions-LicenseInfo"
+  },
+  {
+    "name": "PedigreeInfo",
+    "package": "Activities",
+    "generalization": "Node",
+    "description": "This class represents the pedigree information, detailing the ways the artifact was produced. It is composed of a set of actions.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Activities-PedigreeInfo"
+  },
+  {
+    "name": "Action",
+    "package": "Activities",
+    "generalization": "Node",
+    "description": "This class represents action performed during the production process of the artifact. It is worth noting that:",
+    "compositionDescription": ["The actions can be linked together via the relationships, supporting sequences of actions,", "The actions can be linked to any other SBoM node elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
+    "id": "3T-SBOM-EMS-Activities-Action"
+  },
+  {
+    "name": "Tool",
+    "package": "Activities",
+    "generalization": "Node",
+    "description": "This class represents the tool used to perform a pedigree activity. It is deals with pieces of information pertaining to the following facets:",
+    "compositionDescription": ["The tool editor,", "The tool name,", "The tool version and service pack information,", "The tool type."],
+    "id": "3T-SBOM-EMS-Activities-Tool"
+  },
+  {
+    "name": "Relationship",
+    "package": "Relationships",
+    "generalization": "Node",
+    "description": "This class represents a relationship between two SBoM node elements. It points at another SBoM node element, and indicates the nature of the relationship. It supports a graph-based approach to SBOM modeling where salient elements are the nodes of a graph, linked together via these relationships. Most of the time, these will be relationships between SBOM documents, but the 3T-SBOM-EMS model supports more advanced behaviors.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Relationships-Relationship"
+  }
+]

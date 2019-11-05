@@ -1,0 +1,82 @@
+[
+  {
+    "SBOM": "Node",
+    "SPDX": "SpdxElement",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Document",
+    "SPDX": "SpdxDocument",
+    "comment": "-"
+  },
+  {
+    "SBOM": "ComponentItem",
+    "SPDX": "SpdxItem",
+    "comment": ""
+  },
+  {
+    "SBOM": "Artifact",
+    "SPDX": "Package",
+    "comment": "identification aspect of the Package"
+  },
+  {
+    "SBOM": "File",
+    "SPDX": "File",
+    "comment": "-"
+  },
+  {
+    "SBOM": "FileGroup",
+    "SPDX": "Package",
+    "comment": "file organization aspect of the Package"
+  },
+  {
+    "SBOM": "Agent",
+    "SPDX": "-",
+    "comment": "handle as a formated string in SPDX 2.1"
+  },
+  {
+    "SBOM": "Checksum",
+    "SPDX": "Checksum",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Annotation",
+    "SPDX": "Annotation",
+    "comment": "-"
+  },
+  {
+    "SBOM": "LicenseInfo",
+    "SPDX": "SpxItem.licenseConcluded",
+    "comment": "3T-SBOM-EMS capture the licensing information as a node element with its specVersion to qualify the license expression format"
+  },
+  {
+    "SBOM": "PedigreeInfo",
+    "SPDX": "-",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Action",
+    "SPDX": "-",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Argument",
+    "SPDX": "-",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Tool",
+    "SPDX": "-",
+    "comment": "handle as a formated string in SPDX 2.1"
+  },
+  {
+    "SBOM": "Configuration",
+    "SPDX": "-",
+    "comment": "-"
+  },
+  {
+    "SBOM": "Relationship",
+    "SPDX": "Relationship",
+    "comment": "-"
+  }
+]
