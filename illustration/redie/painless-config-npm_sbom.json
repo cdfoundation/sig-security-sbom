@@ -2,13 +2,13 @@
   "specVersion": "http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/",
   "identificationAuthority": "https://mail.it-cisq.org",
   "name": "painless-config-npm_sbom",
-  "identifier": "document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 263345d95e655ebeb9df60cc73b3a2d1a1da59114b8769c7820f45785b94f342",
-  "created": "2019-11-05T22:03:00+0100",
-  "modified": "2019-11-05T22:03:00+0100",
+  "identifier": "document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4",
+  "created": "2019-11-06T14:12:59+0100",
+  "modified": "2019-11-06T14:12:59+0100",
   "checksum": [
     {
       "algorithm": "checksumAlgorithm_sha256",
-      "value": "263345d95e655ebeb9df60cc73b3a2d1a1da59114b8769c7820f45785b94f342"
+      "value": "6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4"
     }
   ],
   "populationMethod": "populationMethod_automated",
@@ -21,8 +21,8 @@
   },
   "sourceOfRelationship": {
     "name": "package from source",
-    "identifier": ". relationshipType_generatedFrom document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 fbcf62cb31b5a97a44f2249e316bfa07c5f55596295faee13cfb53d2ad6f420c",
-    "target": "document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 fbcf62cb31b5a97a44f2249e316bfa07c5f55596295faee13cfb53d2ad6f420c",
+    "identifier": ". relationshipType_generatedFrom document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951",
+    "target": "document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951",
     "type": "relationshipType_generatedFrom"
   },
   "artifact": {
@@ -50,9 +50,8 @@
     },
     "file": [
       {
-        "identificationAuthority": "https://github.com",
         "name": "LICENSE",
-        "identifier": "fileType_other https://github.com LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a",
+        "identifier": "fileType_other pkg:npm/painless-config@0.1.0 LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a",
         "path": ".",
         "type": "fileType_other",
         "checksum": [
@@ -63,9 +62,8 @@
         ]
       },
       {
-        "identificationAuthority": "https://github.com",
         "name": "README.md",
-        "identifier": "fileType_documentation https://github.com README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd",
+        "identifier": "fileType_documentation pkg:npm/painless-config@0.1.0 README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd",
         "path": ".",
         "type": "fileType_documentation",
         "checksum": [
@@ -76,9 +74,8 @@
         ]
       },
       {
-        "identificationAuthority": "https://github.com",
         "name": "index.js",
-        "identifier": "fileType_source https://github.com index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22",
+        "identifier": "fileType_source pkg:npm/painless-config@0.1.0 index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22",
         "path": ".",
         "type": "fileType_source",
         "checksum": [
@@ -89,9 +86,8 @@
         ]
       },
       {
-        "identificationAuthority": "https://github.com",
         "name": "package.json",
-        "identifier": "fileType_source https://github.com package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d",
+        "identifier": "fileType_source pkg:npm/painless-config@0.1.0 package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d",
         "path": ".",
         "type": "fileType_source",
         "checksum": [
@@ -109,46 +105,46 @@
     "action": {
       "name": "painless-config publishing",
       "identifier": "action agentType_person iamwillbar@github.com William Bartholomew toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com Jenkins 6.7.0  https://mail.it-cisq.org painless-config publishing",
-      "started": "2019-11-05T22:03:00+0100",
-      "ended": "2019-11-05T22:03:00+0100",
+      "started": "2019-11-06T14:12:59+0100",
+      "ended": "2019-11-06T14:12:59+0100",
       "object": [
         {
-          "identifier": "fileType_other https://github.com LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a"
+          "identifier": "fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a"
         },
         {
-          "identifier": "fileType_documentation https://github.com README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd"
+          "identifier": "fileType_documentation https://github.com/Microsoft/painless-config.git@v0.1.0 README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd"
         },
         {
-          "identifier": "fileType_source https://github.com index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22"
+          "identifier": "fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22"
         },
         {
-          "identifier": "fileType_source https://github.com package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d"
+          "identifier": "fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d"
         },
         {
-          "identifier": "fileType_image https://github.com screenshot.png sha256 ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a"
+          "identifier": "fileType_image https://github.com/Microsoft/painless-config.git@v0.1.0 screenshot.png sha256 ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a"
         },
         {
-          "identifier": "fileType_other https://github.com .gitattributes sha256 89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f"
+          "identifier": "fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitattributes sha256 89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f"
         },
         {
-          "identifier": "fileType_other https://github.com .gitignore sha256 1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f"
+          "identifier": "fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitignore sha256 1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f"
         },
         {
-          "identifier": "fileType_source https://github.com launch.json sha256 4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a"
+          "identifier": "fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 launch.json sha256 4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a"
         }
       ],
       "result": [
         {
-          "identifier": "fileType_other https://github.com LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a"
+          "identifier": "fileType_other pkg:npm/painless-config@0.1.0 LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a"
         },
         {
-          "identifier": "fileType_documentation https://github.com README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd"
+          "identifier": "fileType_documentation pkg:npm/painless-config@0.1.0 README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd"
         },
         {
-          "identifier": "fileType_source https://github.com index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22"
+          "identifier": "fileType_source pkg:npm/painless-config@0.1.0 index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22"
         },
         {
-          "identifier": "fileType_source https://github.com package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d"
+          "identifier": "fileType_source pkg:npm/painless-config@0.1.0 package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d"
         }
       ],
       "instrument": {

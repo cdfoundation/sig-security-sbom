@@ -2,13 +2,13 @@
   "specVersion": "http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/",
   "identificationAuthority": "https://mail.it-cisq.org",
   "name": "redie-archive_sbom",
-  "identifier": "document https://mail.it-cisq.org redie-archive_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source-zip 1.0.0 checksumAlgorithm_sha256 e93c01eb62076c392b252b6419de9ec20decdab50eaf70738c0bc76074ff9c88 sha256 0ae477f1ab49b7bab585b5403e19c10abefeef56e4ddb518efd78770f298dbc7",
-  "created": "2019-11-05T22:03:00+0100",
-  "modified": "2019-11-05T22:03:00+0100",
+  "identifier": "document https://mail.it-cisq.org redie-archive_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source-zip 1.0.0 checksumAlgorithm_sha256 e93c01eb62076c392b252b6419de9ec20decdab50eaf70738c0bc76074ff9c88 sha256 1b85e605df34c01b5920e0ea8cb9a40ee8bce78f6279ec70d432a7a93c942fe2",
+  "created": "2019-11-06T14:12:59+0100",
+  "modified": "2019-11-06T14:12:59+0100",
   "checksum": [
     {
       "algorithm": "checksumAlgorithm_sha256",
-      "value": "0ae477f1ab49b7bab585b5403e19c10abefeef56e4ddb518efd78770f298dbc7"
+      "value": "1b85e605df34c01b5920e0ea8cb9a40ee8bce78f6279ec70d432a7a93c942fe2"
     }
   ],
   "populationMethod": "populationMethod_automated",
@@ -22,14 +22,14 @@
   "sourceOfRelationship": [
     {
       "name": "dependency on included installed module",
-      "identifier": ". relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 bcb8c40435aedfdf8306fb3a70f2103463eb4bddc976c37b5b063abbda1ff9e2",
-      "target": "document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 bcb8c40435aedfdf8306fb3a70f2103463eb4bddc976c37b5b063abbda1ff9e2",
+      "identifier": ". relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3",
+      "target": "document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3",
       "type": "relationshipType_contains"
     },
     {
       "name": "zipped from source",
-      "identifier": ". relationshipType_generatedFrom document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 6d7eab9ef1744122841d627d89241d502a106f197bdf43ca5dd35db62caf8f3f",
-      "target": "document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 6d7eab9ef1744122841d627d89241d502a106f197bdf43ca5dd35db62caf8f3f",
+      "identifier": ". relationshipType_generatedFrom document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077",
+      "target": "document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077",
       "type": "relationshipType_generatedFrom"
     }
   ],
@@ -58,9 +58,8 @@
     },
     "file": [
       {
-        "identificationAuthority": "https://github.com",
         "name": "redie-1.0.0.tar.gz",
-        "identifier": "fileType_archive https://github.com redie-1.0.0.tar.gz sha256 50b03079e3bf056f76e849f8800d5de044e8a91ec659e1a4b098e2e29fff9266",
+        "identifier": "fileType_archive https://github.com/Microsoft/redie.git@v1.0.0 redie-1.0.0.tar.gz sha256 50b03079e3bf056f76e849f8800d5de044e8a91ec659e1a4b098e2e29fff9266",
         "path": ".",
         "type": "fileType_archive",
         "checksum": [
