@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<root>
+ <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
+ <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
+ <name>redie-source_sbom</name>
+ <identifier>document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077</identifier>
+ <created>2019-11-06T14:12:59+0100</created>
+ <modified>2019-11-06T14:12:59+0100</modified>
+ <checksums>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077</value>
+  </checksum>
+ </checksums>
+ <populationMethod>populationMethod_automated</populationMethod>
+ <creator>
+  <identificationAuthority>philippe-emmanuel@it-cisq.org</identificationAuthority>
+  <name>Philippe-Emmnanuel Douziech</name>
+  <identifier>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</identifier>
+  <creator>agentType_person philippe-emmanuel@it-cisq.org Philippe-Emmnanuel Douziech</creator>
+  <type>agentType_person</type>
+ </creator>
+ <sourceOfRelationship>
+  <name>inclusion of installed module</name>
+  <identifier>. relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3</identifier>
+  <target>document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3</target>
+  <type>relationshipType_contains</type>
+ </sourceOfRelationship>
+ <artifact>
+  <identificationAuthority>https://github.com/Microsoft/redie.git@v1.0.0</identificationAuthority>
+  <name>redie-source</name>
+  <identifier>artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e</identifier>
+  <component></component>
+  <version>1.0.0</version>
+  <checksum>
+   <algorithm>checksumAlgorithm_sha256</algorithm>
+   <value>267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e</value>
+  </checksum>
+  <licenseInfo>
+   <specVersion>SPDX-2.1</specVersion>
+   <identificationAuthority>https://spdx.org</identificationAuthority>
+   <name>LGPL-2.1+</name>
+   <identifier>licenseInfo https://spdx.org LGPL-2.1+</identifier>
+   <expression>LGPL-2.1+</expression>
+  </licenseInfo>
+  <supplier>
+   <identificationAuthority>iamwillbar@github.com</identificationAuthority>
+   <name>William Bartholomew</name>
+   <identifier>agentType_person iamwillbar@github.com William Bartholomew</identifier>
+   <type>agentType_person</type>
+  </supplier>
+  <files>
+   <file>
+    <name>LICENSE</name>
+    <identifier>fileType_other https://github.com/Microsoft/redie.git@v1.0.0 LICENSE sha256 cb4c4d8b7b45e19d8c7097af1d7ac0ec439e31e153d46bef86f2b120cb356e81</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>cb4c4d8b7b45e19d8c7097af1d7ac0ec439e31e153d46bef86f2b120cb356e81</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>README.md</name>
+    <identifier>fileType_documentation https://github.com/Microsoft/redie.git@v1.0.0 README.md sha256 abbfbe6abed775ac1665288f5a45fe4fd7310f93ff270e3b7f0cbe10db1f0a0e</identifier>
+    <path>.</path>
+    <type>fileType_documentation</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>abbfbe6abed775ac1665288f5a45fe4fd7310f93ff270e3b7f0cbe10db1f0a0e</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>index.js</name>
+    <identifier>fileType_source https://github.com/Microsoft/redie.git@v1.0.0 index.js sha256 2db9fc32e67900d734b2bd5d73f204c6a7ad489fca8267a2fa56a3a7b00948f3</identifier>
+    <path>.</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>2db9fc32e67900d734b2bd5d73f204c6a7ad489fca8267a2fa56a3a7b00948f3</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>package.json</name>
+    <identifier>fileType_source https://github.com/Microsoft/redie.git@v1.0.0 package.json sha256 47b04ce5ae39b400e6aba484d307eb92ea52a57965173a639302123027d147a6</identifier>
+    <path>.</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>47b04ce5ae39b400e6aba484d307eb92ea52a57965173a639302123027d147a6</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>screenshot.png</name>
+    <identifier>fileType_image https://github.com/Microsoft/redie.git@v1.0.0 screenshot.png sha256 7486246f58c6f3ce8ab57e98f7bedb38e30ad393686debccdcf3b4a18adc0944</identifier>
+    <path>.</path>
+    <type>fileType_image</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>7486246f58c6f3ce8ab57e98f7bedb38e30ad393686debccdcf3b4a18adc0944</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>.gitattributes</name>
+    <identifier>fileType_other https://github.com/Microsoft/redie.git@v1.0.0 .gitattributes sha256 28cfbf05ab2adba0b04053059074125e9e2b4a91f7cf4b288721593c47e81509</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>28cfbf05ab2adba0b04053059074125e9e2b4a91f7cf4b288721593c47e81509</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>.gitignore</name>
+    <identifier>fileType_other https://github.com/Microsoft/redie.git@v1.0.0 .gitignore sha256 b10990cd403183e61d137bde5d9b5f2e5a12f3bdd0d97765ee813b471c4deb1e</identifier>
+    <path>.</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>b10990cd403183e61d137bde5d9b5f2e5a12f3bdd0d97765ee813b471c4deb1e</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>launch.json</name>
+    <identifier>fileType_source https://github.com/Microsoft/redie.git@v1.0.0 launch.json sha256 db59024566fa370b27320d20c40c6507b2af42fe088328691c57570450f34f0c</identifier>
+    <path>./.vscode</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>db59024566fa370b27320d20c40c6507b2af42fe088328691c57570450f34f0c</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>index.js</name>
+    <identifier>fileType_source https://github.com/Microsoft/redie.git@v1.0.0 index.js sha256 f4dd48f2f9d057e45777485b6077c56a50cf457efb01e76dfb79c4a2172f45a1</identifier>
+    <path>./node_modules/painless-config</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>f4dd48f2f9d057e45777485b6077c56a50cf457efb01e76dfb79c4a2172f45a1</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>package.json</name>
+    <identifier>fileType_source https://github.com/Microsoft/redie.git@v1.0.0 package.json sha256 10da657f6c68ead3b5d0d10c991c9caa0c55b09a6305675eb1b0062ebde20689</identifier>
+    <path>./node_modules/painless-config</path>
+    <type>fileType_source</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>10da657f6c68ead3b5d0d10c991c9caa0c55b09a6305675eb1b0062ebde20689</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>LICENSE</name>
+    <identifier>fileType_other https://github.com/Microsoft/redie.git@v1.0.0 LICENSE sha256 29e42189464b6b2284e253e0a5c10134812d08a2e5b9b50988d6257194f5e22e</identifier>
+    <path>./node_modules/painless-config</path>
+    <type>fileType_other</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>29e42189464b6b2284e253e0a5c10134812d08a2e5b9b50988d6257194f5e22e</value>
+     </checksum>
+    </checksums>
+   </file>
+   <file>
+    <name>README.md</name>
+    <identifier>fileType_documentation https://github.com/Microsoft/redie.git@v1.0.0 README.md sha256 dbe0cfc5f45ea72e2a466cbf8ab0fd64773a636a5bdda9e209ef14e0aa74a7eb</identifier>
+    <path>./node_modules/painless-config</path>
+    <type>fileType_documentation</type>
+    <checksums>
+     <checksum>
+      <algorithm>checksumAlgorithm_sha256</algorithm>
+      <value>dbe0cfc5f45ea72e2a466cbf8ab0fd64773a636a5bdda9e209ef14e0aa74a7eb</value>
+     </checksum>
+    </checksums>
+   </file>
+  </files>
+ </artifact>
+</root>
