@@ -3,13 +3,13 @@
  <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
  <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
  <name>painless-config-npm_sbom</name>
- <identifier>document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4</identifier>
- <created>2019-11-06T14:12:59+0100</created>
- <modified>2019-11-06T14:12:59+0100</modified>
+ <identifier>document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 a2fabb3cc57c17fce258a4e7416267427ca7b9ebb7a63e1215374d3a68128a35</identifier>
+ <created>2019-11-07T12:39:21+0100</created>
+ <modified>2019-11-07T12:39:21+0100</modified>
  <checksums>
   <checksum>
    <algorithm>checksumAlgorithm_sha256</algorithm>
-   <value>6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4</value>
+   <value>a2fabb3cc57c17fce258a4e7416267427ca7b9ebb7a63e1215374d3a68128a35</value>
   </checksum>
  </checksums>
  <populationMethod>populationMethod_automated</populationMethod>
@@ -22,8 +22,8 @@
  </creator>
  <sourceOfRelationship>
   <name>package from source</name>
-  <identifier>. relationshipType_generatedFrom document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</identifier>
-  <target>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</target>
+  <identifier>. relationshipType_generatedFrom document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 7c0933440a8ef0c47da0ffadfac7e06843c06c5fb40bf74a878d0d6fb3d5ad45</identifier>
+  <target>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 7c0933440a8ef0c47da0ffadfac7e06843c06c5fb40bf74a878d0d6fb3d5ad45</target>
   <type>relationshipType_generatedFrom</type>
  </sourceOfRelationship>
  <artifact>
@@ -105,9 +105,9 @@
   <identifier>pedigreeInfo https://mail.it-cisq.org painless-config package publishing pedigree</identifier>
   <action>
    <name>painless-config publishing</name>
-   <identifier>action agentType_person iamwillbar@github.com William Bartholomew toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com Jenkins 6.7.0  https://mail.it-cisq.org painless-config publishing</identifier>
-   <started>2019-11-06T14:12:59+0100</started>
-   <ended>2019-11-06T14:12:59+0100</ended>
+   <identifier>action agentType_person iamwillbar@github.com William Bartholomew toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com npm 6.7.0  https://mail.it-cisq.org painless-config publishing</identifier>
+   <started>2019-11-07T12:39:21+0100</started>
+   <ended>2019-11-07T12:39:21+0100</ended>
    <objects>
     <object>
      <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a</identifier>
@@ -150,8 +150,8 @@
    </results>
    <instrument>
     <identificationAuthority>https://www.npmjs.com</identificationAuthority>
-    <name>Jenkins</name>
-    <identifier>toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com Jenkins 6.7.0 </identifier>
+    <name>npm</name>
+    <identifier>toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com npm 6.7.0 </identifier>
     <version>6.7.0</version>
     <type>toolType_repository</type>
     <editor>

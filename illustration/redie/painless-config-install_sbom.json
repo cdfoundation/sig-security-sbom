@@ -2,13 +2,13 @@
   "specVersion": "http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/",
   "identificationAuthority": "https://mail.it-cisq.org",
   "name": "painless-config-install_sbom",
-  "identifier": "document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3",
-  "created": "2019-11-06T14:12:59+0100",
-  "modified": "2019-11-06T14:12:59+0100",
+  "identifier": "document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 2b5a8f7b9ab8839068faf778a8f71423662b7ecd4b40e7a67b14ee5dcfba441a",
+  "created": "2019-11-07T12:39:21+0100",
+  "modified": "2019-11-07T12:39:21+0100",
   "checksum": [
     {
       "algorithm": "checksumAlgorithm_sha256",
-      "value": "e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3"
+      "value": "2b5a8f7b9ab8839068faf778a8f71423662b7ecd4b40e7a67b14ee5dcfba441a"
     }
   ],
   "populationMethod": "populationMethod_automated",
@@ -21,8 +21,8 @@
   },
   "sourceOfRelationship": {
     "name": "installation from package",
-    "identifier": ". relationshipType_expendedFromArchive document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4",
-    "target": "document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 6615893d7544cd384f66d9e17652364313a156ebb4b5d90a683f37c827eec6f4",
+    "identifier": ". relationshipType_expendedFromArchive document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 a2fabb3cc57c17fce258a4e7416267427ca7b9ebb7a63e1215374d3a68128a35",
+    "target": "document https://mail.it-cisq.org painless-config-npm_sbom artifact agentType_person iamwillbar@github.com William Bartholomew pkg:npm/painless-config@0.1.0 painless-config 0.1.0 checksumAlgorithm_sha256 6150418613ad76be7c5850152957e795203c86882f581f096b2432e8ed2c0700 sha256 a2fabb3cc57c17fce258a4e7416267427ca7b9ebb7a63e1215374d3a68128a35",
     "type": "relationshipType_expendedFromArchive"
   },
   "artifact": {
@@ -104,9 +104,9 @@
     "identifier": "pedigreeInfo https://mail.it-cisq.org painless-config package installation pedigree",
     "action": {
       "name": "painless-config install",
-      "identifier": "action agentType_person iamwillbar@github.com William Bartholomew toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com Jenkins 6.7.0  https://mail.it-cisq.org painless-config install",
-      "started": "2019-11-06T14:12:59+0100",
-      "ended": "2019-11-06T14:12:59+0100",
+      "identifier": "action agentType_person iamwillbar@github.com William Bartholomew toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com npm 6.7.0  https://mail.it-cisq.org painless-config install",
+      "started": "2019-11-07T12:39:21+0100",
+      "ended": "2019-11-07T12:39:21+0100",
       "environment": "centos_7",
       "object": [
         {
@@ -138,8 +138,8 @@
       ],
       "instrument": {
         "identificationAuthority": "https://www.npmjs.com",
-        "name": "Jenkins",
-        "identifier": "toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com Jenkins 6.7.0 ",
+        "name": "npm",
+        "identifier": "toolType_repository agentType_organization https://www.npmjs.com NPM, Inc. https://www.npmjs.com npm 6.7.0 ",
         "version": "6.7.0",
         "type": "toolType_repository",
         "editor": {

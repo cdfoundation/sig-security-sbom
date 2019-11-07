@@ -3,13 +3,13 @@
  <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
  <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
  <name>redie-source_sbom</name>
- <identifier>document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077</identifier>
- <created>2019-11-06T14:12:59+0100</created>
- <modified>2019-11-06T14:12:59+0100</modified>
+ <identifier>document https://mail.it-cisq.org redie-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 redie-source 1.0.0 checksumAlgorithm_sha256 267c0bab4fc5d97aabd3109e31f6a5cb0a5a2c0f2bc863d40cc260f0d913187e sha256 2bbf4906c8e12c1bb7169ea10452e10ff08af6dd4e40ef075df6965ae667b5f9</identifier>
+ <created>2019-11-07T12:39:21+0100</created>
+ <modified>2019-11-07T12:39:21+0100</modified>
  <checksums>
   <checksum>
    <algorithm>checksumAlgorithm_sha256</algorithm>
-   <value>20ba23cbfd3dce39abc139e25cc404d2c3b6a687782d9caefddc9f09bc2dc077</value>
+   <value>2bbf4906c8e12c1bb7169ea10452e10ff08af6dd4e40ef075df6965ae667b5f9</value>
   </checksum>
  </checksums>
  <populationMethod>populationMethod_automated</populationMethod>
@@ -22,8 +22,8 @@
  </creator>
  <sourceOfRelationship>
   <name>inclusion of installed module</name>
-  <identifier>. relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3</identifier>
-  <target>document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 e9868fbe1ec5d5981600ad8a488edded1873fa6696ca3d755a282d48edac77a3</target>
+  <identifier>. relationshipType_contains document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 2b5a8f7b9ab8839068faf778a8f71423662b7ecd4b40e7a67b14ee5dcfba441a</identifier>
+  <target>document https://mail.it-cisq.org painless-config-install_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/redie.git@v1.0.0 painless-config 0.1.0 checksumAlgorithm_sha256 66a26b1c7fd7da34ae8308668a3ba80101758bbc3214fbe0eeb1bfcb2490be36 sha256 2b5a8f7b9ab8839068faf778a8f71423662b7ecd4b40e7a67b14ee5dcfba441a</target>
   <type>relationshipType_contains</type>
  </sourceOfRelationship>
  <artifact>

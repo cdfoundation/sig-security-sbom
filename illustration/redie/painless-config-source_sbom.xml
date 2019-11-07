@@ -3,13 +3,13 @@
  <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
  <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
  <name>painless-config-source_sbom</name>
- <identifier>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</identifier>
- <created>2019-11-06T14:12:59+0100</created>
- <modified>2019-11-06T14:12:59+0100</modified>
+ <identifier>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 7c0933440a8ef0c47da0ffadfac7e06843c06c5fb40bf74a878d0d6fb3d5ad45</identifier>
+ <created>2019-11-07T12:39:21+0100</created>
+ <modified>2019-11-07T12:39:21+0100</modified>
  <checksums>
   <checksum>
    <algorithm>checksumAlgorithm_sha256</algorithm>
-   <value>dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</value>
+   <value>7c0933440a8ef0c47da0ffadfac7e06843c06c5fb40bf74a878d0d6fb3d5ad45</value>
   </checksum>
  </checksums>
  <populationMethod>populationMethod_automated</populationMethod>
