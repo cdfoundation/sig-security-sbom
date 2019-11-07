@@ -3,13 +3,13 @@
  <specVersion>http://www.omg.org/spec/3T-SBOM-EMS/20yymmdd/</specVersion>
  <identificationAuthority>https://mail.it-cisq.org</identificationAuthority>
  <name>painless-config-source_sbom</name>
- <identifier>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596 sha256 dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</identifier>
- <created>2019-11-06T14:12:59+0100</created>
- <modified>2019-11-06T14:12:59+0100</modified>
+ <identifier>document https://mail.it-cisq.org painless-config-source_sbom artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 f1bf8466fa5c3a6f30f93c783d8b53bb5903b9864ac196b13dcedb3ebae2357d sha256 6ebc1fb8604634aecb9ec3e927d43672e9328672726cde4169fc615ba520b393</identifier>
+ <created>2019-11-07T14:28:18+0100</created>
+ <modified>2019-11-07T14:28:18+0100</modified>
  <checksums>
   <checksum>
    <algorithm>checksumAlgorithm_sha256</algorithm>
-   <value>dcad62ddca8654ffe0a84c4effa060aa1ec48705ede6b7fc1ef96d3ece8fc951</value>
+   <value>6ebc1fb8604634aecb9ec3e927d43672e9328672726cde4169fc615ba520b393</value>
   </checksum>
  </checksums>
  <populationMethod>populationMethod_automated</populationMethod>
@@ -23,11 +23,11 @@
  <artifact>
   <identificationAuthority>https://github.com/Microsoft/painless-config.git@v0.1.0</identificationAuthority>
   <name>painless-config-source</name>
-  <identifier>artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596</identifier>
+  <identifier>artifact agentType_person iamwillbar@github.com William Bartholomew https://github.com/Microsoft/painless-config.git@v0.1.0 painless-config-source 0.1.0 sha256 f1bf8466fa5c3a6f30f93c783d8b53bb5903b9864ac196b13dcedb3ebae2357d</identifier>
   <version>0.1.0</version>
   <checksum>
    <algorithm>checksumAlgorithm_sha256</algorithm>
-   <value>0ddc42c0f4b75d2897f2dc0554d110ab2c2bf6ca96e947a9b8e131d596cf9596</value>
+   <value>f1bf8466fa5c3a6f30f93c783d8b53bb5903b9864ac196b13dcedb3ebae2357d</value>
   </checksum>
   <licenseInfo>
    <specVersion>SPDX-2.1</specVersion>
@@ -39,97 +39,97 @@
   <components>
    <component>
     <name>LICENSE</name>
-    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 LICENSE sha256 8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a</identifier>
+    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 LICENSE sha256 23e6a4aff08cfe9ebc1eb8710d428538ffe2aec07a33eae6255a8b57541ff129</identifier>
     <path>.</path>
     <type>fileType_other</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>8a54727871bc7f92e4392af37325e3e06bbed8432b58123128f73550f233ac4a</value>
+      <value>23e6a4aff08cfe9ebc1eb8710d428538ffe2aec07a33eae6255a8b57541ff129</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>README.md</name>
-    <identifier>fileType_documentation https://github.com/Microsoft/painless-config.git@v0.1.0 README.md sha256 bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd</identifier>
+    <identifier>fileType_documentation https://github.com/Microsoft/painless-config.git@v0.1.0 README.md sha256 6bb3bc10e1c62fa05f667bc51a9639babf086c43ae97e2209830f5cd85b88008</identifier>
     <path>.</path>
     <type>fileType_documentation</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>bff257dae465fb255edab57ab3ab0795cb8c073527f7de65c415077a0a9d85dd</value>
+      <value>6bb3bc10e1c62fa05f667bc51a9639babf086c43ae97e2209830f5cd85b88008</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>index.js</name>
-    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 index.js sha256 487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22</identifier>
+    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 index.js sha256 98f69d25f4723a2a34f53e101d7889ec942dbe93a6fed1489cbb411eddf4e412</identifier>
     <path>.</path>
     <type>fileType_source</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>487e97b7afba60fd67ad473eb7c197c62ffc2213dad1c2da3fe4643e8511ce22</value>
+      <value>98f69d25f4723a2a34f53e101d7889ec942dbe93a6fed1489cbb411eddf4e412</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>package.json</name>
-    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 package.json sha256 866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d</identifier>
+    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 package.json sha256 03cd299711b93c7395ed0c0ee329cf842d8bc3d28e56f656b5dedc04c8bb3807</identifier>
     <path>.</path>
     <type>fileType_source</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>866a6eeaf9248454fcfb13a093c96ae7837db6794ac41976fdc7f43e4cf4c64d</value>
+      <value>03cd299711b93c7395ed0c0ee329cf842d8bc3d28e56f656b5dedc04c8bb3807</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>screenshot.png</name>
-    <identifier>fileType_image https://github.com/Microsoft/painless-config.git@v0.1.0 screenshot.png sha256 ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a</identifier>
+    <identifier>fileType_image https://github.com/Microsoft/painless-config.git@v0.1.0 screenshot.png sha256 5127c220f4ad7367f36c9362e741c8d7eb8730568dbe6104e7d2c92d62da8e9b</identifier>
     <path>.</path>
     <type>fileType_image</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>ede15bc2171dc19bd7afdb7f452e7e779aafa1e65ce64a75a434e2377d41ea2a</value>
+      <value>5127c220f4ad7367f36c9362e741c8d7eb8730568dbe6104e7d2c92d62da8e9b</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>.gitattributes</name>
-    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitattributes sha256 89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f</identifier>
+    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitattributes sha256 e925e61126b890b00f2ead0d355e163052153ac4fb0de5a74cf68382ccaa2782</identifier>
     <path>.</path>
     <type>fileType_other</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>89ec0da9049333cd508a59c2d2eaf7c9bd6249eda92905ab38a7c0c39ee15c5f</value>
+      <value>e925e61126b890b00f2ead0d355e163052153ac4fb0de5a74cf68382ccaa2782</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>.gitignore</name>
-    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitignore sha256 1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f</identifier>
+    <identifier>fileType_other https://github.com/Microsoft/painless-config.git@v0.1.0 .gitignore sha256 d395a2259d1bdc735cd715c6c59d7e488d819f571a8446fdd91c21241dd46d79</identifier>
     <path>.</path>
     <type>fileType_other</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>1272ffd83ebadcecce7d80c5a6631fd33b594ff8b067e4df65847ce9ca6b6f8f</value>
+      <value>d395a2259d1bdc735cd715c6c59d7e488d819f571a8446fdd91c21241dd46d79</value>
      </checksum>
     </checksums>
    </component>
    <component>
     <name>launch.json</name>
-    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 launch.json sha256 4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a</identifier>
+    <identifier>fileType_source https://github.com/Microsoft/painless-config.git@v0.1.0 launch.json sha256 823c6fbd74b67ab46d646f4c415438a472b453b335b5f167370e990251eb6ac8</identifier>
     <path>./.vscode</path>
     <type>fileType_source</type>
     <checksums>
      <checksum>
       <algorithm>checksumAlgorithm_sha256</algorithm>
-      <value>4d70254533b238a10fc34c409f0682d9e44d6ac808851c0622298ea259f2dc8a</value>
+      <value>823c6fbd74b67ab46d646f4c415438a472b453b335b5f167370e990251eb6ac8</value>
      </checksum>
     </checksums>
    </component>
