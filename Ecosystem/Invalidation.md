@@ -6,7 +6,7 @@ Once a compromise has been found in an artifact and the link in the chain that i
 
 #### Warning (Code errors or such)
 
-For warning requests, after GSR has been updated and invalidation has been processed, the identified [functionary](https://github.com/fahad-oss/sig-security-sbom/blob/master/ecosystem/Functionaries.md) / chain will be flagged and marked.  Notification will be sent to the identified functionary.  This will also lower a chains pedigree going forward as the functionary is no longer at the same level.
+For warning requests, after GSR has been updated and invalidation has been processed, the identified [functionary](https://github.com/fahad-oss/sig-security-sbom/blob/master/ecosystem/Pedigree.md) / chain will be flagged and marked.  Notification will be sent to the identified functionary.  This will also lower a chains pedigree going forward as the functionary is no longer at the same level.
 
 
 
