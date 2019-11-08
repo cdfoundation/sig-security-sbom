@@ -12,7 +12,7 @@ This folder will serve as a temporary placeholder for collaborating on the SBOM 
 
 ### Functionaries
 
-[Functionaries](https://github.com/fahad-oss/sig-security-sbom/blob/master/ecosystem/Functionaries.md) that will participate in the ecosystem.
+Currently listed in pedigree page.
 
 
 
