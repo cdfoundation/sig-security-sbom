@@ -21,8 +21,7 @@ Detailing pedigree for actors and SBOM chains themselves.
 
 ### Draft design
 
-![Image of SBOM Ecosystem]
-(https://raw.githubusercontent.com/fahad-oss/sig-security-sbom/master/ecosystem/Initial%20design.png)
+![Image of SBOM Ecosystem](https://raw.githubusercontent.com/fahad-oss/sig-security-sbom/master/ecosystem/Initial%20design.png)
 
 
 
