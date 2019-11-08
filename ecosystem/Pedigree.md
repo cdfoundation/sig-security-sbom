@@ -11,21 +11,21 @@ For a chain to be a certain type, all links need to be the same.  Status of the 
 
 
 #### Developer
-* Red Developer (validated only via GCR).
-* Green Developer (validated via GCR and uses YubiKey).
-* Gold Developer (validated via GCR, uses YubiKey and builds using prebuilt Sec Supply chain containers / VM, Reproducible build).
+* Red Developer validated only via GCR.
+* Green Developer everything from red + use of YubiKey.
+* Gold Developer everything from green + builds using prebuilt Sec Supply chain containers / VM & Reproducible builds.
 
 
 
 #### CI/CD
-* Red CI/CD: (validated only via GCR).
-* Green Developer (validated via GCR, uses HSM).
-* Gold Developer (validated via GCR, uses HSM, for elastic environments node data is stored, build environment meets CIS / FIPS standards, Reproducible build).
+* Red CI/CD validated only via GCR.
+* Green CI/CD everything from red + use of HSM.
+* Gold CI/CD everthing from green + for elastic environments node data is stored, build environment meets CIS / FIPS standards, Reproducible builds & SBAC or equivelant environment is in place.
 
 
 
 #### RMS/Pkg Repo
-* Red Distributor (validated only via GCR).
-* Green Distributor (validated via GCR and uses HSM).
-* Gold Distributor (validated via GCR, uses HSM, host environment meets CIS / FIPS standards, built on top of Sec Supply chain containers, Reproducible build).
+* Red Distributor validated only via GCR.
+* Green Distributor everything in red + uses HSM & reproducible builds.
+* Gold Distributor everything from green + host environment meets CIS / FIPS standards.
 
