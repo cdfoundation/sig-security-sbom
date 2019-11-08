@@ -9,17 +9,21 @@ This folder will serve as a temporary placeholder for collaborating on the SBOM 
 Services required to maintain the ecosystem.
 ```
 
+
 ### Functionaries
 ```
 Actors that will participate in the ecosystem.
 ```
+
 
 ### Pedigree
 ```
 Detailing pedigree for actors and SBOM chains themselves.
 ```
 
+
 ### Draft design
+
 
 ![Image of SBOM Ecosystem](https://raw.githubusercontent.com/fahad-oss/sig-security-sbom/master/ecosystem/Initial%20design.png)
 
