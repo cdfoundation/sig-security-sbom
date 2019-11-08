@@ -21,6 +21,10 @@ This folder will serve as a temporary placeholder for collaborating on the SBOM 
 [Pedigree](https://github.com/fahad-oss/sig-security-sbom/blob/master/ecosystem/Pedigree.md) for actors and SBOM chains themselves.
 
 
+### Invalidation
+
+[Invalidation](https://github.com/fahad-oss/sig-security-sbom/blob/master/ecosystem/Invalidation.md) page dedicated to the invalidation process, its function and process.
+
 
 ### Draft design
 
