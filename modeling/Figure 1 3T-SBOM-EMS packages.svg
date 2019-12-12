@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='100 50 1052 770' xmlns:xlink='http://www.w3.org/1999/xlink' width='1052.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='770.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='201683e7-49f0-4eba-b02b-4e7516c36fb2' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='fcbcfeb9-5e77-4e14-8f1f-e3abf9592616' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c0446420-36fe-4c58-8ce4-07ef91cdc2f3' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='348d7a55-9673-41bc-ae4c-47b612d7da91' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='19c87215-84d7-482a-bd40-fa5ef7074848' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='23ab5726-515b-4d7a-8e98-95d72ffdd46c' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='b0ed918b-1b62-4bf8-a1fd-17883b320390' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='2d28da52-4ea2-4373-9f89-1193db18c1c0' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(130.0,80.0)' id='_DmqaAPokEDelnJsEeHfEcw'>
+    <rect x='0.0' width='110.0px' y='0.0' stroke-width='1.0' fill='url(#201683e7-49f0-4eba-b02b-4e7516c36fb2)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='992.0px' y='24.0' stroke-width='1.0' fill='url(#201683e7-49f0-4eba-b02b-4e7516c36fb2)' stroke='rgb(194, 183, 159)' look='allInOne' height='686.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='55.0' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>3T-SBOM-EMS</text>
+  </g>
+  <g transform='translate(171.0,693.0)' id='_JoQ_gP3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,60.0 140.0,60.0 140.0,15.0 125.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='125.0,1.0 125.0,15.0 139.0,15.0'/>
+    <clipPath id='clip_JoQ_gP3nEDezV42YJegBKA'>
+      <rect x='5.0' width='115.0px' y='5.0' height='50.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_JoQ_gP3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When information</text>
+      <text clip-path='url(#clip_JoQ_gP3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>on deliverable files</text>
+      <text clip-path='url(#clip_JoQ_gP3nEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>is needed</text>
+    </g>
+  </g>
+  <g transform='translate(360.0,690.0)' id='_Q6M8EP3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,60.0 150.0,60.0 150.0,15.0 135.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='135.0,1.0 135.0,15.0 149.0,15.0'/>
+    <clipPath id='clip_Q6M8EP3nEDezV42YJegBKA'>
+      <rect x='5.0' width='125.0px' y='5.0' height='50.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_Q6M8EP3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When information on</text>
+      <text clip-path='url(#clip_Q6M8EP3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>pedigree events is</text>
+      <text clip-path='url(#clip_Q6M8EP3nEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>needed</text>
+    </g>
+  </g>
+  <g transform='translate(765.0,405.0)' id='_W8ufMf3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,60.0 160.0,60.0 160.0,15.0 145.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='145.0,1.0 145.0,15.0 159.0,15.0'/>
+    <clipPath id='clip_W8ufMf3nEDezV42YJegBKA'>
+      <rect x='5.0' width='135.0px' y='5.0' height='50.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_W8ufMf3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When additional</text>
+      <text clip-path='url(#clip_W8ufMf3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>information on</text>
+      <text clip-path='url(#clip_W8ufMf3nEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>elements is needed</text>
+    </g>
+  </g>
+  <g transform='translate(754.0,690.0)' id='_dqUYkP3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,60.0 180.0,60.0 180.0,15.0 165.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='165.0,1.0 165.0,15.0 179.0,15.0'/>
+    <clipPath id='clip_dqUYkP3nEDezV42YJegBKA'>
+      <rect x='5.0' width='155.0px' y='5.0' height='50.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_dqUYkP3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When detailed information</text>
+      <text clip-path='url(#clip_dqUYkP3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>on licenses and</text>
+      <text clip-path='url(#clip_dqUYkP3nEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>copyrights is needed</text>
+    </g>
+  </g>
+  <g transform='translate(765.0,146.0)' id='_kB_FQf3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,70.0 150.0,70.0 150.0,15.0 135.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='135.0,1.0 135.0,15.0 149.0,15.0'/>
+    <clipPath id='clip_kB_FQf3nEDezV42YJegBKA'>
+      <rect x='5.0' width='125.0px' y='5.0' height='60.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_kB_FQf3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When  information</text>
+      <text clip-path='url(#clip_kB_FQf3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>on relations between</text>
+      <text clip-path='url(#clip_kB_FQf3nEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>elements   is needed</text>
+    </g>
+  </g>
+  <g transform='translate(360.0,130.0)' id='_u58GQf3nEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,50.0 170.0,50.0 170.0,15.0 155.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='155.0,1.0 155.0,15.0 169.0,15.0'/>
+    <clipPath id='clip_u58GQf3nEDezV42YJegBKA'>
+      <rect x='5.0' width='145.0px' y='5.0' height='40.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_u58GQf3nEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Core model focusing on</text>
+      <text clip-path='url(#clip_u58GQf3nEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>identifying materials</text>
+    </g>
+  </g>
+  <g transform='translate(360.0,321.0)' id='_AW26kP5gEDe77dt-8PPK-w'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,80.0 280.0,80.0 280.0,15.0 265.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='265.0,1.0 265.0,15.0 279.0,15.0'/>
+    <clipPath id='clip_AW26kP5gEDe77dt-8PPK-w'>
+      <rect x='5.0' width='255.0px' y='5.0' height='70.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_AW26kP5gEDe77dt-8PPK-w)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Extensions elements can always be</text>
+      <text clip-path='url(#clip_AW26kP5gEDe77dt-8PPK-w)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>serialized inline (for compactness and</text>
+      <text clip-path='url(#clip_AW26kP5gEDe77dt-8PPK-w)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>human-friendlyness) or separately with</text>
+      <text clip-path='url(#clip_AW26kP5gEDe77dt-8PPK-w)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>references to elements they enrich</text>
+    </g>
+  </g>
+  <g transform='translate(559.0,690.0)' id='_cReYMP9ZEDe0yvmPSmQZ8w'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,60.0 150.0,60.0 150.0,15.0 135.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='135.0,1.0 135.0,15.0 149.0,15.0'/>
+    <clipPath id='clip_cReYMP9ZEDe0yvmPSmQZ8w'>
+      <rect x='5.0' width='125.0px' y='5.0' height='50.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_cReYMP9ZEDe0yvmPSmQZ8w)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>When information on</text>
+      <text clip-path='url(#clip_cReYMP9ZEDe0yvmPSmQZ8w)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>assessments is</text>
+      <text clip-path='url(#clip_cReYMP9ZEDe0yvmPSmQZ8w)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>needed</text>
+    </g>
+  </g>
+  <g transform='translate(765.0,487.0)' id='_HlKewP14EDefrLh8FmUTww'>
+    <rect x='0.0' width='75.0px' y='0.0' stroke-width='1.0' fill='url(#fcbcfeb9-5e77-4e14-8f1f-e3abf9592616)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#fcbcfeb9-5e77-4e14-8f1f-e3abf9592616)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='37.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Licensing</text>
+  </g>
+  <g transform='translate(760.0,234.0)' id='_I84foP14EDefrLh8FmUTww'>
+    <rect x='0.0' width='82.0px' y='0.0' stroke-width='1.0' fill='url(#c0446420-36fe-4c58-8ce4-07ef91cdc2f3)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#c0446420-36fe-4c58-8ce4-07ef91cdc2f3)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='41.0' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Annotation</text>
+  </g>
+  <g transform='translate(161.0,126.0)' id='_WQWg0P14EDefrLh8FmUTww'>
+    <rect x='0.0' width='60.0px' y='0.0' stroke-width='1.0' fill='url(#348d7a55-9673-41bc-ae4c-47b612d7da91)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#348d7a55-9673-41bc-ae4c-47b612d7da91)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='30.0' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Artifact</text>
+  </g>
+  <g transform='translate(554.0,126.0)' id='_YgmFIv14EDefrLh8FmUTww'>
+    <rect x='0.0' width='92.0px' y='0.0' stroke-width='1.0' fill='url(#19c87215-84d7-482a-bd40-fa5ef7074848)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#19c87215-84d7-482a-bd40-fa5ef7074848)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='46.0' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Relationship</text>
+  </g>
+  <g transform='translate(353.0,487.0)' id='_aN2RIf14EDefrLh8FmUTww'>
+    <rect x='0.0' width='49.0px' y='0.0' stroke-width='1.0' fill='url(#23ab5726-515b-4d7a-8e98-95d72ffdd46c)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#23ab5726-515b-4d7a-8e98-95d72ffdd46c)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='24.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Build</text>
+  </g>
+  <g transform='translate(161.0,487.0)' id='_C9dhkf19EDefrLh8FmUTww'>
+    <rect x='0.0' width='66.0px' y='0.0' stroke-width='1.0' fill='url(#b0ed918b-1b62-4bf8-a1fd-17883b320390)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#b0ed918b-1b62-4bf8-a1fd-17883b320390)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='33.0' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Content</text>
+  </g>
+  <g transform='translate(554.0,487.0)' id='_5US5If6TEDe77dt-8PPK-w'>
+    <rect x='0.0' width='81.0px' y='0.0' stroke-width='1.0' fill='url(#2d28da52-4ea2-4373-9f89-1193db18c1c0)' stroke='rgb(194, 183, 159)' look='allInOne' height='24.0px'/>
+    <rect x='0.0' width='160.0px' y='24.0' stroke-width='1.0' fill='url(#2d28da52-4ea2-4373-9f89-1193db18c1c0)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='40.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Assurance</text>
+  </g>
+  <g transform='translate(231.0,382.0)' id='_a9NdQP2TEDezV42YJegBKA'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g transform='translate(327.0,382.0)' id='_cUcV8_2TEDezV42YJegBKA'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g transform='translate(428.0,201.0)' id='_c914QP2TEDezV42YJegBKA'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g transform='translate(531.0,255.0)' id='_fWJMav2TEDezV42YJegBKA'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g transform='translate(575.0,366.0)' id='_gGHQxf2TEDezV42YJegBKA'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g transform='translate(428.0,381.0)' id='_7-J3XP6TEDe77dt-8PPK-w'>
+    <g transform='translate(0.0,0.0)'/>
+  </g>
+  <g id='_a9DFMf2TEDezV42YJegBKA'>
+    <polyline transform='translate(241.0,286.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='487.0' x1='241.0' y2='286.0' x2='241.0' stroke-dasharray='1, 2' id='_a9Jy4P2TEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_cUYEgf2TEDezV42YJegBKA'>
+    <polyline transform='translate(283.0,286.0) rotate(-28.028083085652348)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='487.0' x1='390.0' y2='286.0' x2='283.0' stroke-dasharray='1, 2' id='_cUZ5tP2TEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_c9vxov2TEDezV42YJegBKA'>
+    <polyline transform='translate(321.0,206.0) rotate(-90.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='206.0' x1='554.0' y2='206.0' x2='321.0' stroke-dasharray='1, 2' id='_c9xm1P2TEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_fWGwIv2TEDezV42YJegBKA'>
+    <polyline transform='translate(321.0,220.0) rotate(-79.79855466534197)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='299.0' x1='760.0' y2='220.0' x2='321.0' stroke-dasharray='1, 2' id='_fWHXN_2TEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_gGE0gv2TEDezV42YJegBKA'>
+    <polyline transform='translate(321.0,253.0) rotate(-59.074212832489614)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='519.0' x1='765.0' y2='253.0' x2='321.0' stroke-dasharray='1, 2' id='_gGFbmP2TEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <line y1='647.0' x1='241.0' y2='693.0' x2='241.0' stroke-dasharray='1, 2' id='_QBvqE_3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='647.0' x1='434.0' y2='690.0' x2='434.0' stroke-dasharray='1, 2' id='_WEvuVP3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='394.0' x1='843.0' y2='405.0' x2='843.0' stroke-dasharray='1, 2' id='_X-vV1v3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='647.0' x1='844.0' y2='690.0' x2='844.0' stroke-dasharray='1, 2' id='_i8KstP3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='196.0' x1='714.0' y2='190.0' x2='765.0' stroke-dasharray='1, 2' id='_smUd0P3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='186.0' x1='321.0' y2='176.0' x2='360.0' stroke-dasharray='1, 2' id='_0PRzQv3nEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='487.0' x1='459.0' y2='401.0' x2='486.0' stroke-dasharray='1, 2' id='_T4gVQP5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='325.0' x1='760.0' y2='341.0' x2='640.0' stroke-dasharray='1, 2' id='_Une7IP5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='519.0' x1='765.0' y2='401.0' x2='566.0' stroke-dasharray='1, 2' id='_VOZKI_5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='286.0' x1='564.0' y2='321.0' x2='534.0' stroke-dasharray='1, 2' id='_VskT5v5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='503.0' x1='321.0' y2='401.0' x2='449.0' stroke-dasharray='1, 2' id='_ZuR11_5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <g id='_7-E-0f6TEDe77dt-8PPK-w'>
+    <polyline transform='translate(321.0,279.0) rotate(-47.433925969076014)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='493.0' x1='554.0' y2='279.0' x2='321.0' stroke-dasharray='1, 2' id='_7-GM8f6TEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <line y1='487.0' x1='581.0' y2='401.0' x2='526.0' stroke-dasharray='1, 2' id='_84rl4v6TEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='647.0' x1='634.0' y2='690.0' x2='634.0' stroke-dasharray='1, 2' id='_estrkv9ZEDe0yvmPSmQZ8w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+</svg>

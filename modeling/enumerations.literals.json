@@ -1,0 +1,513 @@
+[
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_file",
+    "description": "if the detailed artifact is a file",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_file"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_framework",
+    "description": "if the detailed artifact is a framework",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_framework"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_library",
+    "description": "if the detailed artifact is a library",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_library"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_application",
+    "description": "if the detailed artifact is an application",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_application"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_operatingSystem",
+    "description": "if the detailed artifact is an operating system",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_operatingSystem"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_hardwareDevice",
+    "description": "if the detailed artifact is a hardware device",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_hardwareDevice"
+  },
+  {
+    "name": "ArtifactType",
+    "literal": "artifactType_other",
+    "description": "if the detailed artifact type doesn't fit into the above categories.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType-artifactType_other"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_source",
+    "description": "if the file is human readable source code (.c, .html, etc.)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_source"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_binary",
+    "description": "if the file is a compiled object, target image or binary executable (.o, .a, etc.)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_binary"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_archive",
+    "description": "if the file represents an archive (.tar, .jar, etc.)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_archive"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_application",
+    "description": "if the file is associated with a specific application type (MIME type of application/*)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_application"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_audio",
+    "description": "if the file is associated with an audio file (MIME type of audio/* , e.g. .mp3)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_audio"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_text",
+    "description": "if the file is human readable text file (MIME type of text/*)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_text"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_image",
+    "description": "if the file is associated with an picture image file (MIME type of image/*, e.g., .jpg, .gif)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_image"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_video",
+    "description": "if the file is associated with a video file type (MIME type of video/*)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_video"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_documentation",
+    "description": "if the file serves as documentation",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_documentation"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_spdx",
+    "description": "if the file is an SPDX document",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_spdx"
+  },
+  {
+    "name": "FileType",
+    "literal": "fileType_other",
+    "description": "if the file doesn't fit into the above categories (generated artifacts, data files, etc.)",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-FileType-fileType_other"
+  },
+  {
+    "name": "PopulationMethod",
+    "literal": "populationMethod_declaration",
+    "description": "if the SBOM document was created by human declaration when it is created.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-PopulationMethod-populationMethod_declaration"
+  },
+  {
+    "name": "PopulationMethod",
+    "literal": "populationMethod_automated",
+    "description": "if the SBOM document was created by an automated process when it is created.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-PopulationMethod-populationMethod_automated"
+  },
+  {
+    "name": "PopulationMethod",
+    "literal": "populationMethod_investigation",
+    "description": "if the SBOM document was created by investigating the artifact to retrieve as much information as possible.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-PopulationMethod-populationMethod_investigation"
+  },
+  {
+    "name": "PopulationMethod",
+    "literal": "populationMethod_other",
+    "description": "if the population method doesn't fit into the above categories.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-PopulationMethod-populationMethod_other"
+  },
+  {
+    "name": "HashType",
+    "literal": "hashType_sha1",
+    "description": "if the algorithm is SHA1.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_sha1"
+  },
+  {
+    "name": "HashType",
+    "literal": "hashType_sha256",
+    "description": "if the algorithm is SHA-256.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_sha256"
+  },
+  {
+    "name": "HashType",
+    "literal": "hashType_sha256",
+    "description": "if the algorithm is SHA-512.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_sha256"
+  },
+  {
+    "name": "HashType",
+    "literal": "hashType_md5",
+    "description": "if the algorithm is MD5.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_md5"
+  },
+  {
+    "name": "HashType",
+    "literal": "hashType_other",
+    "description": "if the algorithm doesn't fit into the above categories.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_other"
+  },
+  {
+    "name": "SignatureMethod",
+    "literal": "signatureMethod_RSASSA-PSS",
+    "description": "in case of RSA Probabilistic signature scheme signature method.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-SignatureMethod-signatureMethod_RSASSA-PSS"
+  },
+  {
+    "name": "SignatureMethod",
+    "literal": "signatureMethod_ed25519",
+    "description": "in case of Elliptic curve digital signature algorithm based on TwistedEdwards curves signature method.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-SignatureMethod-signatureMethod_ed25519"
+  },
+  {
+    "name": "SignatureMethod",
+    "literal": "signatureMethod_other",
+    "description": "if the signature method doesn't fit into the above categories.",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-SignatureMethod-signatureMethod_other"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_contains",
+    "description": "is to be used when the source element contains the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_contains"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_containedBy",
+    "description": "is to be used when the source element is contained by the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_containedBy"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_descendantOf",
+    "description": "is to be used when the source element is a descendant of (same lineage but postdates) the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_descendantOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_ancestorOf",
+    "description": "is to be used when the source element is an ancestor of (same lineage but pre-dates) the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_ancestorOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_variantOf",
+    "description": "is to be used when the source element is a variant of (same lineage but not clear which came first) the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_variantOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_copyOf",
+    "description": "is to be used when the source element is an exact copy of the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_copyOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_patchFor",
+    "description": "is to be used when the source element is a patch file for (to be applied to) the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_patchFor"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_patchApplied",
+    "description": "is to be used when the source element is a patch file that has been applied to the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_patchApplied"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_dynamicLink",
+    "description": "is to be used when the source element dynamically links to the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_dynamicLink"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_staticLink",
+    "description": "is to be used when the source element statically links to the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_staticLink"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_hasPrerequisite",
+    "description": "is to be used when the source element has as a prerequisite the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_hasPrerequisite"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_prerequisiteFor",
+    "description": "is to be used when the source element is a prerequisite for the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_prerequisiteFor"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_testCaseOf",
+    "description": "is to be used when the source element is a test case used in testing the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_testCaseOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_buildToolOf",
+    "description": "is to be used when the source element is used to build the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_buildToolOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_testToolOf",
+    "description": "is to be used when the source element is used to test the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_testToolOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_devToolOf",
+    "description": "is to be used when the source element is used to develop the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_devToolOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_dataFile",
+    "description": "is to be used when the source element is a data file used in the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_dataFile"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_metaFileOf",
+    "description": "is to be used when the source element is a metafile of the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_metaFileOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_generatedFrom",
+    "description": "is to be used when the source element was generated from the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_generatedFrom"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_generates",
+    "description": "is to be used when the source element generates the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_generates"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_expendedFromArchive",
+    "description": "is to be used when the source element is expanded from the archive owner of the Relationship.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_expendedFromArchive"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_documentation",
+    "description": "is to be used when the source element provides documentation of the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_documentation"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_optionalComponentOf",
+    "description": "is to be used when the source element is an optional component of the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_optionalComponentOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_packageOf",
+    "description": "is to be used when the source element is packaged into the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_packageOf"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_amendment",
+    "description": "is to be used when the target element amends the SBOM information in the source element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_amendment"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_fileAdded",
+    "description": "is to be used when the source element is a file added to the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_fileAdded"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_fileModified",
+    "description": "is to be used when the source element is a file that was modified from the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_fileModified"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_fileDeleted",
+    "description": "is to be used when the source element is a file deleted from the target element.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_fileDeleted"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_comesAfter",
+    "description": "is to be used when the source element comes after the target element (useful for relationships between action artifacts).",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_comesAfter"
+  },
+  {
+    "name": "RelationshipType",
+    "literal": "relationshipType_other",
+    "description": "if the relationship doesn't fit into the above categories.",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType-relationshipType_other"
+  },
+  {
+    "name": "AnnotationType",
+    "literal": "annotationType_comment",
+    "description": "in case of general comments.",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AnnotationType-annotationType_comment"
+  },
+  {
+    "name": "AnnotationType",
+    "literal": "annotationType_topic",
+    "description": "in case of topics, keywords, ... to associate with an element.",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AnnotationType-annotationType_topic"
+  },
+  {
+    "name": "AnnotationType",
+    "literal": "annotationType_other",
+    "description": "if the external reference type doesn't fit into the above categories.",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AnnotationType-annotationType_other"
+  },
+  {
+    "name": "BuildType",
+    "literal": "buildType_commit",
+    "description": "in case of commit activity.",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-BuildType_buildType_commit"
+  },
+  {
+    "name": "BuildType",
+    "literal": "buildType_compile",
+    "description": "in case of compile activity.",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-BuildType_buildType_compile"
+  },
+  {
+    "name": "BuildType",
+    "literal": "buildType_link",
+    "description": "in case of link activity.",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-BuildType_buildType_link"
+  },
+  {
+    "name": "BuildType",
+    "literal": "buildType_other",
+    "description": "if the build type doesn't fit into the above categories.",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-BuildType_buildType_other"
+  },
+  {
+    "name": "AssessmentType",
+    "literal": "assessmentType_vulnerability",
+    "description": "in case of vulnerability scan.",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-AssessmentType-assessmentType_other"
+  },
+  {
+    "name": "AssessmentType",
+    "literal": "assessmentType_other",
+    "description": "if the assessment type doesn't fit into the above categories.",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-AssessmentType-assessmentType_other"
+  },
+  {
+    "name": "LicenseInformationType",
+    "literal": "licenseInformationType_declared",
+    "description": "in case of declared license information.",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformationType-licenseInformationType_declared"
+  },
+  {
+    "name": "LicenseInformationType",
+    "literal": "licenseInformationType_concluded",
+    "description": "in case of concluded license information.",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformationType-licenseInformationType_concluded"
+  },
+  {
+    "name": "LicenseInformationType",
+    "literal": "licenseInformationType_distributed",
+    "description": "in case of distributed license information.",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformationType-licenseInformationType_distributed"
+  },
+  {
+    "name": "LicenseInformationType",
+    "literal": "licenseInformationType_other",
+    "description": "if the license information doesn't fit into the above categories.",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformationType-licenseInformationType_other"
+  }
+]

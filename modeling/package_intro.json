@@ -1,0 +1,32 @@
+[
+  {
+    "package": "Artifact",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Artifact Classes. It begins with an overview of the Artifact Classes metamodel inheritance structure shown in Figure 2 followed by a description of each element. The inheritance from the MOF::Element class is key to ensure the 3T-SBOM-EMS meta model integrates with existing MOF-based meta models. The Element class is pivotal to the 3T-SBOM-EMS as it brings the annotation, relationship, ... capabilities to all inheriting classes. Then, the Artifact and Document classes are at the core of software bill of material as they identify the pieces of software detailed in the SBoM. An overview of the associations is shown in Figure 3 while Figure 4 displays attribute details as well."
+  },
+  {
+    "package": "Relationship",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Relationship Classes. It begins with an overview of the Relationship Classes metamodel inheritance structure shown in Figure 5 followed by a description of each element. The association to and from the Element class is pivotal to the 3T-SBOM-EMS as it brings the relationship capabilities to all inheriting classes. An overview of the associations is shown in Figure 6 while Figure 7 displays attribute details as well."
+  },
+  {
+    "package": "Annotation",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Annotation Classes. It begins with an overview of the Annotation Classes metamodel inheritance structure shown in Figure 8 followed by a description of each element. The association with the Element class is pivotal to the 3T-SBOM-EMS as it brings the annotation capabilities to all inheriting classes. An overview of the associations is shown in Figure 9 while Figure 10 displays attribute details as well."
+  },
+  {
+    "package": "Content",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Content Classes. It begins with an overview of the Content Classes metamodel inheritance structure shown in Figure 11 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Content Package. An overview of the associations is shown in Figure 12 while Figure 13 displays attribute details as well."
+  },
+  
+  {
+    "package": "Licensing",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Licensing Classes. It begins with an overview of the Licensing Classes metamodel inheritance structure shown in Figure 14 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Licensing Package. An overview of the associations is shown in Figure 15 while Figure 16 displays attribute details as well."
+  },
+  {
+    "package": "Build",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Build Classes. It begins with an overview of the main Build Classes metamodel inheritance structure shown in Figure 17 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Build Package. An overview of the associations is shown in Figure 18 while Figure 19 displays attribute details as well."
+  },
+  {
+    "package": "Assurance",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Assurance Classes. It begins with an overview of the Assurance Classes metamodel inheritance structure shown in Figure 20 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Assurance Package. An overview of the associations is shown in Figure 21 while Figure 22 displays attribute details as well."
+  }
+  
+]

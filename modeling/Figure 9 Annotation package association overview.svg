@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='168 164 826 329' xmlns:xlink='http://www.w3.org/1999/xlink' width='826.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='329.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='82504492-3160-4de5-9e1e-23b139a4f006' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='dbad0670-86c2-4136-adea-ac6bf299c413' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='3ead996b-7f4e-4f6e-9ae5-e74f462229ee' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='ae74ea8c-b60c-4d86-8adc-4b2bcfef819d' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(513.0,194.0)' id='__RQqsP1-EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='125.0px' y='0.0' stroke-width='1.0' fill='url(#82504492-3160-4de5-9e1e-23b139a4f006)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='62.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
+    <text text-anchor='middle' x='62.5' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='125.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(198.0,289.0)' id='__8CGAf1-EDefrLh8FmUTww'>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#dbad0670-86c2-4136-adea-ac6bf299c413)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='766.0px' y='38.0' stroke-width='1.0' fill='url(#dbad0670-86c2-4136-adea-ac6bf299c413)' stroke='rgb(194, 183, 159)' look='allInOne' height='136.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Annotation</text>
+    <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
+  </g>
+  <g transform='translate(232.0,372.0)' id='_BRA78v1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='111.0px' y='0.0' stroke-width='1.0' fill='url(#3ead996b-7f4e-4f6e-9ae5-e74f462229ee)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='55.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='55.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>AnnotationType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='111.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(513.0,368.0)' id='_CJI2wv1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='133.0px' y='0.0' stroke-width='1.0' fill='url(#ae74ea8c-b60c-4d86-8adc-4b2bcfef819d)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='66.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractAnnotation</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='133.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(694.0,363.0)' id='_VYzKwf2ZEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,90.0 260.0,90.0 260.0,15.0 245.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='245.0,1.0 245.0,15.0 259.0,15.0'/>
+    <clipPath id='clip_VYzKwf2ZEDezV42YJegBKA'>
+      <rect x='5.0' width='235.0px' y='5.0' height='80.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_VYzKwf2ZEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Element associations to support</text>
+      <text clip-path='url(#clip_VYzKwf2ZEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>annotations on Document, Component,</text>
+      <text clip-path='url(#clip_VYzKwf2ZEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>File, Snippet, Event, License, ...</text>
+    </g>
+  </g>
+  <text text-anchor='middle' x='616.0' y='363.0' fill='rgb(0, 0, 0)'>annotations</text>
+  <text text-anchor='middle' x='545.0' y='290.0' fill='rgb(0, 0, 0)'>element</text>
+  <text text-anchor='middle' x='566.0' y='363.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='586.0' y='290.0' fill='rgb(0, 0, 0)'>1</text>
+  <g id='_DIQKYv1_EDefrLh8FmUTww'>
+    <line y1='368.0' x1='575.0' y2='321.0' x2='575.0' id='_DIUb0v1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_DIQKYv1_EDefrLh8FmUTww'>
+    <line y1='321.0' x1='575.0' y2='321.0' x2='575.0' id='_DIUb1f1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_DIQKYv1_EDefrLh8FmUTww'>
+    <line y1='321.0' x1='575.0' y2='274.0' x2='575.0' id='_DIUb1v1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <line y1='408.0' x1='646.0' y2='408.0' x2='694.0' stroke-dasharray='1, 2' id='_ZkAm9P2ZEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+</svg>

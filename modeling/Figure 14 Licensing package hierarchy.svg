@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='192 66 930 555' xmlns:xlink='http://www.w3.org/1999/xlink' width='930.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='555.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='6d785169-4c64-4ca7-bbce-449cc9ae2564' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='a5cd5b95-9461-4572-aab5-3efc529bff0f' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='0bbf189d-9a89-4dd7-bbcf-b029c15a6d52' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='a482da1e-2a5f-496f-b3a0-11e2b6437416' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='544cfa73-8658-4638-9164-caae2eb786dc' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='0b943656-5182-4204-b586-11472c91fdab' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='8fa02953-bee5-4a2e-9a44-285fdf85c410' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(578.0,96.0)' id='_cNkB8v1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='85.0px' y='0.0' stroke-width='1.0' fill='url(#6d785169-4c64-4ca7-bbce-449cc9ae2564)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='42.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
+    <text text-anchor='middle' x='42.5' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='85.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(711.0,104.0)' id='_0fp8wP2TEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,80.0 170.0,80.0 170.0,15.0 155.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='155.0,1.0 155.0,15.0 169.0,15.0'/>
+    <clipPath id='clip_0fp8wP2TEDezV42YJegBKA'>
+      <rect x='5.0' width='145.0px' y='5.0' height='70.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Abstract class to handle</text>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>shared associations</text>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>from Annotation,</text>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>Relationship, Pedigree,</text>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='70.0' font-size='13' fill='rgb(45, 45, 45)'>...</text>
+    </g>
+  </g>
+  <g transform='translate(222.0,251.0)' id='_cm1dkv1_EDefrLh8FmUTww'>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#a5cd5b95-9461-4572-aab5-3efc529bff0f)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='870.0px' y='38.0' stroke-width='1.0' fill='url(#a5cd5b95-9461-4572-aab5-3efc529bff0f)' stroke='rgb(194, 183, 159)' look='allInOne' height='302.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Licensing</text>
+    <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
+  </g>
+  <g transform='translate(378.0,486.0)' id='_d6DY8f1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='145.0px' y='0.0' stroke-width='1.0' fill='url(#0bbf189d-9a89-4dd7-bbcf-b029c15a6d52)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='72.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>CopyrightInformation</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='145.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(752.0,486.0)' id='_fffswP1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='132.0px' y='0.0' stroke-width='1.0' fill='url(#a482da1e-2a5f-496f-b3a0-11e2b6437416)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='66.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseInformation</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='132.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(920.0,369.0)' id='_iT01kP1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='162.0px' y='0.0' stroke-width='1.0' fill='url(#544cfa73-8658-4638-9164-caae2eb786dc)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='81.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='81.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseInformationType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='162.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(535.0,350.0)' id='_3FK9kf1_EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='197.0px' y='0.0' stroke-width='1.0' fill='url(#0b943656-5182-4204-b586-11472c91fdab)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='98.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractLicensingInformation</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='197.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(280.0,330.0)' id='_jP_EYP2WEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,80.0 190.0,80.0 190.0,15.0 175.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='175.0,1.0 175.0,15.0 189.0,15.0'/>
+    <clipPath id='clip_jP_EYP2WEDezV42YJegBKA'>
+      <rect x='5.0' width='165.0px' y='5.0' height='70.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_jP_EYP2WEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Abstract class to handle</text>
+      <text clip-path='url(#clip_jP_EYP2WEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>shared attributes and</text>
+      <text clip-path='url(#clip_jP_EYP2WEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>associations</text>
+    </g>
+  </g>
+  <g transform='translate(940.0,486.0)' id='_iluHoP8QEDe0yvmPSmQZ8w'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='123.0px' y='0.0' stroke-width='1.0' fill='url(#8fa02953-bee5-4a2e-9a44-285fdf85c410)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='61.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseReference</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='123.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g id='_hOflMf1_EDefrLh8FmUTww'>
+    <line y1='486.0' x1='818.0' y2='458.0' x2='818.0' id='_hOgzUv1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_hOflMf1_EDefrLh8FmUTww'>
+    <line y1='458.0' x1='818.0' y2='458.0' x2='634.0' id='_hOgzVf1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_hOflMf1_EDefrLh8FmUTww'>
+    <line y1='458.0' x1='634.0' y2='430.0' x2='634.0' id='_hOgzVv1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(634.0,430.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_hvZS0P1_EDefrLh8FmUTww'>
+    <line y1='486.0' x1='451.0' y2='458.0' x2='451.0' id='_hvZS1f1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_hvZS0P1_EDefrLh8FmUTww'>
+    <line y1='458.0' x1='451.0' y2='458.0' x2='634.0' id='_hvZS2P1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_hvZS0P1_EDefrLh8FmUTww'>
+    <line y1='458.0' x1='634.0' y2='430.0' x2='634.0' id='_hvZS2f1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(634.0,430.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_5lpWQP1_EDefrLh8FmUTww'>
+    <line y1='350.0' x1='620.0' y2='263.0' x2='620.0' id='_5lqkYP1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_5lpWQP1_EDefrLh8FmUTww'>
+    <line y1='263.0' x1='620.0' y2='263.0' x2='620.0' id='_5lqkY_1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_5lpWQP1_EDefrLh8FmUTww'>
+    <line y1='263.0' x1='620.0' y2='176.0' x2='620.0' id='_5lqkZP1_EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(620.0,176.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <line y1='137.0' x1='663.0' y2='140.0' x2='711.0' stroke-dasharray='1, 2' id='_wmAfwf2VEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='382.0' x1='535.0' y2='377.0' x2='470.0' stroke-dasharray='1, 2' id='_md-DUv2WEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <g id='_yKvBAv6JEDe77dt-8PPK-w'>
+    <line y1='486.0' x1='1002.0' y2='458.0' x2='1002.0' id='_il2Dcv8QEDe0yvmPSmQZ8w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_yKvBAv6JEDe77dt-8PPK-w'>
+    <line y1='458.0' x1='1002.0' y2='458.0' x2='634.0' id='_il2qgP8QEDe0yvmPSmQZ8w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_yKvBAv6JEDe77dt-8PPK-w'>
+    <line y1='458.0' x1='634.0' y2='430.0' x2='634.0' id='_il2qgf8QEDe0yvmPSmQZ8w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(634.0,430.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+</svg>

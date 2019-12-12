@@ -1,0 +1,616 @@
+[
+  {
+    "class": "Signature",
+    "name": "keyId",
+    "description": "Identifier of the key signing the document",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Signature-keyId"
+  },
+  {
+    "class": "Signature",
+    "name": "method",
+    "description": "Key signing method used to generate the signature",
+    "type": "3T-SBOM-EMS-Artifact-SignatureMethod",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Signature-method"
+  },
+  {
+    "class": "Signature",
+    "name": "value",
+    "description": "Signature value",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Signature-value"
+  },
+    {
+    "class": "Hash",
+    "name": "value",
+    "description": "The result of the hash algorithm.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Hash-value"
+  },
+  {
+    "class": "Hash",
+    "name": "type",
+    "description": "The element capturing the algorithm used to compute the hash value.",
+    "type": "3T-SBOM-EMS-Artifact-HashType",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Hash-type"
+  },
+  {
+    "class": "Element",
+    "name": "hashes",
+    "description": "Element capturing the hashes.",
+    "type": "3T-SBOM-EMS-Artifact-Hash",
+    "multiplicity": "*",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Element-hashes"
+  },
+  {
+    "class": "Document",
+    "name": "name",
+    "description": "The name of the document.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-name"
+  },
+  {
+    "class": "Document",
+    "name": "identifier",
+    "description": "The identifier of the document, unique within the namespace.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-identifier"
+  },
+  {
+    "class": "Document",
+    "name": "namespace",
+    "description": "The namespace of the identifier of the document.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-namespace"
+  },
+  {
+    "class": "Document",
+    "name": "author",
+    "description": "The author(s) of the document.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1..*",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-author"
+  },
+  {
+    "class": "Document",
+    "name": "specVersion",
+    "description": "The specification version with which the document complies to.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-specVersion"
+  },
+  {
+    "class": "Document",
+    "name": "created",
+    "description": "Document creation date time stamp",
+    "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-created"
+  },
+  {
+    "class": "Document",
+    "name": "populationMethod",
+    "description": "The element capturing how the document content was produced.",
+    "type": "3T-SBOM-EMS-Artifact-PopulationMethod",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-populationMethod"
+  },
+  {
+    "class": "Document",
+    "name": "artifacts",
+    "description": "The elelement(s) capturing the piece of software the document pertains to.",
+    "type": "3T-SBOM-EMS-Artifact-Artifact",
+    "multiplicity": "1..*",
+    "aggregation": "shared",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-artifacts",
+    "reverseName": "document"
+  },
+  {
+    "class": "Document",
+    "name": "referencedArtifacts",
+    "description": "The elelement(s) capturing references to other artifacts.",
+    "type": "3T-SBOM-EMS-Artifact-ReferencedArtifact",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-referencedArtifacts",
+    "reverseName": "document"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "name",
+    "description": "The name of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-name"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "version",
+    "description": "The version of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-version"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "license",
+    "description": "The license of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-license"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "identifier",
+    "description": "The identifier of the artifact, unique within the namespace.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-identifier"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "namespace",
+    "description": "The namespace of the identifier of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-namespace"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "supplier",
+    "description": "The supplier of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-supplier"
+  },
+  {
+    "class": "AbstractArtifact",
+    "name": "type",
+    "description": "The type of the artifact.",
+    "type": "3T-SBOM-EMS-Artifact-ArtifactType",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact-supplier"
+  },
+  {
+    "class": "Artifact",
+    "name": "summary",
+    "description": "Summary description of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Artifact-summary"
+  },
+  {
+    "class": "Artifact",
+    "name": "description",
+    "description": "Detailed description of the artifact.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Artifact-description"
+  },
+  {
+    "class": "ReferencedArtifact",
+    "name": "referenceDocument",
+    "description": "Reference to documents that detail the referenced artifact.",
+    "type": "3T-SBOM-EMS-Artifact-Document",
+    "multiplicity": "0..*",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ReferencedArtifact-referenceDocument"
+  },
+  {
+    "class": "Relationship",
+    "name": "type",
+    "description": "The element capturing the type of relationships between source and target artifacts.",
+    "type": "3T-SBOM-EMS-Relationship-RelationshipType",
+    "multiplicity": "1",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-Relationship-type"
+  },
+  {
+    "class": "Relationship",
+    "name": "description",
+    "description": "Detailed description of the relationship between source and target artifacts, complementing the type of relationship.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-Relationship-description"
+  },
+  {
+    "class": "Relationship",
+    "name": "source",
+    "serializationComment": "This shared association can be serialized inline for readability and compactness purposes, both in the relationship element and in the source node element (as sourceOfRelationship association)",
+    "description": "The element capturing the source element.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "aggregation": "shared",
+    "multiplicity": "1",
+    "reverseName": "sourceOfRelationship",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-Relationship-source",
+    "association": "3T-SBOM-EMS-Relationship-Relationship.source"
+  },
+  {
+    "class": "Relationship",
+    "name": "target",
+    "serializationComment": "This shared association can be serialized inline for readability and compactness purposes, both in the relationship element and in the target node element (as targetOfRelationship association)",
+    "description": "The element capturing the target element.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "aggregation": "shared",
+    "multiplicity": "1",
+    "reverseName": "targetOfRelationship",
+    "package": "Relationship",
+    "id": "3T-SBOM-EMS-Relationship-Relationship-target",
+    "association": "3T-SBOM-EMS-Relationship-Relationship.target"
+  },
+
+  {
+    "class": "AbstractFile",
+    "name": "relativeFilePath",
+    "description": "The path of the file relative to its package",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-AbstractFile-relativeFilePath"
+  },
+  {
+    "class": "AbstractFile",
+    "name": "type",
+    "description": "The element capturing the type of file.",
+    "type": "3T-SBOM-EMS-Content-FileType",
+    "multiplicity": "1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-AbstractFile-type"
+  },
+  
+  {
+    "class": "ReferencedFile",
+    "name": "artifacts",
+    "description": "The element capturing the referenced document that identifies and defines the file.",
+    "type": "3T-SBOM-EMS-Artifact-ReferencedArtifact",
+    "multiplicity": "1..*",
+    "reverseName": "files",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-ReferencedFile-artifacts"
+  },
+  {
+    "class": "File",
+    "name": "artifacts",
+    "description": "The element capturing the referenced document that identifies and defines the file.",
+    "type": "3T-SBOM-EMS-Artifact-Artifact",
+    "multiplicity": "1..*",
+    "reverseName": "files",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-File-artifacts"
+  },
+
+   {
+    "class": "AbstractFile",
+    "name": "snippets",
+    "description": "The element(s) capturing snippet(s) of code from the file that require(s) detailing.",
+    "type": "3T-SBOM-EMS-Content-Snippet",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "reverseName": "file",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-AbstractFile-snippets"
+  },
+  {
+    "class": "Snippet",
+    "name": "byteRangeLowerBound",
+    "description": "Lower bound of a range of positive integer values identifying the byte range of the snippet within its parent file.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer",
+    "multiplicity": "1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-Snippet-byteRangeLowerBound"
+  },
+  {
+    "class": "Snippet",
+    "name": "byteRangeUpperBound",
+    "description": "Upper bound of a range of positive integer values identifying the byte range of the snippet within its parent file.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer",
+    "multiplicity": "1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-Snippet-byteRangeUpperBound"
+  },
+  {
+    "class": "Snippet",
+    "name": "lineRangeLowerBound",
+    "description": "Lower bound of a range of positive integer values identifying the line range of the snippet within its parent file.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer",
+    "multiplicity": "0..1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-Snippet-lineRangeLowerBound"
+  },
+  {
+    "class": "Snippet",
+    "name": "lineRangeUpperBound",
+    "description": "Upper bound of a range of positive integer values identifying the line range of the snippet within its parent file.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer",
+    "multiplicity": "0..1",
+    "package": "Content",
+    "id": "3T-SBOM-EMS-Content-Snippet-lineRangeUpperBound"
+  },
+
+
+
+
+    {
+    "class": "AbstractAnnotation",
+    "name": "type",
+    "description": "Element capturing the type of content in or referenced by the annotation.",
+    "type": "3T-SBOM-EMS-Annotation-AnnotationType",
+    "multiplicity": "1",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AbstractAnnotation-type"
+  },
+  {
+    "class": "AbstractAnnotation",
+    "name": "element",
+    "description": "Element capturing the artifact the annotation pertains to.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "1",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AbstractAnnotation-element"
+  },
+  {
+    "class": "AbstractAnnotation",
+    "name": "author",
+    "description": "Element capturing the author of the annotation.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "0..1",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AbstractAnnotation-author"
+  },
+  {
+    "class": "AbstractAnnotation",
+    "name": "created",
+    "description": "Annotation creation date time stamp.",
+    "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
+    "multiplicity": "1",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-AbstractAnnotation-created"
+  },
+   {
+    "class": "ExternalAnnotation",
+    "name": "uri",
+    "description": "URI where to find the external content.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-ExternalAnnotation-uri"
+  },
+  {
+    "class": "Annotation",
+    "name": "expression",
+    "description": "Text body of the annotation.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1..*",
+    "package": "Annotation",
+    "id": "3T-SBOM-EMS-Annotation-Annotation-expression"
+  },
+
+  {
+    "class": "Build",
+    "name": "expression",
+    "description": "Action expression.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-Build-expression"
+  },
+  {
+    "class": "Build",
+    "name": "actor",
+    "description": "The element capturing the person, organization, system performing the action.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-Build-actor"
+  },
+  {
+    "class": "Build",
+    "name": "products",
+    "description": "The element(s) capturing the element(s) output of the action.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "1..*",
+    "aggregation": "shared",
+    "reverseName": "productOfBuilds",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-Build-products"
+  },
+  {
+    "class": "Build",
+    "name": "materials",
+    "description": "The element(s) capturing the artifact(s) input of the action.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "reverseName": "materialOfBuilds",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-Build-materials"
+  },
+  {
+    "class": "Build",
+    "name": "created",
+    "description": "Action date time stamp",
+    "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
+    "multiplicity": "1",
+    "package": "Build",
+    "id": "3T-SBOM-EMS-Build-Build-created"
+  },
+
+ {
+    "class": "Assessment",
+    "name": "expression",
+    "description": "Action expression.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-Assessment-expression"
+  },
+  {
+    "class": "Assessment",
+    "name": "actor",
+    "description": "The element capturing the person, organization, system performing the action.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-Assessment-actor"
+  },
+  {
+    "class": "Assessment",
+    "name": "products",
+    "description": "The element(s) capturing the element(s) output of the action.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "1..*",
+    "aggregation": "shared",
+    "reverseName": "productOfAssessments",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-Assessment-products"
+  },
+  {
+    "class": "Assessment",
+    "name": "materials",
+    "description": "The element(s) capturing the artifact(s) input of the action.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "reverseName": "materialOfAssessments",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-Assessment-materials"
+  },
+  {
+    "class": "Assessment",
+    "name": "created",
+    "description": "Action date time stamp",
+    "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
+    "multiplicity": "1",
+    "package": "Assurance",
+    "id": "3T-SBOM-EMS-Assurance-Assessment-created"
+  },
+
+  {
+    "class": "AbstractLicensingInformation",
+    "name": "artifacts",
+    "description": "The artifact(s) to which the licensing information applies.",
+    "type": "3T-SBOM-EMS-Artifact-AbstractArtifact",
+    "multiplicity": "*",
+    "reverseName": "licensingInformation",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-AbstractLicensingInformation-artifacts"
+  },
+    {
+    "class": "AbstractLicensingInformation",
+    "name": "files",
+    "description": "The file(s) to which the licensing information applies.",
+    "type": "3T-SBOM-EMS-Artifact-AbstractArtifact",
+    "multiplicity": "*",
+    "reverseName": "licensingInformation",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-AbstractLicensingInformation-files"
+  },
+  {
+    "class": "CopyrightInformation",
+    "name": "expression",
+    "description": "Copyright expression.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-CopyrightInformation-expression"
+  },
+  {
+    "class": "LicenseInformation",
+    "name": "expression",
+    "description": "License expression.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformation-expression"
+  },
+  {
+    "class": "LicenseInformation",
+    "name": "type",
+    "description": "License information type.",
+    "type": "3T-SBOM-EMS-Licensing-LicenseInformationType",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformation-type"
+  },
+  {
+    "class": "LicenseInformation",
+    "name": "licenseReferences",
+    "description": "License references involved in the expression.",
+    "type": "3T-SBOM-EMS-Licensing-LicenseReference",
+    "multiplicity": "*",
+    "reverseName": "licenseInformation",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformation-licenseReferences"
+  },
+  {
+    "class": "LicenseReference",
+    "name": "identifier",
+    "description": "License reference identification, unique only within the document.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseReference-identifier"
+  },
+  {
+    "class": "LicenseReference",
+    "name": "name",
+    "description": "License reference name.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseReference-name"
+  },
+  {
+    "class": "LicenseReference",
+    "name": "expression",
+    "description": "License reference extracted text.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "1",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseReference-expression"
+  },
+  {
+    "class": "LicenseReference",
+    "name": "urls",
+    "description": "License reference pointers to the official source of the non-standard license.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "multiplicity": "*",
+    "package": "Licensing",
+    "id": "3T-SBOM-EMS-Licensing-LicenseReference-name"
+  }
+
+]

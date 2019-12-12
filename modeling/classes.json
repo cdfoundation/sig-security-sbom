@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Element",
+    "package": "Artifact",
+    "description": "This class is the abstract parent class of all the classes from the 3T-SBOM-EMS specifications who needs annotations, relationships, involvement in build process, .... It supports a graph-based approach to Software Bill of Material modeling where salient elements are the nodes of a graph, that can be related together. ",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Artifact-Element"
+  },
+  {
+    "name": "Document",
+    "package": "Artifact",
+    "generalization": "Element",
+    "description": "This class represents the Software Bill of Material document. Its function is dual:",
+    "compositionDescription": [
+      "Clearly identify the piece of software under consideration,", 
+      "Be referenced to attach additional pieces of information pertaining to the considered piece of software."],
+    "id": "3T-SBOM-EMS-Artifact-Document"
+  },
+  {
+    "name": "AbstractArtifact",
+    "package": "Artifact",
+    "generalization": "Element",
+    "description": "This abstract class represents the components, assets, ... detailed or referenced in the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Artifact-AbstractArtifact"
+  },
+  {
+    "name": "Artifact",
+    "package": "Artifact",
+    "generalization": "AbstractArtifact",
+    "description": "This class represents the components, assets, ... detailed in the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Artifact-Artifact"
+  },
+  {
+    "name": "ReferencedArtifact",
+    "package": "Artifact",
+    "generalization": "AbstractArtifact",
+    "description": "This class represents the components, assets, ... referenced in the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Artifact-ReferencedArtifact"
+  },
+  {
+    "name": "Hash",
+    "package": "Artifact",
+    "description": "This class represents the hash value using the provided hash algorithm of the related content: a document, a source file, a binary file, ... The following special situations should be processed as described:",
+    "compositionDescription": [
+      "To compute the hash of an Artifact supported by the delivery of multiple physical files, the hash is computed as the hash of files' hash values, sorted alphabetically.",
+      "To compute the hash of an element whose identifier and content includes the hash information, the hash is computed as the hash of all the elements, excluding the identifier and content including the hash information."],
+    "id": "3T-SBOM-EMS-Artifact-Hash"
+  },
+  {
+    "name": "Signature",
+    "package": "Artifact",
+    "description": "This class represents the signature elements of the related document. To compute the signature of a Document, ...",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Artifact-Signature"
+  },
+  {
+    "name": "Relationship",
+    "package": "Relationship",
+    "description": "This class represents a relationship between two SBoM elements. It points at a source SBoM element and a target SBoM element, and indicates the nature of the relationship. It supports a graph-based approach to SBOM modeling where salient elements are the nodes of a graph, linked together via these relationships. Most of the time, these will be relationships between SBOM documents, but the 3T-SBOM-EMS model supports more advanced behaviors.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Relationship-Relationship"
+  },
+  {
+    "name": "AbstractFile",
+    "package": "Content",
+    "generalization": "Element",
+    "description": "This abstract class represents physical deliverable files detailed or referenced in the Software Bill of Material documents. It is composed of:",
+    "compositionDescription": [
+      "A name,",
+      "A relative path to identify the file within the root location of the parent package."
+    ],
+    "id": "3T-SBOM-EMS-Content-AbstractFile"
+  },
+  {
+    "name": "File",
+    "package": "Content",
+    "generalization": "AbstractFile",
+    "description": "This class represents physical deliverable files detailed in the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Content-File"
+  },
+  {
+    "name": "ReferencedFile",
+    "package": "Content",
+    "generalization": "AbstractFile",
+    "description": "This class represents physical deliverable files referenced in the Software Bill of Material documents. It must identify the ReferencedArtifact it is part of.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Content-ReferencedFile"
+  },
+  {
+    "name": "Snippet",
+    "package": "Content",
+    "generalization": "Element",
+    "description": "This class represents snippets of physical deliverable files.  It is composed of:",
+    "compositionDescription": [
+      "A byte range,",
+      "When applicable, a line range."
+    ],
+    "id": "3T-SBOM-EMS-Content-Snippet"
+  },
+  {
+    "name": "AbstractAnnotation",
+    "package": "Annotation",
+    "generalization": "Element",
+    "description": "This abstract class represents information to convey about the document, the document creation, the artifact, ... that is not part of the structured model. Annotations content can be part of the document or external, via a reference to external content. Annotation elements can be used to support:",
+    "compositionDescription": [
+      "Exchange of information that are not part of the specification but that are agreed upon between consumer and supplier of the document,", 
+      "Information about artifact topics and technologies,", 
+      "Data Marking", 
+      "...  "
+      ],
+    "id": "3T-SBOM-EMS-Annotation-AbstractAnnotation"
+  },
+    {
+    "name": "Annotation",
+    "package": "Annotation",
+    "generalization": "AbstractAnnotation",
+    "description": "This class represents content included in the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Annotation-Annotation"
+  },
+    {
+    "name": "ExternalAnnotation",
+    "package": "Annotation",
+    "generalization": "AbstractAnnotation",
+    "description": "This class represents external content referenced by the Software Bill of Material documents.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Annotation-ExternalAnnotation"
+  },
+  {
+    "name": "AbstractLicensingInformation",
+    "package": "Licensing",
+    "generalization": "Element",
+    "description": "This abstract class represents the detailed licensing information, detailing the Intellectual Property of the piece of software or of its constituant elements, as copyright or detailed licenses. It is designed to extend the SBoM document when the document data license attribute is not enough.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Licensing-AbstractLicensingInformation"
+  },
+  {
+    "name": "CopyrightInformation",
+    "package": "Licensing",
+    "generalization": "AbstractLicensingInformation",
+    "description": "This class represents the copyright information.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Licensing-CopyrightInformation"
+  },
+  {
+    "name": "LicenseInformation",
+    "package": "Licensing",
+    "generalization": "AbstractLicensingInformation",
+    "description": "This class represents the license information.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformation"
+  },
+  {
+    "name": "LicenseReference",
+    "package": "Licensing",
+    "generalization": "AbstractLicensingInformation",
+    "description": "This class represents a license reference, when the license is use is not standard.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Licensing-LicenseReference"
+  },
+  {
+    "name": "Build",
+    "package": "Build",
+    "generalization": "Element",
+    "description": "This class represents action performed during the production process of the piece of software. It is worth noting that:",
+    "compositionDescription": [
+      "The build elements can be linked together via the relationships, supporting sequences of actions,", 
+      "The build elements can be linked to any other SBoM elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
+    "id": "3T-SBOM-EMS-Build-Build"
+  },
+  {
+    "name": "Assessment",
+    "package": "Assurance",
+    "generalization": "Element",
+    "description": "This class represents action performed during or after the production process of the piece of software to ensure its quality or compliance. It is worth noting that:",
+    "compositionDescription": [
+      "The assessment elements can be linked together via the relationships, supporting sequences of actions,", 
+      "The assessment elements can be linked to any other SBoM elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
+    "id": "3T-SBOM-EMS-Assurance-Assessment"
+  }
+]

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='90 50 849 569' xmlns:xlink='http://www.w3.org/1999/xlink' width='849.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='569.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='df604a14-8315-47e0-9791-c514589fbc14' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='601091e5-edf6-4d64-bc82-ab6a9065441a' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='ec885f4b-4601-462b-a67c-5a6c603cfcef' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='84602c01-e03c-4755-ab26-fa71b16e178f' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(231.0,509.0)' id='_MCtrUv18EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='328.0px' y='0.0' stroke-width='1.0' fill='url(#df604a14-8315-47e0-9791-c514589fbc14)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='164.0' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
+    <text text-anchor='middle' x='164.0' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='328.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(120.0,80.0)' id='_HxiKAf18EDefrLh8FmUTww'>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#601091e5-edf6-4d64-bc82-ab6a9065441a)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='789.0px' y='38.0' stroke-width='1.0' fill='url(#601091e5-edf6-4d64-bc82-ab6a9065441a)' stroke='rgb(194, 183, 159)' look='allInOne' height='312.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Relationship</text>
+    <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
+  </g>
+  <g transform='translate(255.0,215.0)' id='_Inm2YP18EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='260.0px' y='0.0' stroke-width='1.0' fill='url(#ec885f4b-4601-462b-a67c-5a6c603cfcef)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='130.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Relationship</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='260.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(325.0,150.0)' id='_JDaBkP18EDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='120.0px' y='0.0' stroke-width='1.0' fill='url(#84602c01-e03c-4755-ab26-fa71b16e178f)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='60.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='60.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>RelationshipType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='120.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(619.0,150.0)' id='_BXBegP2ZEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,90.0 230.0,90.0 230.0,15.0 215.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='215.0,1.0 215.0,15.0 229.0,15.0'/>
+    <clipPath id='clip_BXBegP2ZEDezV42YJegBKA'>
+      <rect x='5.0' width='205.0px' y='5.0' height='80.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_BXBegP2ZEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Element associations to support</text>
+      <text clip-path='url(#clip_BXBegP2ZEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>relationships between Document,</text>
+      <text clip-path='url(#clip_BXBegP2ZEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>Component, File, Snippet, Event,</text>
+      <text clip-path='url(#clip_BXBegP2ZEDezV42YJegBKA)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>License, ...</text>
+    </g>
+  </g>
+  <g transform='translate(629.0,337.0)' id='_hYQe8P5gEDe77dt-8PPK-w'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,80.0 210.0,80.0 210.0,15.0 195.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='195.0,1.0 195.0,15.0 209.0,15.0'/>
+    <clipPath id='clip_hYQe8P5gEDe77dt-8PPK-w'>
+      <rect x='5.0' width='185.0px' y='5.0' height='70.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_hYQe8P5gEDe77dt-8PPK-w)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Association names will support</text>
+      <text clip-path='url(#clip_hYQe8P5gEDe77dt-8PPK-w)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>inline serializaction (for</text>
+      <text clip-path='url(#clip_hYQe8P5gEDe77dt-8PPK-w)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>compactness and</text>
+      <text clip-path='url(#clip_hYQe8P5gEDe77dt-8PPK-w)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>human-friendlyness)</text>
+    </g>
+  </g>
+  <text text-anchor='middle' x='226.0' y='311.0' fill='rgb(0, 0, 0)'>targetFromRelationship</text>
+  <text text-anchor='middle' x='324.0' y='504.0' fill='rgb(0, 0, 0)'>target</text>
+  <text text-anchor='middle' x='311.0' y='311.0' fill='rgb(0, 0, 0)'>1</text>
+  <text text-anchor='middle' x='290.0' y='504.0' fill='rgb(0, 0, 0)'>1</text>
+  <text text-anchor='middle' x='567.0' y='311.0' fill='rgb(0, 0, 0)'>sourceFromRelationship</text>
+  <text text-anchor='middle' x='516.0' y='504.0' fill='rgb(0, 0, 0)'>source</text>
+  <text text-anchor='middle' x='479.0' y='311.0' fill='rgb(0, 0, 0)'>1</text>
+  <text text-anchor='middle' x='479.0' y='504.0' fill='rgb(0, 0, 0)'>1</text>
+  <g id='_RxSXs_18EDefrLh8FmUTww'>
+    <line y1='295.0' x1='300.0' y2='402.0' x2='300.0' id='_RxUz8v18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_RxSXs_18EDefrLh8FmUTww'>
+    <line y1='402.0' x1='300.0' y2='402.0' x2='300.0' id='_RxUz9f18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_RxSXs_18EDefrLh8FmUTww'>
+    <line y1='402.0' x1='300.0' y2='509.0' x2='300.0' id='_RxUz9v18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_Y-wrA_18EDefrLh8FmUTww'>
+    <line y1='295.0' x1='489.0' y2='402.0' x2='489.0' id='_Y-zuUv18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_Y-wrA_18EDefrLh8FmUTww'>
+    <line y1='402.0' x1='489.0' y2='402.0' x2='489.0' id='_Y-zuVf18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_Y-wrA_18EDefrLh8FmUTww'>
+    <line y1='402.0' x1='489.0' y2='509.0' x2='489.0' id='_Y-zuVv18EDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <line y1='232.0' x1='515.0' y2='214.0' x2='619.0' stroke-dasharray='1, 2' id='_MqjoQf2ZEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='316.0' x1='590.0' y2='337.0' x2='639.0' stroke-dasharray='1, 2' id='_qLrcYv5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='316.0' x1='297.0' y2='362.0' x2='629.0' stroke-dasharray='1, 2' id='_rm6rUv5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+</svg>

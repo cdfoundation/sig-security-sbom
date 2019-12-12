@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3T-SBOM-EMS-Artifact",
+    "name": "Artifact",
+    "description": "The 3T-SBOM-EMS Artifact package defines fundation classes for structuring Software Bill of Material documents. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Artifact package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Relationship",
+    "name": "Relationship",
+    "description": "The 3T-SBOM-EMS Relationship package defines classes for handling relationships between model elements. All 3T-SBOM-EMS Provenance compliant tooling, repository, or efforts must support the Relationship package"
+  },
+  {
+    "id": "3T-SBOM-EMS-Annotation",
+    "name": "Annotation",
+    "description": "The 3T-SBOM-EMS Annotation package defines classes for handling additional pieces of information to attach to model elements. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Annotation package"
+  },
+  {
+    "id": "3T-SBOM-EMS-Content",
+    "name": "Content",
+    "description": "The 3T-SBOM-EMS Content package defines classes for handling more detailed pieces of information about the file content of the software under consideration in the SBoM document. "
+  },
+  {
+    "id": "3T-SBOM-EMS-Licensing",
+    "name": "Licensing",
+    "description": "The 3T-SBOM-EMS Licensing package defines classes for handling more detailed pieces of information about licensing and copyright. All 3T-SBOM-EMS IP protection compliant tooling, repository, or efforts must support the Licensing package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Build",
+    "name": "Build",
+    "description": "The 3T-SBOM-EMS Build package defines classes for handling more information about actions involved in creating the piece of software under consideration in the SBoM document. All 3T-SBOM-EMS Pedigree compliant tooling, repository, or efforts must support the Build package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Assurance",
+    "name": "Assurance",
+    "description": "The 3T-SBOM-EMS Assurance package defines classes for handling more detailed pieces of information about actions involved in ensuring the quality and compliance of the software under consideration in the SBoM document. All 3T-SBOM-EMS Assurance compliant tooling, repository, or efforts must support the Assurance package"
+  }
+  
+]

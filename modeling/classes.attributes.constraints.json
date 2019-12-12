@@ -1,0 +1,35 @@
+[
+  {
+    "class": "Snippet",
+    "attribute": "lineRangeLowerBound",
+    "constraint": "lineRangeLowerBound<-lineRangeLowerBound>0",
+    "name": "positiveLineRangeLowerBound",
+    "description": "The lower boud integer must be positive",
+    "id": "3T-SBOM-EMS-Content-Snippet-lineRangeLowerBound"
+  },
+  {
+    "class": "Snippet",
+    "attribute": "lineRangeUpperBound",
+    "constraint": "lineRangeUpperBound<-lineRangeUpperBound>lineRangeLowerBound",
+    "name": "lineRangeUpperBoundGreaterThanLowerBound",
+    "description": "The upper boud integer must be greater than the lower bound",
+    "id": "3T-SBOM-EMS-Content-Snippet-lineRangeUpperBound"
+  },
+  
+  {
+    "class": "Snippet",
+    "attribute": "byteRangeLowerBound",
+    "constraint": "byteRangeLowerBound<-byteRangeLowerBound>0",
+    "name": "positiveByteRangeLowerBound",
+    "description": "The lower boud integer must be positive",
+    "id": "3T-SBOM-EMS-Content-Snippet-byteRangeLowerBound"
+  },
+  {
+    "class": "Snippet",
+    "attribute": "byteRangeUpperBound",
+    "constraint": "byteRangeUpperBound<-byteRangeUpperBound>byteRangeLowerBound",
+    "name": "byteRangeUpperBoundGreaterThanLowerBound",
+    "description": "The upper boud integer must be greater than the lower bound",
+    "id": "3T-SBOM-EMS-Content-Snippet-byteRangeUpperBound"
+  }
+]
