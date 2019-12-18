@@ -139,6 +139,17 @@
     "reverseName": "document"
   },
   {
+    "class": "Document",
+    "name": "signature",
+    "description": "The elelement capturing the optional signature of the document.",
+    "type": "3T-SBOM-EMS-Artifact-Signature",
+    "multiplicity": "0..1",
+    "aggregation": "composite",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-signature",
+    "reverseName": "document"
+  },
+  {
     "class": "AbstractArtifact",
     "name": "name",
     "description": "The name of the artifact.",
