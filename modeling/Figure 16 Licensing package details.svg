@@ -2,58 +2,58 @@
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='79 -10 946 716' xmlns:xlink='http://www.w3.org/1999/xlink' width='946.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='716.0px'>
   <defs>
-<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c1ee9801-c847-4743-993f-b27fbd560e57' spreadMethod='pad'>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c209f6d0-3703-4172-b0df-7fabc971e88f' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='77278582-126d-400a-9633-ecc22c4ba45f' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='5dee3a70-0eac-4cee-a318-7b62f14a2d01' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='3886c4b4-4527-4636-8543-653a1a95c0e5' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='014386b1-1038-46f6-9c70-200dc1fcc59f' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d556b779-093b-4b9d-96d0-a44eeb69b8b3' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='ea3d0540-8dba-4be5-a7ea-f189725b9cea' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='460d6c3b-3c31-4104-9f76-b6b3030dc7f5' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='5cedd152-a415-4af5-acfd-ba120ccded81' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='a55ca256-ab5b-45d0-b488-677c4701fcb5' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='beef0953-2d71-41a6-8f6e-5dac9171f9d4' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='398e5694-a0f6-4fbb-be63-5f08e0fe0b59' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='98f8542c-bb0d-49a1-9423-549759148f8c' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c92977b1-8c73-4aff-93fa-a9529e04f12b' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='73a20b6e-7639-4d18-908b-f1bcfd44542e' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='93ce421a-2fb3-462b-a1d1-bf0ec7363ccb' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='ddcf334d-1cb3-4ab8-881b-41b21e3ac3b4' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
   </defs>
   <desc>ClassDiagram</desc>
   <g transform='translate(514.0,549.0)' id='_YGELoP2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='89.0px' y='0.0' stroke-width='1.0' fill='url(#c1ee9801-c847-4743-993f-b27fbd560e57)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='89.0px' y='0.0' stroke-width='1.0' fill='url(#c209f6d0-3703-4172-b0df-7fabc971e88f)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='44.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractFile</text>
     <text text-anchor='middle' x='44.5' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Content)</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='89.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(259.0,549.0)' id='_aGS-Av2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='137.0px' y='0.0' stroke-width='1.0' fill='url(#77278582-126d-400a-9633-ecc22c4ba45f)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='137.0px' y='0.0' stroke-width='1.0' fill='url(#5dee3a70-0eac-4cee-a318-7b62f14a2d01)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='68.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractArtifact</text>
     <text text-anchor='middle' x='68.5' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='137.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(740.0,549.0)' id='_vsF0Uf6JEDe77dt-8PPK-w'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='243.0px' y='0.0' stroke-width='1.0' fill='url(#3886c4b4-4527-4636-8543-653a1a95c0e5)' stroke='rgb(187, 187, 187)' look='allInOne' height='127.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='243.0px' y='0.0' stroke-width='1.0' fill='url(#014386b1-1038-46f6-9c70-200dc1fcc59f)' stroke='rgb(187, 187, 187)' look='allInOne' height='127.0px'/>
     <text font-weight='bold' text-anchor='middle' x='121.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Snippet</text>
     <text text-anchor='middle' x='121.5' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Content)</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='243.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
@@ -79,13 +79,13 @@
   <text text-anchor='middle' x='720.0' y='609.0' fill='rgb(0, 0, 0)'>*</text>
   <text text-anchor='middle' x='623.0' y='579.0' fill='rgb(0, 0, 0)'>1</text>
   <g transform='translate(109.0,20.0)' id='_XD6yIP2AEDefrLh8FmUTww'>
-    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#d556b779-093b-4b9d-96d0-a44eeb69b8b3)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
-    <rect x='0.0' width='886.0px' y='38.0' stroke-width='1.0' fill='url(#d556b779-093b-4b9d-96d0-a44eeb69b8b3)' stroke='rgb(194, 183, 159)' look='allInOne' height='437.0px'/>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#ea3d0540-8dba-4be5-a7ea-f189725b9cea)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='886.0px' y='38.0' stroke-width='1.0' fill='url(#ea3d0540-8dba-4be5-a7ea-f189725b9cea)' stroke='rgb(194, 183, 159)' look='allInOne' height='437.0px'/>
     <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Licensing</text>
     <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
   </g>
   <g transform='translate(331.0,73.0)' id='_fR0nsf2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='229.0px' y='0.0' stroke-width='1.0' fill='url(#460d6c3b-3c31-4104-9f76-b6b3030dc7f5)' stroke='rgb(187, 187, 187)' look='allInOne' height='127.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='229.0px' y='0.0' stroke-width='1.0' fill='url(#5cedd152-a415-4af5-acfd-ba120ccded81)' stroke='rgb(187, 187, 187)' look='allInOne' height='127.0px'/>
     <text font-weight='bold' text-anchor='middle' x='114.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='114.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseInformationType</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='229.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
@@ -107,7 +107,7 @@
     </g>
   </g>
   <g transform='translate(345.0,228.0)' id='_l90lov2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='199.0px' y='0.0' stroke-width='1.0' fill='url(#a55ca256-ab5b-45d0-b488-677c4701fcb5)' stroke='rgb(187, 187, 187)' look='allInOne' height='110.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='199.0px' y='0.0' stroke-width='1.0' fill='url(#beef0953-2d71-41a6-8f6e-5dac9171f9d4)' stroke='rgb(187, 187, 187)' look='allInOne' height='110.0px'/>
     <text font-weight='bold' text-anchor='middle' x='99.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseInformation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='199.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
     <g transform='translate(0.0,26.0)' id='_prw3AP2AEDefrLh8FmUTww'>
@@ -120,12 +120,12 @@
     </g>
   </g>
   <g transform='translate(345.0,385.0)' id='_m8lT8v2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='197.0px' y='0.0' stroke-width='1.0' fill='url(#398e5694-a0f6-4fbb-be63-5f08e0fe0b59)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='197.0px' y='0.0' stroke-width='1.0' fill='url(#98f8542c-bb0d-49a1-9423-549759148f8c)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='98.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractLicensingInformation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='197.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(119.0,228.0)' id='_tAq9Uv2AEDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='145.0px' y='0.0' stroke-width='1.0' fill='url(#c92977b1-8c73-4aff-93fa-a9529e04f12b)' stroke='rgb(187, 187, 187)' look='allInOne' height='110.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='145.0px' y='0.0' stroke-width='1.0' fill='url(#73a20b6e-7639-4d18-908b-f1bcfd44542e)' stroke='rgb(187, 187, 187)' look='allInOne' height='110.0px'/>
     <text font-weight='bold' text-anchor='middle' x='72.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>CopyrightInformation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='145.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
     <g transform='translate(0.0,26.0)' id='_uKmZ0_2AEDefrLh8FmUTww'>
@@ -134,7 +134,7 @@
     </g>
   </g>
   <g transform='translate(762.0,228.0)' id='_VRDf8f6JEDe77dt-8PPK-w'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='132.0px' y='0.0' stroke-width='1.0' fill='url(#93ce421a-2fb3-462b-a1d1-bf0ec7363ccb)' stroke='rgb(187, 187, 187)' look='allInOne' height='111.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='132.0px' y='0.0' stroke-width='1.0' fill='url(#ddcf334d-1cb3-4ab8-881b-41b21e3ac3b4)' stroke='rgb(187, 187, 187)' look='allInOne' height='111.0px'/>
     <text font-weight='bold' text-anchor='middle' x='66.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>LicenseReference</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='132.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
     <g transform='translate(0.0,26.0)' id='_iUyiUf9VEDe0yvmPSmQZ8w'>

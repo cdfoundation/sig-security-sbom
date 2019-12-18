@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/content" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Content Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="FileType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="fileType_source"/>
+      <xs:enumeration value="fileType_binary"/>
+      <xs:enumeration value="fileType_archive"/>
+      <xs:enumeration value="fileType_application"/>
+      <xs:enumeration value="fileType_audio"/>
+      <xs:enumeration value="fileType_text"/>
+      <xs:enumeration value="fileType_image"/>
+      <xs:enumeration value="fileType_video"/>
+      <xs:enumeration value="fileType_documentation"/>
+      <xs:enumeration value="fileType_spdx"/>
+      <xs:enumeration value="fileType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="AbstractFile">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="relativeFilePath" type="xs:string"/>
+          <xs:element name="type" type="content:FileType"/>
+          <xs:element name="snippets" type="content:Snippet" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="File">
+    <xs:complexContent>
+      <xs:extension base="content:AbstractFile">
+        <xs:sequence>
+          <xs:element name="artifacts" type="artifact:Artifact" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ReferencedFile">
+    <xs:complexContent>
+      <xs:extension base="content:AbstractFile">
+        <xs:sequence>
+          <xs:element name="artifacts" type="artifact:ReferencedArtifact" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Snippet">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="byteRangeLowerBound" type="xs:integer"/>
+          <xs:element name="byteRangeUpperBound" type="xs:integer"/>
+          <xs:element name="lineRangeLowerBound" type="xs:integer" minOccurs="0"/>
+          <xs:element name="lineRangeUpperBound" type="xs:integer" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

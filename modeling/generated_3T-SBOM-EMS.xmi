@@ -5,8 +5,8 @@
     <packagedElement xmi:id="3T-SBOM-EMS-Artifact" xmi:type="uml:Package" name="Artifact">
       <packagedElement xmi:id="3T-SBOM-EMS-Artifact-HashType" xmi:type="uml:Enumeration" name="HashType">
         <ownedLiteral xmi:id="3T-SBOM-EMS-Artifact-HashType-hashType_sha1" xmi:type="uml:EnumerationLiteral" visibility="public" name="HashType"/>
-        <ownedLiteral xmi:id="c(&quot;3T-SBOM-EMS-Artifact-HashType-hashType_sha256&quot;, &quot;3T-SBOM-EMS-Artifact-HashType-hashType_sha256&quot;)" xmi:type="uml:EnumerationLiteral" visibility="public" name="c(&quot;HashType&quot;, &quot;HashType&quot;)"/>
-        <ownedLiteral xmi:id="c(&quot;3T-SBOM-EMS-Artifact-HashType-hashType_sha256&quot;, &quot;3T-SBOM-EMS-Artifact-HashType-hashType_sha256&quot;)" xmi:type="uml:EnumerationLiteral" visibility="public" name="c(&quot;HashType&quot;, &quot;HashType&quot;)"/>
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Artifact-HashType-hashType_sha256" xmi:type="uml:EnumerationLiteral" visibility="public" name="HashType"/>
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Artifact-HashType-hashType_sha512" xmi:type="uml:EnumerationLiteral" visibility="public" name="HashType"/>
         <ownedLiteral xmi:id="3T-SBOM-EMS-Artifact-HashType-hashType_md5" xmi:type="uml:EnumerationLiteral" visibility="public" name="HashType"/>
         <ownedLiteral xmi:id="3T-SBOM-EMS-Artifact-HashType-hashType_other" xmi:type="uml:EnumerationLiteral" visibility="public" name="HashType"/>
       </packagedElement>
@@ -349,13 +349,13 @@
       <packagedElement xmi:id="3T-SBOM-EMS-Licensing-CopyrightInformation" xmi:type="uml:Class" name="CopyrightInformation">
         <generalization xmi:id="3T-SBOM-EMS-Licensing-CopyrightInformation.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Licensing-AbstractLicensingInformation"/>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Licensing-CopyrightInformation-expression" xmi:type="uml:Property" visibility="public" name="expression">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:id="3T-SBOM-EMS-Licensing-LicenseInformation" xmi:type="uml:Class" name="LicenseInformation">
         <generalization xmi:id="3T-SBOM-EMS-Licensing-LicenseInformation.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Licensing-AbstractLicensingInformation"/>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Licensing-LicenseInformation-expression" xmi:type="uml:Property" visibility="public" name="expression">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Licensing-LicenseInformation-type" xmi:type="uml:Property" visibility="public" name="type">
           <type href="3T-SBOM-EMS-Licensing-LicenseInformationType"/>
@@ -367,25 +367,30 @@
       <packagedElement xmi:id="3T-SBOM-EMS-Licensing-LicenseReference" xmi:type="uml:Class" name="LicenseReference">
         <generalization xmi:id="3T-SBOM-EMS-Licensing-LicenseReference.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Licensing-AbstractLicensingInformation"/>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Licensing-LicenseReference-identifier" xmi:type="uml:Property" visibility="public" name="identifier">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="c(&quot;3T-SBOM-EMS-Licensing-LicenseReference-name&quot;, &quot;3T-SBOM-EMS-Licensing-LicenseReference-name&quot;)" xmi:type="uml:Property" visibility="public" name="c(&quot;name&quot;, &quot;urls&quot;)">
-          <type href="c(&quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting&quot;, &quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting&quot;)"/>
+          <type href="c(&quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String&quot;, &quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String&quot;)"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Licensing-LicenseReference-expression" xmi:type="uml:Property" visibility="public" name="expression">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="c(&quot;3T-SBOM-EMS-Licensing-LicenseReference-name&quot;, &quot;3T-SBOM-EMS-Licensing-LicenseReference-name&quot;)" xmi:type="uml:Property" visibility="public" name="c(&quot;name&quot;, &quot;urls&quot;)">
-          <type href="c(&quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting&quot;, &quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting&quot;)"/>
+          <type href="c(&quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String&quot;, &quot;http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String&quot;)"/>
         </ownedAttribute>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:id="3T-SBOM-EMS-Build" xmi:type="uml:Package" name="Build">
-      <packagedElement xmi:id="3T-SBOM-EMS-Build-BuildType" xmi:type="uml:Enumeration" name="BuildType">
-        <ownedLiteral xmi:id="3T-SBOM-EMS-Build-BuildType_buildType_commit" xmi:type="uml:EnumerationLiteral" visibility="public" name="BuildType"/>
-        <ownedLiteral xmi:id="3T-SBOM-EMS-Build-BuildType_buildType_compile" xmi:type="uml:EnumerationLiteral" visibility="public" name="BuildType"/>
-        <ownedLiteral xmi:id="3T-SBOM-EMS-Build-BuildType_buildType_link" xmi:type="uml:EnumerationLiteral" visibility="public" name="BuildType"/>
-        <ownedLiteral xmi:id="3T-SBOM-EMS-Build-BuildType_buildType_other" xmi:type="uml:EnumerationLiteral" visibility="public" name="BuildType"/>
+    <packagedElement xmi:id="3T-SBOM-EMS-Activity" xmi:type="uml:Package" name="Activity">
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-CreationType" xmi:type="uml:Enumeration" name="CreationType">
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Activity-CreationType_creationType_commit" xmi:type="uml:EnumerationLiteral" visibility="public" name="CreationType"/>
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Activity-CreationType_creationType_compile" xmi:type="uml:EnumerationLiteral" visibility="public" name="CreationType"/>
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Activity-CreationType_creationType_build" xmi:type="uml:EnumerationLiteral" visibility="public" name="CreationType"/>
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Activity-CreationType_creationType_other" xmi:type="uml:EnumerationLiteral" visibility="public" name="CreationType"/>
+      </packagedElement>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-AssessmentType" xmi:type="uml:Enumeration" name="AssessmentType">
+        <ownedLiteral xmi:id="3T-SBOM-EMS-Activity-AssessmentType-assessmentType_codeReview" xmi:type="uml:EnumerationLiteral" visibility="public" name="AssessmentType"/>
+        <ownedLiteral xmi:id="c(&quot;3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other&quot;, &quot;3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other&quot;)" xmi:type="uml:EnumerationLiteral" visibility="public" name="c(&quot;AssessmentType&quot;, &quot;AssessmentType&quot;)"/>
+        <ownedLiteral xmi:id="c(&quot;3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other&quot;, &quot;3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other&quot;)" xmi:type="uml:EnumerationLiteral" visibility="public" name="c(&quot;AssessmentType&quot;, &quot;AssessmentType&quot;)"/>
       </packagedElement>
       <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
         <memberEnd xmi:idref="character(0)"/>
@@ -397,56 +402,79 @@
         <memberEnd xmi:idref="character(0)-character(0)"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
       </packagedElement>
-      <packagedElement xmi:id="3T-SBOM-EMS-Build-Build" xmi:type="uml:Class" name="Build">
-        <generalization xmi:id="3T-SBOM-EMS-Build-Build.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Artifact-Element"/>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Build-Build-expression" xmi:type="uml:Property" visibility="public" name="expression">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
+        <memberEnd xmi:idref="character(0)"/>
+        <memberEnd xmi:idref="character(0)-character(0)"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
+      </packagedElement>
+      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
+        <memberEnd xmi:idref="character(0)"/>
+        <memberEnd xmi:idref="character(0)-character(0)"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
+      </packagedElement>
+      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
+        <memberEnd xmi:idref="character(0)"/>
+        <memberEnd xmi:idref="character(0)-character(0)"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
+      </packagedElement>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-Activity" xmi:type="uml:Class" name="Activity">
+        <generalization xmi:id="3T-SBOM-EMS-Activity-Activity.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Artifact-Element"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-command" xmi:type="uml:Property" visibility="public" name="command">
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Build-Build-actor" xmi:type="uml:Property" visibility="public" name="actor">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-products" xmi:type="uml:Property" visibility="public" name="products" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-products.lowerValue" xmi:type="uml:LiteralInteger" value="1"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-products.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Build-Build-created" xmi:type="uml:Property" visibility="public" name="created">
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-materials" xmi:type="uml:Property" visibility="public" name="materials" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-materials.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-materials.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts" xmi:type="uml:Property" visibility="public" name="byProducts" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-environment" xmi:type="uml:Property" visibility="public" name="environment" aggregation="composite" type="3T-SBOM-EMS-Activity-Environment" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-environment.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-environment.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-runs" xmi:type="uml:Property" visibility="public" name="runs" aggregation="composite" type="3T-SBOM-EMS-Activity-Run" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-runs.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-runs.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-Creation" xmi:type="uml:Class" name="Creation">
+        <generalization xmi:id="3T-SBOM-EMS-Activity-Creation.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Activity-Activity"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Creation-type" xmi:type="uml:Property" visibility="public" name="type">
+          <type href="3T-SBOM-EMS-Activity-CreationType"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-Assessment" xmi:type="uml:Class" name="Assessment">
+        <generalization xmi:id="3T-SBOM-EMS-Activity-Assessment.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Activity-Activity"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Assessment-type" xmi:type="uml:Property" visibility="public" name="type">
+          <type href="3T-SBOM-EMS-Activity-AssessmentType"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-Run" xmi:type="uml:Class" name="Run">
+        <generalization xmi:id="3T-SBOM-EMS-Activity-Run.generalization" xmi:type="uml:Generalization">
+          <general href="http://www.omg.org/spec/UML/20131001/UML.xmi#Element"/>
+        </generalization>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Run-actor" xmi:type="uml:Property" visibility="public" name="actor">
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Run-created" xmi:type="uml:Property" visibility="public" name="created">
           <type href="https://www.w3.org/TR/xmlschema11-2/#dateTime"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Build-Build-products" xmi:type="uml:Property" visibility="public" name="products" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
-          <lowerValue xmi:id="3T-SBOM-EMS-Build-Build-products.lowerValue" xmi:type="uml:LiteralInteger" value="1"/>
-          <upperValue xmi:id="3T-SBOM-EMS-Build-Build-products.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Build-Build-materials" xmi:type="uml:Property" visibility="public" name="materials" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
-          <lowerValue xmi:id="3T-SBOM-EMS-Build-Build-materials.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
-          <upperValue xmi:id="3T-SBOM-EMS-Build-Build-materials.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
-        </ownedAttribute>
       </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:id="3T-SBOM-EMS-Assurance" xmi:type="uml:Package" name="Assurance">
-      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
-        <memberEnd xmi:idref="character(0)"/>
-        <memberEnd xmi:idref="character(0)-character(0)"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
-      </packagedElement>
-      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
-        <memberEnd xmi:idref="character(0)"/>
-        <memberEnd xmi:idref="character(0)-character(0)"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
-      </packagedElement>
-      <packagedElement xmi:id="3T-SBOM-EMS-Assurance-Assessment" xmi:type="uml:Class" name="Assessment">
-        <generalization xmi:id="3T-SBOM-EMS-Assurance-Assessment.generalization" xmi:type="uml:Generalization" general="3T-SBOM-EMS-Artifact-Element"/>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Assurance-Assessment-expression" xmi:type="uml:Property" visibility="public" name="expression">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
+      <packagedElement xmi:id="3T-SBOM-EMS-Activity-Environment" xmi:type="uml:Class" name="Environment">
+        <generalization xmi:id="3T-SBOM-EMS-Activity-Environment.generalization" xmi:type="uml:Generalization">
+          <general href="http://www.omg.org/spec/UML/20131001/UML.xmi#Element"/>
+        </generalization>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Environment-key" xmi:type="uml:Property" visibility="public" name="key">
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Assurance-Assessment-actor" xmi:type="uml:Property" visibility="public" name="actor">
-          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Assurance-Assessment-created" xmi:type="uml:Property" visibility="public" name="created">
-          <type href="https://www.w3.org/TR/xmlschema11-2/#dateTime"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Assurance-Assessment-products" xmi:type="uml:Property" visibility="public" name="products" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
-          <lowerValue xmi:id="3T-SBOM-EMS-Assurance-Assessment-products.lowerValue" xmi:type="uml:LiteralInteger" value="1"/>
-          <upperValue xmi:id="3T-SBOM-EMS-Assurance-Assessment-products.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Assurance-Assessment-materials" xmi:type="uml:Property" visibility="public" name="materials" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
-          <lowerValue xmi:id="3T-SBOM-EMS-Assurance-Assessment-materials.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
-          <upperValue xmi:id="3T-SBOM-EMS-Assurance-Assessment-materials.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Environment-value" xmi:type="uml:Property" visibility="public" name="value">
+          <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
         </ownedAttribute>
       </packagedElement>
     </packagedElement>

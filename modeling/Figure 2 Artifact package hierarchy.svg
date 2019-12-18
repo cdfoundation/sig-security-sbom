@@ -2,62 +2,62 @@
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -5 880 660' xmlns:xlink='http://www.w3.org/1999/xlink' width='880.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='660.0px'>
   <defs>
-<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='e8241507-e93f-43d9-ae9e-be69e5596c32' spreadMethod='pad'>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='850e4eb6-3c3f-43ac-b7e5-653dfac014ea' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='12671aa8-63ab-4c83-99f5-25478ffe330e' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='84980dea-fcd1-4737-b85e-37391f919fdb' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='661ed83b-f911-4c37-b9bb-ff383faa297b' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='aa24dcb5-fbdf-4648-b995-ac3d6552b276' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='b56bc98b-c820-476d-929b-2eba33607aea' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='af769f76-267f-4c4f-a22a-37faba7d935c' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='699a8dcb-690d-426b-b7d7-55010f4ddc7a' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d16892ab-9bdb-4558-80f6-8d11ba34ca1d' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='eb1f9fe5-0482-4e54-b2d9-9eabb01b64d8' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='2dc924ab-0d27-41f5-addf-77f4167d16aa' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='8362bbee-584f-4998-b00d-fc216cf1f876' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='503e15b3-525f-447a-bef0-5fa4364a4ab6' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='17b99d24-066b-47d1-86a8-07da723a3693' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='279bb5e2-87cd-4c30-8a97-0a79192c5427' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='e4f8499f-4933-4a9f-869c-214307ea36cd' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='69a4e908-f311-479f-af18-f241b9048e9c' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='7551f853-7c5b-4004-96d6-9d255d46181f' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d8bf5426-e2e5-4841-9b28-c1e5ef1e4e51' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='e2779759-7f5e-4e3e-a5aa-7964bc34863b' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='b359c0fe-33d8-407a-8386-2c93aba9f22c' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='06a54db7-b505-4964-ae95-aeb9a3def171' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d68ba487-86da-4586-9558-583d45ab80d4' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='b8c98659-7c43-46af-ab51-2b21bd29ba10' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='454cd5b2-9f7e-4a6a-8091-408a9826ea8d' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
   </defs>
   <desc>ClassDiagram</desc>
   <g transform='translate(140.0,25.0)' id='__MAKsf2TEDezV42YJegBKA'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='100.0px' y='0.0' stroke-width='1.0' fill='url(#e8241507-e93f-43d9-ae9e-be69e5596c32)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='100.0px' y='0.0' stroke-width='1.0' fill='url(#850e4eb6-3c3f-43ac-b7e5-653dfac014ea)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='50.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>MOF::Element</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='100.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
@@ -88,44 +88,44 @@
     </g>
   </g>
   <g transform='translate(20.0,145.0)' id='_g2UZ8P14EDefrLh8FmUTww'>
-    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#12671aa8-63ab-4c83-99f5-25478ffe330e)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
-    <rect x='0.0' width='820.0px' y='38.0' stroke-width='1.0' fill='url(#12671aa8-63ab-4c83-99f5-25478ffe330e)' stroke='rgb(194, 183, 159)' look='allInOne' height='442.0px'/>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#84980dea-fcd1-4737-b85e-37391f919fdb)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='820.0px' y='38.0' stroke-width='1.0' fill='url(#84980dea-fcd1-4737-b85e-37391f919fdb)' stroke='rgb(194, 183, 159)' look='allInOne' height='442.0px'/>
     <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Artifact</text>
     <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
   </g>
   <g transform='translate(639.0,218.0)' id='_lVt9cf14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='60.0px' y='0.0' stroke-width='1.0' fill='url(#661ed83b-f911-4c37-b9bb-ff383faa297b)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='60.0px' y='0.0' stroke-width='1.0' fill='url(#aa24dcb5-fbdf-4648-b995-ac3d6552b276)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='30.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Hash</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='60.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(720.0,237.0)' id='_mxYqMv14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='110.0px' y='0.0' stroke-width='1.0' fill='url(#b56bc98b-c820-476d-929b-2eba33607aea)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='110.0px' y='0.0' stroke-width='1.0' fill='url(#af769f76-267f-4c4f-a22a-37faba7d935c)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
     <text font-weight='bold' text-anchor='middle' x='55.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='55.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>HashType</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='110.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(259.0,218.0)' id='_oUpzwf14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='63.0px' y='0.0' stroke-width='1.0' fill='url(#699a8dcb-690d-426b-b7d7-55010f4ddc7a)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='63.0px' y='0.0' stroke-width='1.0' fill='url(#d16892ab-9bdb-4558-80f6-8d11ba34ca1d)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='31.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='63.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(174.0,367.0)' id='_pZiYM_14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='76.0px' y='0.0' stroke-width='1.0' fill='url(#eb1f9fe5-0482-4e54-b2d9-9eabb01b64d8)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='76.0px' y='0.0' stroke-width='1.0' fill='url(#2dc924ab-0d27-41f5-addf-77f4167d16aa)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='38.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Document</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='76.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(248.0,512.0)' id='_s3AkpP14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='84.0px' y='0.0' stroke-width='1.0' fill='url(#8362bbee-584f-4998-b00d-fc216cf1f876)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='84.0px' y='0.0' stroke-width='1.0' fill='url(#503e15b3-525f-447a-bef0-5fa4364a4ab6)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='42.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Artifact</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='84.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(531.0,512.0)' id='_t0Q3Ev14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='155.0px' y='0.0' stroke-width='1.0' fill='url(#17b99d24-066b-47d1-86a8-07da723a3693)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='155.0px' y='0.0' stroke-width='1.0' fill='url(#279bb5e2-87cd-4c30-8a97-0a79192c5427)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='77.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>ReferencedArtifact</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='155.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(571.0,416.0)' id='_xi7hMP14EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='114.0px' y='0.0' stroke-width='1.0' fill='url(#e4f8499f-4933-4a9f-869c-214307ea36cd)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='114.0px' y='0.0' stroke-width='1.0' fill='url(#69a4e908-f311-479f-af18-f241b9048e9c)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
     <text font-weight='bold' text-anchor='middle' x='57.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='57.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>ArtifactType</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='114.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
@@ -142,7 +142,7 @@
       <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>associations from</text>
       <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>Annotation,</text>
       <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='70.0' font-size='13' fill='rgb(45, 45, 45)'>Relationship,</text>
-      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='83.0' font-size='13' fill='rgb(45, 45, 45)'>Pedigree, ...</text>
+      <text clip-path='url(#clip_0fp8wP2TEDezV42YJegBKA)' x='5.0' y='83.0' font-size='13' fill='rgb(45, 45, 45)'>Activities, ...</text>
     </g>
   </g>
   <g transform='translate(550.0,320.0)' id='_JFDokf2WEDezV42YJegBKA'>
@@ -175,23 +175,23 @@
     </g>
   </g>
   <g transform='translate(30.0,364.0)' id='_ZWy6cP3SEDezV42YJegBKA'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='125.0px' y='0.0' stroke-width='1.0' fill='url(#7551f853-7c5b-4004-96d6-9d255d46181f)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='125.0px' y='0.0' stroke-width='1.0' fill='url(#d8bf5426-e2e5-4841-9b28-c1e5ef1e4e51)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
     <text font-weight='bold' text-anchor='middle' x='62.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='62.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>PopulationMethod</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='125.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(382.0,367.0)' id='_XSYKMP5XEDezV42YJegBKA'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='114.0px' y='0.0' stroke-width='1.0' fill='url(#e2779759-7f5e-4e3e-a5aa-7964bc34863b)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='114.0px' y='0.0' stroke-width='1.0' fill='url(#b359c0fe-33d8-407a-8386-2c93aba9f22c)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='57.0' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractArtifact</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='114.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(351.0,218.0)' id='_3mtoEP62EDePI9aEYx6b9g'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='72.0px' y='0.0' stroke-width='1.0' fill='url(#06a54db7-b505-4964-ae95-aeb9a3def171)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='72.0px' y='0.0' stroke-width='1.0' fill='url(#d68ba487-86da-4586-9558-583d45ab80d4)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='36.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Signature</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='72.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(439.0,226.0)' id='_rguwoP9ZEDe0yvmPSmQZ8w'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='183.0px' y='0.0' stroke-width='1.0' fill='url(#b8c98659-7c43-46af-ab51-2b21bd29ba10)' stroke='rgb(187, 187, 187)' look='allInOne' height='64.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='183.0px' y='0.0' stroke-width='1.0' fill='url(#454cd5b2-9f7e-4a6a-8091-408a9826ea8d)' stroke='rgb(187, 187, 187)' look='allInOne' height='64.0px'/>
     <text font-weight='bold' text-anchor='middle' x='91.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='91.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>SignatureMethod</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='183.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>

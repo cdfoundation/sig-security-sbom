@@ -2,43 +2,43 @@
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='90 50 849 569' xmlns:xlink='http://www.w3.org/1999/xlink' width='849.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='569.0px'>
   <defs>
-<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='df604a14-8315-47e0-9791-c514589fbc14' spreadMethod='pad'>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='85f7d371-7e94-4d07-87c6-48ffdda8565b' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='601091e5-edf6-4d64-bc82-ab6a9065441a' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='09228e17-b6c2-4e7f-8099-b2955099562e' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='ec885f4b-4601-462b-a67c-5a6c603cfcef' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='874f5fe3-a85b-4108-b625-9b81cc22b4c6' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='84602c01-e03c-4755-ab26-fa71b16e178f' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='65cb8853-5737-4716-a6ce-51318465aa22' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
   </defs>
   <desc>ClassDiagram</desc>
   <g transform='translate(231.0,509.0)' id='_MCtrUv18EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='328.0px' y='0.0' stroke-width='1.0' fill='url(#df604a14-8315-47e0-9791-c514589fbc14)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='328.0px' y='0.0' stroke-width='1.0' fill='url(#85f7d371-7e94-4d07-87c6-48ffdda8565b)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='164.0' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
     <text text-anchor='middle' x='164.0' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='328.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(120.0,80.0)' id='_HxiKAf18EDefrLh8FmUTww'>
-    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#601091e5-edf6-4d64-bc82-ab6a9065441a)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
-    <rect x='0.0' width='789.0px' y='38.0' stroke-width='1.0' fill='url(#601091e5-edf6-4d64-bc82-ab6a9065441a)' stroke='rgb(194, 183, 159)' look='allInOne' height='312.0px'/>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#09228e17-b6c2-4e7f-8099-b2955099562e)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='789.0px' y='38.0' stroke-width='1.0' fill='url(#09228e17-b6c2-4e7f-8099-b2955099562e)' stroke='rgb(194, 183, 159)' look='allInOne' height='312.0px'/>
     <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Relationship</text>
     <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
   </g>
   <g transform='translate(255.0,215.0)' id='_Inm2YP18EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='260.0px' y='0.0' stroke-width='1.0' fill='url(#ec885f4b-4601-462b-a67c-5a6c603cfcef)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='260.0px' y='0.0' stroke-width='1.0' fill='url(#874f5fe3-a85b-4108-b625-9b81cc22b4c6)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='130.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Relationship</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='260.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(325.0,150.0)' id='_JDaBkP18EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='120.0px' y='0.0' stroke-width='1.0' fill='url(#84602c01-e03c-4755-ab26-fa71b16e178f)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='120.0px' y='0.0' stroke-width='1.0' fill='url(#65cb8853-5737-4716-a6ce-51318465aa22)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
     <text font-weight='bold' text-anchor='middle' x='60.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='60.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>RelationshipType</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='120.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>

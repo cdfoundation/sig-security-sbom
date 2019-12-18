@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/relationship" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Relationship Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="RelationshipType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="relationshipType_contains"/>
+      <xs:enumeration value="relationshipType_containedBy"/>
+      <xs:enumeration value="relationshipType_descendantOf"/>
+      <xs:enumeration value="relationshipType_ancestorOf"/>
+      <xs:enumeration value="relationshipType_variantOf"/>
+      <xs:enumeration value="relationshipType_copyOf"/>
+      <xs:enumeration value="relationshipType_patchFor"/>
+      <xs:enumeration value="relationshipType_patchApplied"/>
+      <xs:enumeration value="relationshipType_dynamicLink"/>
+      <xs:enumeration value="relationshipType_staticLink"/>
+      <xs:enumeration value="relationshipType_hasPrerequisite"/>
+      <xs:enumeration value="relationshipType_prerequisiteFor"/>
+      <xs:enumeration value="relationshipType_testCaseOf"/>
+      <xs:enumeration value="relationshipType_buildToolOf"/>
+      <xs:enumeration value="relationshipType_testToolOf"/>
+      <xs:enumeration value="relationshipType_devToolOf"/>
+      <xs:enumeration value="relationshipType_dataFile"/>
+      <xs:enumeration value="relationshipType_metaFileOf"/>
+      <xs:enumeration value="relationshipType_generatedFrom"/>
+      <xs:enumeration value="relationshipType_generates"/>
+      <xs:enumeration value="relationshipType_expendedFromArchive"/>
+      <xs:enumeration value="relationshipType_documentation"/>
+      <xs:enumeration value="relationshipType_optionalComponentOf"/>
+      <xs:enumeration value="relationshipType_packageOf"/>
+      <xs:enumeration value="relationshipType_amendment"/>
+      <xs:enumeration value="relationshipType_fileAdded"/>
+      <xs:enumeration value="relationshipType_fileModified"/>
+      <xs:enumeration value="relationshipType_fileDeleted"/>
+      <xs:enumeration value="relationshipType_comesAfter"/>
+      <xs:enumeration value="relationshipType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Relationship">
+    <xs:sequence>
+      <xs:element name="type" type="relationship:RelationshipType"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="source" type="artifact:Element"/>
+      <xs:element name="target" type="artifact:Element"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

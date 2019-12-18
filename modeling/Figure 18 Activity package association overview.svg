@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='78 46 1010 669' xmlns:xlink='http://www.w3.org/1999/xlink' width='1010.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='669.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='0b459665-759d-463a-a1af-f6057f588b31' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c8e69a1f-494d-4bb5-b411-4655fefeb659' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='deb9bfa4-91f9-4e30-81ff-b106687bfc5c' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='eeb53ecb-02ea-4262-b487-77e92efbad7e' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='f7d6b4fe-4a06-48f7-8a82-c344d7de724a' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='a22a6df9-0f21-4c38-8d0b-4cdd169e1114' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='a0782a71-2016-4431-bf9e-860294bced4e' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(273.0,76.0)' id='_QO6zwf2BEDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='560.0px' y='0.0' stroke-width='1.0' fill='url(#0b459665-759d-463a-a1af-f6057f588b31)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='280.0' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
+    <text text-anchor='middle' x='280.0' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='560.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(108.0,197.0)' id='_Qy7fwP2BEDefrLh8FmUTww'>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#c8e69a1f-494d-4bb5-b411-4655fefeb659)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='950.0px' y='38.0' stroke-width='1.0' fill='url(#c8e69a1f-494d-4bb5-b411-4655fefeb659)' stroke='rgb(194, 183, 159)' look='allInOne' height='450.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Activity</text>
+    <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
+  </g>
+  <g transform='translate(143.0,257.0)' id='_SZbjgf2BEDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='110.0px' y='0.0' stroke-width='1.0' fill='url(#deb9bfa4-91f9-4e30-81ff-b106687bfc5c)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='55.0' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='55.0' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>CreationType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='110.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(303.0,389.0)' id='_Sut3Av2BEDefrLh8FmUTww'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='562.0px' y='0.0' stroke-width='1.0' fill='url(#eeb53ecb-02ea-4262-b487-77e92efbad7e)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='281.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Activity</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='562.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(123.0,389.0)' id='_gdgOUf2ZEDezV42YJegBKA'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,140.0 150.0,140.0 150.0,15.0 135.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='135.0,1.0 135.0,15.0 149.0,15.0'/>
+    <clipPath id='clip_gdgOUf2ZEDezV42YJegBKA'>
+      <rect x='5.0' width='125.0px' y='5.0' height='130.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Artifact associations</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>to support</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>consumption,</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>production, use of </text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='70.0' font-size='13' fill='rgb(45, 45, 45)'>Document,</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='83.0' font-size='13' fill='rgb(45, 45, 45)'>Component, File,</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='96.0' font-size='13' fill='rgb(45, 45, 45)'>Snippet, Event,</text>
+      <text clip-path='url(#clip_gdgOUf2ZEDezV42YJegBKA)' x='5.0' y='109.0' font-size='13' fill='rgb(45, 45, 45)'>License, ...</text>
+    </g>
+  </g>
+  <g transform='translate(896.0,245.0)' id='_3ToxIf5gEDe77dt-8PPK-w'>
+    <polygon stroke-width='0.5' fill='rgb(255, 255, 255)' stroke='rgb(107, 107, 107)' look='allInOne' points='0.0,0.0 0.0,190.0 140.0,190.0 140.0,15.0 125.0,0.0'/>
+    <polygon stroke-width='1.0' fill='rgb(107, 107, 107)' look='border' stroke='rgb(107, 107, 107)' points='125.0,1.0 125.0,15.0 139.0,15.0'/>
+    <clipPath id='clip_3ToxIf5gEDe77dt-8PPK-w'>
+      <rect x='5.0' width='115.0px' y='5.0' height='180.0px'/>
+    </clipPath>
+    <g transform='translate(0.0,0.0)'>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='18.0' font-size='13' fill='rgb(45, 45, 45)'>Association names</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='31.0' font-size='13' fill='rgb(45, 45, 45)'>will support inline</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='44.0' font-size='13' fill='rgb(45, 45, 45)'>serializaction (for</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='57.0' font-size='13' fill='rgb(45, 45, 45)'>compactness and</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='70.0' font-size='13' fill='rgb(45, 45, 45)'>human</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='83.0' font-size='13' fill='rgb(45, 45, 45)'>-friendlyness)</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='96.0' font-size='13' fill='rgb(45, 45, 45)'>Flow of activities</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='109.0' font-size='13' fill='rgb(45, 45, 45)'>are supported by</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='122.0' font-size='13' fill='rgb(45, 45, 45)'>the flow of</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='135.0' font-size='13' fill='rgb(45, 45, 45)'>materials and</text>
+      <text clip-path='url(#clip_3ToxIf5gEDe77dt-8PPK-w)' x='5.0' y='148.0' font-size='13' fill='rgb(45, 45, 45)'>products.</text>
+    </g>
+  </g>
+  <g transform='translate(391.0,595.0)' id='_J6fbIgLNEDii0MrxtnPC1g'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='91.0px' y='0.0' stroke-width='1.0' fill='url(#f7d6b4fe-4a06-48f7-8a82-c344d7de724a)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='45.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Environment</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='91.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(615.0,595.0)' id='_Mh0CsgLNEDii0MrxtnPC1g'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='60.0px' y='0.0' stroke-width='1.0' fill='url(#a22a6df9-0f21-4c38-8d0b-4cdd169e1114)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='30.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Run</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='60.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(139.0,319.0)' id='_NGRc8QPFEDi4Qpt7hqXe-g'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='119.0px' y='0.0' stroke-width='1.0' fill='url(#a0782a71-2016-4431-bf9e-860294bced4e)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='59.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='59.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>AssessmentType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='119.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <text text-anchor='middle' x='384.0' y='384.0' fill='rgb(0, 0, 0)'>inputOfBuilds</text>
+  <text text-anchor='middle' x='306.0' y='172.0' fill='rgb(0, 0, 0)'>materials</text>
+  <text text-anchor='middle' x='327.0' y='384.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='346.0' y='172.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='447.0' y='172.0' fill='rgb(0, 0, 0)'>products</text>
+  <text text-anchor='middle' x='525.0' y='384.0' fill='rgb(0, 0, 0)'>targetOfBuilds</text>
+  <text text-anchor='middle' x='491.0' y='172.0' fill='rgb(0, 0, 0)'>1..*</text>
+  <text text-anchor='middle' x='465.0' y='384.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='569.0' y='172.0' fill='rgb(0, 0, 0)'>byProducts</text>
+  <text text-anchor='middle' x='658.0' y='384.0' fill='rgb(0, 0, 0)'>meanOfBuilds</text>
+  <text text-anchor='middle' x='618.0' y='172.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='599.0' y='384.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='361.0' y='485.0' fill='rgb(0, 0, 0)'>environmentOfActivities</text>
+  <text text-anchor='middle' x='479.0' y='590.0' fill='rgb(0, 0, 0)'>environment</text>
+  <text text-anchor='middle' x='447.0' y='485.0' fill='rgb(0, 0, 0)'>1</text>
+  <text text-anchor='middle' x='427.0' y='590.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='593.0' y='485.0' fill='rgb(0, 0, 0)'>runsOfActivities</text>
+  <text text-anchor='middle' x='665.0' y='590.0' fill='rgb(0, 0, 0)'>runs</text>
+  <text text-anchor='middle' x='660.0' y='494.0' fill='rgb(0, 0, 0)'>1</text>
+  <text text-anchor='middle' x='636.0' y='590.0' fill='rgb(0, 0, 0)'>*</text>
+  <g id='_52ZSkv2AEDefrLh8FmUTww'>
+    <line y1='389.0' x1='785.0' y2='272.0' x2='785.0' id='_SuxhY_2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_52ZSkv2AEDefrLh8FmUTww'>
+    <line y1='272.0' x1='785.0' y2='273.0' x2='785.0' id='_SuxhZv2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_52ZSkv2AEDefrLh8FmUTww'>
+    <line y1='273.0' x1='785.0' y2='156.0' x2='785.0' id='_SuxhZ_2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(785.0,156.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_WBP-wf2BEDefrLh8FmUTww'>
+    <line y1='389.0' x1='336.0' y2='272.0' x2='336.0' id='_WBTpIv2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_WBP-wf2BEDefrLh8FmUTww'>
+    <line y1='272.0' x1='336.0' y2='273.0' x2='336.0' id='_WBTpJf2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_WBP-wf2BEDefrLh8FmUTww'>
+    <line y1='273.0' x1='336.0' y2='156.0' x2='336.0' id='_WBUQMP2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_bpDUxP2BEDefrLh8FmUTww'>
+    <line y1='156.0' x1='474.0' y2='273.0' x2='474.0' id='_bpG_Iv2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_bpDUxP2BEDefrLh8FmUTww'>
+    <line y1='273.0' x1='474.0' y2='272.0' x2='474.0' id='_bpG_Jf2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_bpDUxP2BEDefrLh8FmUTww'>
+    <line y1='272.0' x1='474.0' y2='389.0' x2='474.0' id='_bpG_Jv2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_o_BQVf2BEDefrLh8FmUTww'>
+    <line y1='156.0' x1='608.0' y2='273.0' x2='608.0' id='_o_GI0v2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_o_BQVf2BEDefrLh8FmUTww'>
+    <line y1='273.0' x1='608.0' y2='272.0' x2='608.0' id='_o_GI1f2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_o_BQVf2BEDefrLh8FmUTww'>
+    <line y1='272.0' x1='608.0' y2='389.0' x2='608.0' id='_o_GI1v2BEDefrLh8FmUTww' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <line y1='450.0' x1='303.0' y2='453.0' x2='273.0' stroke-dasharray='1, 2' id='_lg_WU_2ZEDezV42YJegBKA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='372.0' x1='706.0' y2='348.0' x2='896.0' stroke-dasharray='1, 2' id='_82NB0_5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='374.0' x1='573.0' y2='346.0' x2='896.0' stroke-dasharray='1, 2' id='_9iVvEv5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <line y1='375.0' x1='429.0' y2='344.0' x2='896.0' stroke-dasharray='1, 2' id='_-Jnxgv5gEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  <g id='_O-ECtQLNEDii0MrxtnPC1g'>
+    <line y1='469.0' x1='436.0' y2='532.0' x2='436.0' id='_O-IUIgLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(436.0,469.0) rotate(-0.0)' stroke-width='1.0' stroke='rgb(0, 0, 0)' points='-4.0,8.0 0.0,0.0 4.0,8.0 0.0,16.0'/>
+  </g>
+  <g id='_O-ECtQLNEDii0MrxtnPC1g'>
+    <line y1='532.0' x1='436.0' y2='532.0' x2='436.0' id='_O-I7MQLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_O-ECtQLNEDii0MrxtnPC1g'>
+    <line y1='532.0' x1='436.0' y2='595.0' x2='436.0' id='_O-I7MgLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_qbtDkQLNEDii0MrxtnPC1g'>
+    <line y1='469.0' x1='645.0' y2='532.0' x2='645.0' id='_qbwt8gLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(645.0,469.0) rotate(-0.0)' stroke-width='1.0' stroke='rgb(0, 0, 0)' points='-4.0,8.0 0.0,0.0 4.0,8.0 0.0,16.0'/>
+  </g>
+  <g id='_qbtDkQLNEDii0MrxtnPC1g'>
+    <line y1='532.0' x1='645.0' y2='532.0' x2='645.0' id='_qbwt9QLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_qbtDkQLNEDii0MrxtnPC1g'>
+    <line y1='532.0' x1='645.0' y2='595.0' x2='645.0' id='_qbwt9gLNEDii0MrxtnPC1g' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+</svg>

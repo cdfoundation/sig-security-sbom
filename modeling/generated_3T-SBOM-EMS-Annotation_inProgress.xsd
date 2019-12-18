@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/annotation" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Annotation Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="AnnotationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="annotationType_comment"/>
+      <xs:enumeration value="annotationType_topic"/>
+      <xs:enumeration value="annotationType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="AbstractAnnotation">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="type" type="annotation:AnnotationType"/>
+          <xs:element name="element" type="artifact:Element"/>
+          <xs:element name="author" type="xs:string" minOccurs="0"/>
+          <xs:element name="created" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Annotation">
+    <xs:complexContent>
+      <xs:extension base="annotation:AbstractAnnotation">
+        <xs:sequence>
+          <xs:element name="expression" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ExternalAnnotation">
+    <xs:complexContent>
+      <xs:extension base="annotation:AbstractAnnotation">
+        <xs:sequence>
+          <xs:element name="uri" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

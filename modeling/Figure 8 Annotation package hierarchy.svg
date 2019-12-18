@@ -2,34 +2,34 @@
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='89 36 650 484' xmlns:xlink='http://www.w3.org/1999/xlink' width='650.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='484.0px'>
   <defs>
-<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d41206b6-43fc-430f-80fe-7159e9ce3bd8' spreadMethod='pad'>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='55eca5b0-f2ad-4565-a7cb-a409b99f3858' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='bab34dd8-085e-43e6-9863-48b480820715' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='96d73220-df08-47b0-b31c-9b619425d75e' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='e6324237-dbd7-4fb9-96f1-d4a90a00a588' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='5fc0d727-8323-47c5-b160-3924c1d04a0d' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='1f84a677-71f6-4b17-a5f9-86f91c1cc39e' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='187f6e0b-11be-48d3-aa8c-dd2e4f214c2d' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='3e545273-95df-412c-972a-49d09c40fda4' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='05fde2a8-4b92-4033-b679-6b5e232da3fd' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
-    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='e2eb7ae0-b990-4de1-862c-fe2326286200' spreadMethod='pad'>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='69233fd6-e3d8-410e-87fc-d4c6019a6bbd' spreadMethod='pad'>
       <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
       <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
     </linearGradient>
   </defs>
   <desc>ClassDiagram</desc>
   <g transform='translate(304.0,66.0)' id='_F0V7MP2VEDezV42YJegBKA'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='100.0px' y='0.0' stroke-width='1.0' fill='url(#d41206b6-43fc-430f-80fe-7159e9ce3bd8)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='100.0px' y='0.0' stroke-width='1.0' fill='url(#55eca5b0-f2ad-4565-a7cb-a409b99f3858)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='50.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>MOF::Element</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='100.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
@@ -48,29 +48,29 @@
     </g>
   </g>
   <g transform='translate(119.0,188.0)' id='_u7TI4v1-EDefrLh8FmUTww'>
-    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#bab34dd8-085e-43e6-9863-48b480820715)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
-    <rect x='0.0' width='590.0px' y='38.0' stroke-width='1.0' fill='url(#bab34dd8-085e-43e6-9863-48b480820715)' stroke='rgb(194, 183, 159)' look='allInOne' height='264.0px'/>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#96d73220-df08-47b0-b31c-9b619425d75e)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='590.0px' y='38.0' stroke-width='1.0' fill='url(#96d73220-df08-47b0-b31c-9b619425d75e)' stroke='rgb(194, 183, 159)' look='allInOne' height='264.0px'/>
     <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Annotation</text>
     <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
   </g>
   <g transform='translate(287.0,260.0)' id='_wYwlYP1-EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='133.0px' y='0.0' stroke-width='1.0' fill='url(#e6324237-dbd7-4fb9-96f1-d4a90a00a588)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='133.0px' y='0.0' stroke-width='1.0' fill='url(#5fc0d727-8323-47c5-b160-3924c1d04a0d)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='66.5' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>AbstractAnnotation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='133.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(519.0,279.0)' id='_yNeEQP1-EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='111.0px' y='0.0' stroke-width='1.0' fill='url(#1f84a677-71f6-4b17-a5f9-86f91c1cc39e)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='111.0px' y='0.0' stroke-width='1.0' fill='url(#187f6e0b-11be-48d3-aa8c-dd2e4f214c2d)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
     <text font-weight='bold' text-anchor='middle' x='55.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
     <text font-weight='bold' text-anchor='middle' x='55.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>AnnotationType</text>
     <line y1='42.0' x1='0.0' y2='42.0' x2='111.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(138.0,378.0)' id='_zirjsP1-EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='81.0px' y='0.0' stroke-width='1.0' fill='url(#3e545273-95df-412c-972a-49d09c40fda4)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='81.0px' y='0.0' stroke-width='1.0' fill='url(#05fde2a8-4b92-4033-b679-6b5e232da3fd)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='40.5' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Annotation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='81.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>
   <g transform='translate(426.0,378.0)' id='_1148cf1-EDefrLh8FmUTww'>
-    <rect rx='3.0' ry='3.0' x='0.0' width='132.0px' y='0.0' stroke-width='1.0' fill='url(#e2eb7ae0-b990-4de1-862c-fe2326286200)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <rect rx='3.0' ry='3.0' x='0.0' width='132.0px' y='0.0' stroke-width='1.0' fill='url(#69233fd6-e3d8-410e-87fc-d4c6019a6bbd)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
     <text font-weight='bold' text-anchor='middle' x='66.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>ExternalAnnotation</text>
     <line y1='26.0' x1='0.0' y2='26.0' x2='132.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
   </g>

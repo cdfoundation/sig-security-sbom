@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/artifact" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Artifact Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="HashType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="hashType_sha1"/>
+      <xs:enumeration value="hashType_sha256"/>
+      <xs:enumeration value="hashType_sha512"/>
+      <xs:enumeration value="hashType_md5"/>
+      <xs:enumeration value="hashType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SignatureMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="signatureMethod_RSASSA-PSS"/>
+      <xs:enumeration value="signatureMethod_ed25519"/>
+      <xs:enumeration value="signatureMethod_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ArtifactType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="artifactType_file"/>
+      <xs:enumeration value="artifactType_framework"/>
+      <xs:enumeration value="artifactType_library"/>
+      <xs:enumeration value="artifactType_application"/>
+      <xs:enumeration value="artifactType_operatingSystem"/>
+      <xs:enumeration value="artifactType_hardwareDevice"/>
+      <xs:enumeration value="artifactType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="PopulationMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="populationMethod_declaration"/>
+      <xs:enumeration value="populationMethod_automated"/>
+      <xs:enumeration value="populationMethod_investigation"/>
+      <xs:enumeration value="populationMethod_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Element">
+    <xs:sequence>
+      <xs:element name="hashes" type="artifact:Hash" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Document">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element name="identifier" type="xs:string"/>
+          <xs:element name="namespace" type="xs:string"/>
+          <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+          <xs:element name="specVersion" type="xs:string"/>
+          <xs:element name="created" type="xs:dateTime"/>
+          <xs:element name="populationMethod" type="artifact:PopulationMethod"/>
+          <xs:element name="artifacts" type="artifact:Artifact" maxOccurs="unbounded"/>
+          <xs:element name="referencedArtifacts" type="artifact:ReferencedArtifact" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AbstractArtifact">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element name="version" type="xs:string"/>
+          <xs:element name="license" type="xs:string" minOccurs="0"/>
+          <xs:element name="identifier" type="xs:string"/>
+          <xs:element name="namespace" type="xs:string"/>
+          <xs:element name="supplier" type="xs:string" minOccurs="0"/>
+          <xs:element name="type" type="artifact:ArtifactType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Artifact">
+    <xs:complexContent>
+      <xs:extension base="artifact:AbstractArtifact">
+        <xs:sequence>
+          <xs:element name="summary" type="xs:string" minOccurs="0"/>
+          <xs:element name="description" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ReferencedArtifact">
+    <xs:complexContent>
+      <xs:extension base="artifact:AbstractArtifact">
+        <xs:sequence>
+          <xs:element name="referenceDocument" type="artifact:Document" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Hash">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string"/>
+      <xs:element name="type" type="artifact:HashType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Signature">
+    <xs:sequence>
+      <xs:element name="keyId" type="xs:string"/>
+      <xs:element name="method" type="artifact:SignatureMethod"/>
+      <xs:element name="value" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
