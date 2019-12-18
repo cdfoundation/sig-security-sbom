@@ -169,10 +169,10 @@
   },
   {
     "name": "HashType",
-    "literal": "hashType_sha256",
+    "literal": "hashType_sha512",
     "description": "if the algorithm is SHA-512.",
     "package": "Artifact",
-    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_sha256"
+    "id": "3T-SBOM-EMS-Artifact-HashType-hashType_sha512"
   },
   {
     "name": "HashType",
@@ -441,46 +441,53 @@
     "id": "3T-SBOM-EMS-Annotation-AnnotationType-annotationType_other"
   },
   {
-    "name": "BuildType",
-    "literal": "buildType_commit",
+    "name": "CreationType",
+    "literal": "creationType_commit",
     "description": "in case of commit activity.",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-BuildType_buildType_commit"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-CreationType_creationType_commit"
   },
   {
-    "name": "BuildType",
-    "literal": "buildType_compile",
+    "name": "CreationType",
+    "literal": "creationType_compile",
     "description": "in case of compile activity.",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-BuildType_buildType_compile"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-CreationType_creationType_compile"
   },
   {
-    "name": "BuildType",
-    "literal": "buildType_link",
+    "name": "CreationType",
+    "literal": "creationType_build",
     "description": "in case of link activity.",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-BuildType_buildType_link"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-CreationType_creationType_build"
   },
   {
-    "name": "BuildType",
-    "literal": "buildType_other",
+    "name": "CreationType",
+    "literal": "creationType_other",
     "description": "if the build type doesn't fit into the above categories.",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-BuildType_buildType_other"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-CreationType_creationType_other"
+  },
+  {
+    "name": "AssessmentType",
+    "literal": "assessmentType_codeReview",
+    "description": "in case of code review.",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-AssessmentType-assessmentType_codeReview"
   },
   {
     "name": "AssessmentType",
     "literal": "assessmentType_vulnerability",
     "description": "in case of vulnerability scan.",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-AssessmentType-assessmentType_other"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other"
   },
   {
     "name": "AssessmentType",
     "literal": "assessmentType_other",
     "description": "if the assessment type doesn't fit into the above categories.",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-AssessmentType-assessmentType_other"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-AssessmentType-assessmentType_other"
   },
   {
     "name": "LicenseInformationType",

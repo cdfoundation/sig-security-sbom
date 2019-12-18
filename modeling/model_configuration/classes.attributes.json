@@ -224,7 +224,7 @@
     "name": "referenceDocument",
     "description": "Reference to documents that detail the referenced artifact.",
     "type": "3T-SBOM-EMS-Artifact-Document",
-    "multiplicity": "0..*",
+    "multiplicity": "*",
     "package": "Artifact",
     "id": "3T-SBOM-EMS-Artifact-ReferencedArtifact-referenceDocument"
   },
@@ -420,103 +420,124 @@
   },
 
   {
-    "class": "Build",
-    "name": "expression",
-    "description": "Action expression.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "class": "Activity",
+    "name": "command",
+    "description": "Activity command line, with its arguments and parameters.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-Build-expression"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-command"
   },
   {
-    "class": "Build",
-    "name": "actor",
-    "description": "The element capturing the person, organization, system performing the action.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
-    "multiplicity": "1",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-Build-actor"
-  },
-  {
-    "class": "Build",
+    "class": "Activity",
     "name": "products",
     "description": "The element(s) capturing the element(s) output of the action.",
     "type": "3T-SBOM-EMS-Artifact-Element",
     "multiplicity": "1..*",
     "aggregation": "shared",
-    "reverseName": "productOfBuilds",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-Build-products"
+    "reverseName": "productOfActivities",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-products"
   },
   {
-    "class": "Build",
+    "class": "Activity",
     "name": "materials",
     "description": "The element(s) capturing the artifact(s) input of the action.",
     "type": "3T-SBOM-EMS-Artifact-Element",
     "multiplicity": "*",
     "aggregation": "shared",
-    "reverseName": "materialOfBuilds",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-Build-materials"
+    "reverseName": "materialOfActivities",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-materials"
   },
   {
-    "class": "Build",
+    "class": "Activity",
+    "name": "byProducts",
+    "description": "The element(s) capturing the artifact(s) by-products of the action.",
+    "type": "3T-SBOM-EMS-Artifact-Element",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "reverseName": "byProductsOfActivities",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-byProducts"
+  },
+  {
+    "class": "Activity",
+    "name": "environment",
+    "description": "The element(s) capturing the environment of the action, such as environment variables, tool description, ...",
+    "type": "3T-SBOM-EMS-Activity-Environment",
+    "multiplicity": "*",
+    "aggregation": "composite",
+    "reverseName": "environmentOfActivities",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-environment"
+  },
+  {
+    "class": "Activity",
+    "name": "runs",
+    "description": "The element(s) capturing the execution(s) of the action.",
+    "type": "3T-SBOM-EMS-Activity-Run",
+    "multiplicity": "*",
+    "aggregation": "composite",
+    "reverseName": "runsOfActivities",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Activity-runs"
+  },
+  {
+    "class": "Environment",
+    "name": "key",
+    "description": "The key part of key-value capture of the activity environment.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Environment-key"
+  },
+  {
+    "class": "Environment",
+    "name": "value",
+    "description": "The value part of key-value capture of the activity environment.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Environment-value"
+  },
+  {
+    "class": "Run",
+    "name": "actor",
+    "description": "The element capturing the person, organization, system performing the action.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Run-actor"
+  },
+  {
+    "class": "Run",
     "name": "created",
-    "description": "Action date time stamp",
+    "description": "Run date time stamp",
     "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
     "multiplicity": "1",
-    "package": "Build",
-    "id": "3T-SBOM-EMS-Build-Build-created"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Run-created"
   },
 
  {
     "class": "Assessment",
-    "name": "expression",
-    "description": "Action expression.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "name": "type",
+    "description": "Assessment type.",
+    "type": "3T-SBOM-EMS-Activity-AssessmentType",
     "multiplicity": "1",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-Assessment-expression"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Assessment-type"
   },
-  {
-    "class": "Assessment",
-    "name": "actor",
-    "description": "The element capturing the person, organization, system performing the action.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+
+ {
+    "class": "Creation",
+    "name": "type",
+    "description": "Creation type.",
+    "type": "3T-SBOM-EMS-Activity-CreationType",
     "multiplicity": "1",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-Assessment-actor"
-  },
-  {
-    "class": "Assessment",
-    "name": "products",
-    "description": "The element(s) capturing the element(s) output of the action.",
-    "type": "3T-SBOM-EMS-Artifact-Element",
-    "multiplicity": "1..*",
-    "aggregation": "shared",
-    "reverseName": "productOfAssessments",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-Assessment-products"
-  },
-  {
-    "class": "Assessment",
-    "name": "materials",
-    "description": "The element(s) capturing the artifact(s) input of the action.",
-    "type": "3T-SBOM-EMS-Artifact-Element",
-    "multiplicity": "*",
-    "aggregation": "shared",
-    "reverseName": "materialOfAssessments",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-Assessment-materials"
-  },
-  {
-    "class": "Assessment",
-    "name": "created",
-    "description": "Action date time stamp",
-    "type": "https://www.w3.org/TR/xmlschema11-2/#dateTime",
-    "multiplicity": "1",
-    "package": "Assurance",
-    "id": "3T-SBOM-EMS-Assurance-Assessment-created"
+    "package": "Activity",
+    "id": "3T-SBOM-EMS-Activity-Creation-type"
   },
 
   {
@@ -543,7 +564,7 @@
     "class": "CopyrightInformation",
     "name": "expression",
     "description": "Copyright expression.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-CopyrightInformation-expression"
@@ -552,7 +573,7 @@
     "class": "LicenseInformation",
     "name": "expression",
     "description": "License expression.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-LicenseInformation-expression"
@@ -580,7 +601,7 @@
     "class": "LicenseReference",
     "name": "identifier",
     "description": "License reference identification, unique only within the document.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-LicenseReference-identifier"
@@ -589,7 +610,7 @@
     "class": "LicenseReference",
     "name": "name",
     "description": "License reference name.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-LicenseReference-name"
@@ -598,7 +619,7 @@
     "class": "LicenseReference",
     "name": "expression",
     "description": "License reference extracted text.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "1",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-LicenseReference-expression"
@@ -607,7 +628,7 @@
     "class": "LicenseReference",
     "name": "urls",
     "description": "License reference pointers to the official source of the non-standard license.",
-    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Sting",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
     "multiplicity": "*",
     "package": "Licensing",
     "id": "3T-SBOM-EMS-Licensing-LicenseReference-name"

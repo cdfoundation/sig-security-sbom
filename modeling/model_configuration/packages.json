@@ -25,14 +25,9 @@
     "description": "The 3T-SBOM-EMS Licensing package defines classes for handling more detailed pieces of information about licensing and copyright. All 3T-SBOM-EMS IP protection compliant tooling, repository, or efforts must support the Licensing package."
   },
   {
-    "id": "3T-SBOM-EMS-Build",
-    "name": "Build",
-    "description": "The 3T-SBOM-EMS Build package defines classes for handling more information about actions involved in creating the piece of software under consideration in the SBoM document. All 3T-SBOM-EMS Pedigree compliant tooling, repository, or efforts must support the Build package."
-  },
-  {
-    "id": "3T-SBOM-EMS-Assurance",
-    "name": "Assurance",
-    "description": "The 3T-SBOM-EMS Assurance package defines classes for handling more detailed pieces of information about actions involved in ensuring the quality and compliance of the software under consideration in the SBoM document. All 3T-SBOM-EMS Assurance compliant tooling, repository, or efforts must support the Assurance package"
+    "id": "3T-SBOM-EMS-Activity",
+    "name": "Activity",
+    "description": "The 3T-SBOM-EMS Activity package defines classes for handling more information about actions involved in producing and in ensuring the quality and compliance of the software under consideration in the SBoM document. All 3T-SBOM-EMS Assurance and Pedigree compliant tooling, repository, or efforts must support the Activity package"
   }
   
 ]

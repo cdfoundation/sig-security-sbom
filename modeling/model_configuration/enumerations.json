@@ -48,15 +48,15 @@
     "id": "3T-SBOM-EMS-Licensing-LicenseInformationType"
   },
   {
-    "name": "BuildType",
-    "package": "Build",
+    "name": "CreationType",
+    "package": "Activity",
     "description": "enumerated data type defines additional specifications of the type of the build activity.",
-    "id": "3T-SBOM-EMS-Build-BuildType"
+    "id": "3T-SBOM-EMS-Activity-CreationType"
   },
   {
     "name": "AssessmentType",
-    "package": "Assessment",
-    "description": "enumerated data type defines additional specifications of the type of the assessment.",
-    "id": "3T-SBOM-EMS-Assessment-AssessmentType"
+    "package": "Activity",
+    "description": "enumerated data type defines additional specifications of the type of the assessment activity.",
+    "id": "3T-SBOM-EMS-Activity-AssessmentType"
   }
 ]

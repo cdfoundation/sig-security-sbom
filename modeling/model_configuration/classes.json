@@ -163,23 +163,53 @@
     "id": "3T-SBOM-EMS-Licensing-LicenseReference"
   },
   {
-    "name": "Build",
-    "package": "Build",
+    "name": "Activity",
+    "package": "Activity",
     "generalization": "Element",
-    "description": "This class represents action performed during the production process of the piece of software. It is worth noting that:",
+    "description": "This class represents action performed during the production process of the piece of software, to build it or to ensure its quality or compliance. It is worth noting that:",
     "compositionDescription": [
-      "The build elements can be linked together via the relationships, supporting sequences of actions,", 
-      "The build elements can be linked to any other SBoM elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
-    "id": "3T-SBOM-EMS-Build-Build"
+      "The activity elements can be linked together via the relationships, supporting informative sequences of actions,", 
+      "The activity elements can be linked together via the flow of materials and products, supporting detailed sequences of actions,", 
+      "The activity elements can be linked to any other SBoM elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
+    "id": "3T-SBOM-EMS-Activity-Activity"
+  },
+  {
+    "name": "Creation",
+    "package": "Activity",
+    "generalization": "Activity",
+    "description": "This class represents action performed to produce the piece of software, thus transforming the sofwtare.This covers the following activities:",
+    "compositionDescription": [
+      "Commits,",
+      "Compilations,",
+      "Builds,",
+      "..."
+    ],
+    "id": "3T-SBOM-EMS-Activity-Creation"
   },
   {
     "name": "Assessment",
-    "package": "Assurance",
-    "generalization": "Element",
-    "description": "This class represents action performed during or after the production process of the piece of software to ensure its quality or compliance. It is worth noting that:",
+    "package": "Activity",
+    "generalization": "Activity",
+    "description": "This class represents action performed to ensure its quality or compliance, without transforming the software. This covers the following activities:",
     "compositionDescription": [
-      "The assessment elements can be linked together via the relationships, supporting sequences of actions,", 
-      "The assessment elements can be linked to any other SBoM elements used as input or produced as output of the action. Most of the time, these will be file items, but the 3T-SBOM-EMS model supports more advanced behaviors."],
-    "id": "3T-SBOM-EMS-Assurance-Assessment"
+      "Code reviews,",
+      "Vulnerability scans,",
+      "..."
+    ],
+    "id": "3T-SBOM-EMS-Activity-Assessment"
+  },
+  {
+    "name": "Run",
+    "package": "Activity",
+    "description": "This class represents run(s) of action performed during the production process of the piece of software, to build it or to ensure its quality or compliance.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Activity-Run"
+  },
+  {
+    "name": "Environment",
+    "package": "Activity",
+    "description": "This class represents the environment of the action performed during the production process of the piece of software, to build it or to ensure its quality or compliance.",
+    "compositionDescription": {},
+    "id": "3T-SBOM-EMS-Activity-Environment"
   }
 ]

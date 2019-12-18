@@ -21,12 +21,7 @@
     "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Licensing Classes. It begins with an overview of the Licensing Classes metamodel inheritance structure shown in Figure 14 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Licensing Package. An overview of the associations is shown in Figure 15 while Figure 16 displays attribute details as well."
   },
   {
-    "package": "Build",
-    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Build Classes. It begins with an overview of the main Build Classes metamodel inheritance structure shown in Figure 17 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Build Package. An overview of the associations is shown in Figure 18 while Figure 19 displays attribute details as well."
-  },
-  {
-    "package": "Assurance",
-    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Assurance Classes. It begins with an overview of the Assurance Classes metamodel inheritance structure shown in Figure 20 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Assurance Package. An overview of the associations is shown in Figure 21 while Figure 22 displays attribute details as well."
+    "package": "Activity",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Activity Classes. It begins with an overview of the main Activity Classes metamodel inheritance structure shown in Figure 17 followed by a description of each element. The inheritance from the Element class is key as it brings the annotation, relationship, ... capabilities to all inheriting classes in the Activity Package. An overview of the associations is shown in Figure 18 while Figure 19 displays attribute details as well."
   }
-  
 ]
