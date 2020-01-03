@@ -40,6 +40,11 @@
         <memberEnd xmi:idref="character(0)-character(0)"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
       </packagedElement>
+      <packagedElement xmi:id="NA" xmi:type="uml:Association" name="character(0)">
+        <memberEnd xmi:idref="character(0)"/>
+        <memberEnd xmi:idref="character(0)-character(0)"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="character(0)-character(0)" name="character(0)" visibility="public" type="character(0)" association="NA"/>
+      </packagedElement>
       <packagedElement xmi:id="3T-SBOM-EMS-Artifact-Element" xmi:type="uml:Class" name="Element">
         <generalization xmi:id="3T-SBOM-EMS-Artifact-Element.generalization" xmi:type="uml:Generalization">
           <general href="http://www.omg.org/spec/UML/20131001/UML.xmi#Element"/>
@@ -78,6 +83,10 @@
         <ownedAttribute xmi:id="3T-SBOM-EMS-Artifact-Document-referencedArtifacts" xmi:type="uml:Property" visibility="public" name="referencedArtifacts" aggregation="shared" type="3T-SBOM-EMS-Artifact-ReferencedArtifact" association="NA">
           <lowerValue xmi:id="3T-SBOM-EMS-Artifact-Document-referencedArtifacts.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
           <upperValue xmi:id="3T-SBOM-EMS-Artifact-Document-referencedArtifacts.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Artifact-Document-signature" xmi:type="uml:Property" visibility="public" name="signature" aggregation="composite" type="3T-SBOM-EMS-Artifact-Signature" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Artifact-Document-signature.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Artifact-Document-signature.upperValue" xmi:type="uml:LiteralInteger" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:id="3T-SBOM-EMS-Artifact-AbstractArtifact" xmi:type="uml:Class" name="AbstractArtifact">
@@ -430,9 +439,9 @@
           <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-materials.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
           <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-materials.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts" xmi:type="uml:Property" visibility="public" name="byProducts" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
-          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
-          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-byProducts.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-resources" xmi:type="uml:Property" visibility="public" name="resources" aggregation="shared" type="3T-SBOM-EMS-Artifact-Element" association="NA">
+          <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-resources.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
+          <upperValue xmi:id="3T-SBOM-EMS-Activity-Activity-resources.upperValue" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="3T-SBOM-EMS-Activity-Activity-environment" xmi:type="uml:Property" visibility="public" name="environment" aggregation="composite" type="3T-SBOM-EMS-Activity-Environment" association="NA">
           <lowerValue xmi:id="3T-SBOM-EMS-Activity-Activity-environment.lowerValue" xmi:type="uml:LiteralInteger" value="0"/>
