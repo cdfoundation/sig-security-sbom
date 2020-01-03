@@ -594,6 +594,45 @@
         }
       ]
     },
+    "environment": {
+      "$id": "#/definitions/environment",
+      "type": "object",
+      "title": "Environment in which the activity was performed",
+      "required": [
+        "key",
+        "value"
+      ],
+      "properties": {
+        "key": {
+          "type": "string",
+          "title": "Environment information key"
+        },
+        "value": {
+          "type": "string",
+          "title": "Environment information value"
+        }
+      }
+    },
+    "run": {
+      "$id": "#/definitions/run",
+      "type": "object",
+      "title": "Activity run information",
+      "required": [
+        "actor",
+        "created"
+      ],
+      "properties": {
+        "actor": {
+          "type": "string",
+          "title": "Run actor"
+        },
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "title": "Run creation date and time"
+        }
+      }
+    },
     "materialOfActivity": {
       "$id": "#/definitions/materialOfActivity",
       "type": "object",
@@ -603,17 +642,33 @@
         "command"
       ],
       "properties": {
-        "product": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
-        "resource": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "resources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
         "command": {
           "type": "string",
           "title": "Command"
+        },
+        "environment": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/environment"
+          }
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/run"
+          }
         },
         "oneOf": [
           {},
@@ -640,17 +695,33 @@
         "command"
       ],
       "properties": {
-        "material": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
-        "resource": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "resources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
         "command": {
           "type": "string",
           "title": "Command"
+        },
+        "environment": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/environment"
+          }
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/run"
+          }
         },
         "oneOf": [
           {},
@@ -674,48 +745,97 @@
       "type": "object",
       "title": "Activity from which the element is the resource",
       "required": [
-        "product",
+        "products",
         "command"
       ],
       "properties": {
-        "material": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
-        "product": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
         "command": {
           "type": "string",
           "title": "Command"
-        }
+        },
+        "environment": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/environment"
+          }
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/run"
+          }
+        },
+        "oneOf": [
+          {},
+          {
+            "creationType": {
+              "type": "string",
+              "$ref": "#/definitions/creationType"
+            }
+          },
+          {
+            "assessmentType": {
+              "type": "string",
+              "$ref": "#/definitions/assessmentType"
+            }
+          }
+        ]
       }
     },
-    "Activity": {
-      "$id": "#/definitions/Activity",
+    "activity": {
+      "$id": "#/definitions/activity",
       "type": "object",
       "title": "Activity between elements",
       "required": [
-        "product",
+        "products",
         "command"
       ],
       "properties": {
-        "material": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
-        "product": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
-        "resource": {
-          "type": "string",
-          "$ref": "#/definitions/anyElement"
+        "ressources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anyElement"
+          }
         },
         "command": {
           "type": "string",
           "title": "Command"
+        },
+        "environment": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/environment"
+          }
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/run"
+          }
         }
       }
     },
