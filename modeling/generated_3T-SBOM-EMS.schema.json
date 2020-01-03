@@ -3,7 +3,9 @@
   "$id": "https://it-cisa.org/schema/1.0/generated_3T-SBOM-EMS.schema.json",
   "type": "object",
   "title": "3T-SBOM-EMS JSON schema",
-  "required": "document",
+  "required": [
+    "document"
+  ],
   "properties": {
     "document": {
       "type": "object",
@@ -670,21 +672,16 @@
             "$ref": "#/definitions/run"
           }
         },
-        "oneOf": [
-          {},
-          {
-            "creationType": {
-              "type": "string",
-              "$ref": "#/definitions/creationType"
-            }
+        "oneOf": {
+          "creationType": {
+            "type": "string",
+            "$ref": "#/definitions/creationType"
           },
-          {
-            "assessmentType": {
-              "type": "string",
-              "$ref": "#/definitions/assessmentType"
-            }
+          "assessmentType": {
+            "type": "string",
+            "$ref": "#/definitions/assessmentType"
           }
-        ]
+        }
       }
     },
     "productOfActivity": {
@@ -723,21 +720,16 @@
             "$ref": "#/definitions/run"
           }
         },
-        "oneOf": [
-          {},
-          {
-            "creationType": {
-              "type": "string",
-              "$ref": "#/definitions/creationType"
-            }
+        "oneOf": {
+          "creationType": {
+            "type": "string",
+            "$ref": "#/definitions/creationType"
           },
-          {
-            "assessmentType": {
-              "type": "string",
-              "$ref": "#/definitions/assessmentType"
-            }
+          "assessmentType": {
+            "type": "string",
+            "$ref": "#/definitions/assessmentType"
           }
-        ]
+        }
       }
     },
     "resourceOfActivity": {
@@ -777,21 +769,16 @@
             "$ref": "#/definitions/run"
           }
         },
-        "oneOf": [
-          {},
-          {
-            "creationType": {
-              "type": "string",
-              "$ref": "#/definitions/creationType"
-            }
+        "oneOf": {
+          "creationType": {
+            "type": "string",
+            "$ref": "#/definitions/creationType"
           },
-          {
-            "assessmentType": {
-              "type": "string",
-              "$ref": "#/definitions/assessmentType"
-            }
+          "assessmentType": {
+            "type": "string",
+            "$ref": "#/definitions/assessmentType"
           }
-        ]
+        }
       }
     },
     "activity": {
