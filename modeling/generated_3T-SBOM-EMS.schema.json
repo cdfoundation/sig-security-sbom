@@ -1,0 +1,802 @@
+{
+  "$schema": "http://json-schema.org/2019-09/schema#",
+  "$id": "https://it-cisa.org/schema/1.0/generated_3T-SBOM-EMS.schema.json",
+  "type": "object",
+  "title": "3T-SBOM-EMS JSON schema",
+  "required": "document",
+  "properties": {
+    "document": {
+      "type": "object",
+      "$ref": "#/definitions/document"
+    }
+  },
+  "definitions": {
+    "element": {
+      "$id": "#/definitions/element",
+      "title": "Generic element",
+      "type": "object",
+      "properties": {
+        "hashes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/hash"
+          }
+        },
+        "annotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/annotation"
+          }
+        },
+        "sourceOfRelationships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/sourceOfRelationship"
+          }
+        },
+        "targetOfRelationships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/targetOfRelationship"
+          }
+        },
+        "materialOfActivities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/materialOfActivity"
+          }
+        },
+        "productOfActivities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/productOfActivity"
+          }
+        },
+        "resourceOfActivities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definition/resourceOfActivity"
+          }
+        }
+      }
+    },
+    "anyElement": {
+      "$id": "#/definitions/anyElement",
+      "title": "Generic element",
+      "type": "object",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/document"
+        },
+        {
+          "$ref": "#/definitions/artifact"
+        },
+        {
+          "$ref": "#/definitions/referencedArtifact"
+        },
+        {
+          "$ref": "#/definitions/file"
+        },
+        {
+          "$ref": "#/definitions/referencedFile"
+        },
+        {
+          "$ref": "#/definitions/snippet"
+        },
+        {
+          "$ref": "#/definitions/annotation"
+        },
+        {
+          "$ref": "#/definitions/anyActivity"
+        }
+      ]
+    },
+    "document": {
+      "$id": "#/definitions/document",
+      "type": "object",
+      "required": ["name", "identifier", "namespace", "author", "specVersion", "created", "populationMethod", "artifacts"],
+      "allOf": [
+        {
+          "$ref": "#/definitions/element"
+        },
+        {
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Document name"
+            },
+            "identifier": {
+              "type": "string",
+              "title": "Document identifier",
+              "description": "Identifier of the document, unique within the document namespace"
+            },
+            "namespace": {
+              "type": "string",
+              "title": "Document namespace",
+              "description": "Namespace within which the document identifier is unique"
+            },
+            "author": {
+              "type": "string",
+              "title": "Document author"
+            },
+            "specVersion": {
+              "type": "string",
+              "title": "3T-SBOM-EMS Schema Version",
+              "description": "The version of the 3T-SBOM-EMS Schema a BOM is written to (starting at version 1.0)",
+              "examples": [
+                "1.0"
+              ]
+            },
+            "created": {
+              "type": "string",
+              "format": "date-time",
+              "title": "Document creation date and time"
+            },
+            "populationMethod": {
+              "type": "string",
+              "title": "Document population method",
+              "description": "Captures the way the document was generated",
+              "enum": [
+                "populationMethod_declaration",
+                "populationMethod_automated",
+                "populationMethod_investigation",
+                "populationMethod_other"
+              ]
+            },
+            "artifacts": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/definitions/artifact"
+              },
+              "title": "Document artifacts",
+              "description": "List of artifacts detailed by the document"
+            },
+            "referencedArtifacts": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/referencedArtifact"
+              },
+              "title": "Document referenced artifacts",
+              "description": "List of artifacts that are not detailed by the document but referenced from its content elements"
+            },
+            "signature": {
+              "type": "object",
+              "$ref": "#/definitions/signature"
+            },
+            "relationships": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/relationship"
+              },
+              "title": "Relationships between elements in the document",
+              "description": "Relationships between elements in the document that are not represented in-line in one of their associated element"
+            },
+            "activities": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/activity"
+              },
+              "title": "Activities involving elements in the document",
+              "description": "Activities involving elements in the document that are not represented in-line in one of their associated element"
+            }
+          }
+        }
+      ]
+    },
+    "signature": {
+      "$id": "#/definitions/signature",
+      "type": "object",
+      "required": ["keyId", "value", "method"],
+      "properties": {
+        "keyId": {
+          "type": "string",
+          "title": "Signature key ID"
+        },
+        "value": {
+          "type": "string",
+          "title": "Signature value"
+        },
+        "method": {
+          "type": "string",
+          "title": "Signature generation method",
+          "description": "Captures the way the signature was generated",
+          "enum": [
+            "signatureMethod_other"
+          ]
+        }
+      }
+    },
+    "hash": {
+      "$id": "#/definitions/hash",
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "title": "Hash value"
+        },
+        "hashType": {
+          "type": "string",
+          "title": "Hash type",
+          "enum": [
+            "hashType_sha256",
+            "hashType_sha512",
+            "hashType_md5",
+            "hashType_other"
+          ]
+        }
+      }
+    },
+    "abstractArtifact": {
+      "$id": "#/definitions/abstractArtifact",
+      "type": "object",
+      "title": "Abstract Artifact",
+      "description": "Artifact detailed or referenced by the parent document",
+      "required": [
+        "name",
+        "identifier",
+        "namespace",
+        "artifactType",
+        "version"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/element"
+        },
+        {
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Artifact name"
+            },
+            "identifier": {
+              "type": "string",
+              "title": "Artifact identifier",
+              "description": "Identifier of the artifact, unique within the artifact namespace"
+            },
+            "namespace": {
+              "type": "string",
+              "title": "Artifact namespace",
+              "description": "Namespace within which the artifact identifier is unique"
+            },
+            "supplier": {
+              "type": "string",
+              "title": "Artifact supplier"
+            },
+            "version": {
+              "type": "string",
+              "title": "Artifact Version",
+              "description": "The version of artifact",
+              "examples": [
+                "8.13.0"
+              ]
+            },
+            "artifactType": {
+              "type": "string",
+              "title": "Artifact type",
+              "enum": [
+                "artifactType_file",
+                "artifactType_library",
+                "artifactType_framework",
+                "artifactType_application",
+                "artifactType_operatingSystem",
+                "artifactType_hardwareDevice",
+                "artifactType_other"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "artifact": {
+      "$id": "#/definitions/artifact",
+      "type": "object",
+      "title": "Artifact",
+      "description": "Artifact detailed by the parent document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/abstractArtifact"
+        },
+        {
+          "properties": {
+            "license": {
+              "type": "string",
+              "title": "Artifact license expression"
+            },
+            "summary": {
+              "type": "string",
+              "title": "Artifact summary"
+            },
+            "description": {
+              "type": "string",
+              "title": "Artifact description"
+            },
+            "files": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/file"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "referencedArtifact": {
+      "$id": "#/definitions/referencedArtifact",
+      "type": "object",
+      "title": "Referenced Artifact",
+      "description": "Artifact referenced by elements from the parent document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/abstractArtifact"
+        },
+        {
+          "properties": {
+            "referencedDocument": {
+              "type": "array",
+              "title": "Referenced document where information about referenced artifact could be found",
+              "items": {
+                "$ref": "#/definitions/document"
+              }
+            },
+            "files": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/referencedFile"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "abstractAnnotation": {
+      "$id": "#/definitions/abstractAnnotation",
+      "type": "object",
+      "required": [
+        "created",
+        "annotationType"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/element"
+        },
+        {
+          "properties": {
+            "author": {
+              "type": "string",
+              "title": "Author of the annotation"
+            },
+            "created": {
+              "type": "string",
+              "format": "date-time",
+              "title": "Annotation creation date and time"
+            },
+            "annotationType": {
+              "type": "object",
+              "title": "Annotation type",
+              "enum": [
+                "annotationType_other"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "annotation": {
+      "$id": "#/definitions/annotation",
+      "type": "object",
+      "title": "Annotation",
+      "description": "Annotation on any element from the parent document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/abstractAnnotation"
+        },
+        {
+          "properties": {
+            "expression": {
+              "type": "string",
+              "title": "Annotation content"
+            }
+          },
+          "required": [
+            "expression"
+          ]
+        }
+      ]
+    },
+    "externalAnnotation": {
+      "$id": "#/definitions/externalAnnotation",
+      "type": "object",
+      "title": "External annotation",
+      "description": "Annotation on any element from the parent document whose content is not in the document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/abstractAnnotation"
+        },
+        {
+          "properties": {
+            "uri": {
+              "type": "string",
+              "title": "URI pointing to annotation content"
+            }
+          },
+          "required": [
+            "uri"
+          ]
+        }
+      ]
+    },
+    "relationshipType": {
+      "type": "string",
+      "title": "Type of relationship between source and target elements",
+      "enum": [
+        "relationshipType_contains",
+        "relationshipType_containedBy",
+        "relationshipType_other"
+      ]
+    },
+    "sourceOfRelationship": {
+      "$id": "#/definitions/sourceOfRelationship",
+      "type": "object",
+      "title": "Relationship from which the element is the source",
+      "required": [
+        "target",
+        "relationshipType"
+      ],
+      "properties": {
+        "target": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "relationshipType": {
+          "$ref": "#/definitions/relationshipType"
+        },
+        "comment": {
+          "type": "string",
+          "title": "Comment"
+        }
+      }
+    },
+    "targetOfRelationship": {
+      "$id": "#/definitions/targetOfRelationship",
+      "type": "object",
+      "title": "Relationship from which the element is the target",
+      "required": [
+        "source",
+        "relationshipType"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "relationshipType": {
+          "$ref": "#/definitions/relationshipType"
+        },
+        "comment": {
+          "type": "string",
+          "title": "Comment"
+        }
+      }
+    },
+    "relationship": {
+      "$id": "#/definitions/relationship",
+      "type": "object",
+      "title": "Relationship between elements",
+      "required": [
+        "target",
+        "source",
+        "relationshipType"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "target": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "relationshipType": {
+          "$ref": "#/definitions/relationshipType"
+        },
+        "comment": {
+          "type": "string",
+          "title": "Comment"
+        }
+      }
+    },
+    "abstractFile": {
+      "$id": "#/definitions/abstractFile",
+      "type": "object",
+      "required": [
+        "relativeFilePath",
+        "fileType"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/element"
+        },
+        {
+          "properties": {
+            "relativeFilePath": {
+              "type": "string",
+              "title": "Relative file path"
+            },
+            "fileType": {
+              "type": "string",
+              "title": "File type",
+              "enum": [
+                "fileType_source",
+                "fileType_binary",
+                "fileType_documentation",
+                "fileType_audio",
+                "fileType_video",
+                "fileType_image",
+                "fileType_other"
+              ]
+            },
+            "snippets": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/snippet"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "file": {
+      "$id": "#/definitions/file",
+      "type": "object",
+      "$ref": "#/definitions/abstractFile"
+    },
+    "referencedFile": {
+      "$id": "#/definitions/referencedFile",
+      "type": "object",
+      "$ref": "#/definitions/abstractFile"
+    },
+    "snippet": {
+      "$id": "#/definitions/snippet",
+      "title": "File snippet",
+      "type": "object",
+      "required": [
+        "byteRangeLowerBound",
+        "byteRangeUpperBound"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/element"
+        },
+        {
+          "properties": {
+            "byteRangeLowerBound": {
+              "type": "integer",
+              "title": "Lower bound of snippet byte range",
+              "minimum": 0
+            },
+            "byteRangeUpperBound": {
+              "type": "integer",
+              "title": "Upper bound of snippet byte range",
+              "minimum": 0
+            },
+            "lineRangeLowerBound": {
+              "type": "integer",
+              "title": "Lower bound of snippet line range",
+              "minimum": 0
+            },
+            "lineRangeUpperBound": {
+              "type": "integer",
+              "title": "Upper bound of snippet line range",
+              "minimum": 0
+            }
+          }
+        }
+      ]
+    },
+    "materialOfActivity": {
+      "$id": "#/definitions/materialOfActivity",
+      "type": "object",
+      "title": "Activity from which the element is the material",
+      "required": [
+        "product",
+        "command"
+      ],
+      "properties": {
+        "product": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "resource": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "command": {
+          "type": "string",
+          "title": "Command"
+        },
+        "oneOf": [
+          [],
+          {
+            "creationType": {
+              "type": "string",
+              "$ref": "#/definitions/creationType"
+            }
+          },
+          {
+            "assessmentType": {
+              "type": "string",
+              "$ref": "#/definitions/assessmentType"
+            }
+          }
+        ]
+      }
+    },
+    "productOfActivity": {
+      "$id": "#/definitions/productOfActivity",
+      "type": "object",
+      "title": "Activity from which the element is the product",
+      "required": [
+        "command"
+      ],
+      "properties": {
+        "material": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "resource": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "command": {
+          "type": "string",
+          "title": "Command"
+        },
+        "oneOf": [
+          [],
+          {
+            "creationType": {
+              "type": "string",
+              "$ref": "#/definitions/creationType"
+            }
+          },
+          {
+            "assessmentType": {
+              "type": "string",
+              "$ref": "#/definitions/assessmentType"
+            }
+          }
+        ]
+      }
+    },
+    "resourceOfActivity": {
+      "$id": "#/definitions/resourceOfActivity",
+      "type": "object",
+      "title": "Activity from which the element is the resource",
+      "required": [
+        "product",
+        "command"
+      ],
+      "properties": {
+        "material": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "product": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "command": {
+          "type": "string",
+          "title": "Command"
+        }
+      }
+    },
+    "Activity": {
+      "$id": "#/definitions/Activity",
+      "type": "object",
+      "title": "Activity between elements",
+      "required": [
+        "product",
+        "command"
+      ],
+      "properties": {
+        "material": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "product": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "resource": {
+          "type": "string",
+          "$ref": "#/definitions/anyElement"
+        },
+        "command": {
+          "type": "string",
+          "title": "Command"
+        }
+      }
+    },
+    "assessmentType": {
+      "type": "string",
+      "title": "Assessment type",
+      "enum": [
+        "assessmentType_codeReview",
+        "assessmentType_vulnerabilityScan",
+        "assessmentType_other"
+      ]
+    },
+    "assessment": {
+      "$id": "#/definitions/assessment",
+      "type": "object",
+      "title": "assessment",
+      "description": "Assessment activity involving element(s) from the parent document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/activity"
+        },
+        {
+          "properties": {
+            "assessmentType": {
+              "type": "string",
+              "$ref": "#/definitions/assessmentType"
+            }
+          },
+          "required": [
+            "assessmentType"
+          ]
+        }
+      ]
+    },
+    "creationType": {
+      "type": "string",
+      "title": "creation type",
+      "enum": [
+        "creationType_commit",
+        "creationType_compile",
+        "creationType_build",
+        "creationType_other"
+      ]
+    },
+    "creation": {
+      "$id": "#/definitions/creation",
+      "type": "object",
+      "title": "Creation",
+      "description": "Creation activity involving element(s) from the parent document",
+      "allOf": [
+        {
+          "$ref": "#/definitions/activity"
+        },
+        {
+          "properties": {
+            "creationType": {
+              "type": "string",
+              "$ref": "#/definitions/creationType"
+            }
+          },
+          "required": [
+            "creationType"
+          ]
+        }
+      ]
+    },
+    "anyActivity": {
+      "$id": "#/definitions/anyActivity",
+      "title": "Generic activity",
+      "type": "object",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/activity"
+        },
+        {
+          "$ref": "#/definitions/assessment"
+        },
+        {
+          "$ref": "#/definitions/creation"
+        }
+      ]
+    }
+  }
+}
