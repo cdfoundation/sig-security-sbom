@@ -616,7 +616,7 @@
           "title": "Command"
         },
         "oneOf": [
-          [],
+          {},
           {
             "creationType": {
               "type": "string",
@@ -653,7 +653,7 @@
           "title": "Command"
         },
         "oneOf": [
-          [],
+          {},
           {
             "creationType": {
               "type": "string",
