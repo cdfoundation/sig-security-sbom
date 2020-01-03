@@ -463,14 +463,14 @@
   },
   {
     "class": "Activity",
-    "name": "byProducts",
-    "description": "The element(s) capturing the artifact(s) by-products of the action.",
+    "name": "resources",
+    "description": "The element(s) capturing the artifact(s) resources of the action.",
     "type": "3T-SBOM-EMS-Artifact-Element",
     "multiplicity": "*",
     "aggregation": "shared",
-    "reverseName": "byProductsOfActivities",
+    "reverseName": "resourceOfActivities",
     "package": "Activity",
-    "id": "3T-SBOM-EMS-Activity-Activity-byProducts"
+    "id": "3T-SBOM-EMS-Activity-Activity-resources"
   },
   {
     "class": "Activity",
