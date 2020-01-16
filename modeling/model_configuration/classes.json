@@ -7,14 +7,35 @@
     "id": "3T-SBOM-EMS-Artifact-Element"
   },
   {
-    "name": "Document",
+    "name": "AbstractDocument",
     "package": "Artifact",
     "generalization": "Element",
+    "description": "This class is the abstract parent of all the classes representing the Software Bill of Material document:",
+    "compositionDescription": [
+      "The document themselves,", 
+      "The references to external documents."],
+    "id": "3T-SBOM-EMS-Artifact-AbstractDocument"
+  },
+  {
+    "name": "Document",
+    "package": "Artifact",
+    "generalization": "AbstractDocument",
     "description": "This class represents the Software Bill of Material document. Its function is dual:",
     "compositionDescription": [
       "Clearly identify the piece of software under consideration,", 
       "Be referenced to attach additional pieces of information pertaining to the considered piece of software."],
     "id": "3T-SBOM-EMS-Artifact-Document"
+  },
+  {
+    "name": "ExternalDocumentRef",
+    "package": "Artifact",
+    "generalization": "AbstractDocument",
+    "description": "This class represents references to external Software Bill of Material documents. They can be needed:",
+    "compositionDescription": [
+      "To hint at documents detailing ReferencedArtifact elements,", 
+      "To be used in Relationship elements,", 
+      "..."],
+    "id": "3T-SBOM-EMS-Artifact-ExternalDocumentRef"
   },
   {
     "name": "AbstractArtifact",

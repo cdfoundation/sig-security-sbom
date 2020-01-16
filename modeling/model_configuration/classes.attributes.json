@@ -140,6 +140,17 @@
   },
   {
     "class": "Document",
+    "name": "referencedDocuments",
+    "description": "The elelement(s) capturing references to other documents, to be used for referenced artifacts, relationships, ...",
+    "type": "3T-SBOM-EMS-Artifact-ExternalDocumentRef",
+    "multiplicity": "*",
+    "aggregation": "shared",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-Document-referencedDocuments",
+    "reverseName": "document"
+  },
+  {
+    "class": "Document",
     "name": "signature",
     "description": "The elelement capturing the optional signature of the document.",
     "type": "3T-SBOM-EMS-Artifact-Signature",
@@ -147,6 +158,35 @@
     "aggregation": "composite",
     "package": "Artifact",
     "id": "3T-SBOM-EMS-Artifact-Document-signature",
+    "reverseName": "document"
+  },
+  {
+    "class": "ExternalDocumentRef",
+    "name": "identifier",
+    "description": "The identifier of the document, unique within the namespace.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ExternalDocumentRef-identifier"
+  },
+  {
+    "class": "ExternalDocumentRef",
+    "name": "namespace",
+    "description": "The namespace of the identifier of the document.",
+    "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+    "multiplicity": "1",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ExternalDocumentRef-namespace"
+  },
+  {
+    "class": "ExternalDocumentRef",
+    "name": "signature",
+    "description": "The elelement capturing the optional signature of the document.",
+    "type": "3T-SBOM-EMS-Artifact-Signature",
+    "multiplicity": "0..1",
+    "aggregation": "composite",
+    "package": "Artifact",
+    "id": "3T-SBOM-EMS-Artifact-ExternalDocumentRef-signature",
     "reverseName": "document"
   },
   {
@@ -234,7 +274,7 @@
     "class": "ReferencedArtifact",
     "name": "referenceDocument",
     "description": "Reference to documents that detail the referenced artifact.",
-    "type": "3T-SBOM-EMS-Artifact-Document",
+    "type": "3T-SBOM-EMS-Artifact-AbstractDocument",
     "multiplicity": "*",
     "package": "Artifact",
     "id": "3T-SBOM-EMS-Artifact-ReferencedArtifact-referenceDocument"
