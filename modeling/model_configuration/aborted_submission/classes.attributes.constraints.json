@@ -1,0 +1,90 @@
+[
+  {
+    "class": "Relationship",
+    "attribute": "source",
+    "constraint": "source<-exists(Node=source)",
+    "name": "sourceElementExistence",
+    "description": "The SBOM node element whose identifier is equal to the source node element value must exist.",
+    "id": "3T-SBOM-EMS-Relationships-Relationship-source"
+  },
+  {
+    "class": "Relationship",
+    "attribute": "target",
+    "constraint": "target<-exists(Node=target)",
+    "name": "targetElementExistence",
+    "description": "The SBOM node element whose identifier is equal to the target node element value must exist.",
+    "id": "3T-SBOM-EMS-Relationships-Relationship-target"
+  },
+  {
+    "class": "Relationship",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier=source.identifier+type+target.identifier",
+    "name": "relationshipIdentifier",
+    "description": "The identifier of the relationship is composed of: the identifier of the source node element, the relationship type, and the identifier of the target node element.",
+    "id": "3T-SBOM-EMS-Relationships-Relationship-identifier"
+  },
+  {
+    "class": "LicenseInfo",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='licenseInfo'+identificationAuthority+expression",
+    "name": "licenseInfoIdentifier",
+    "description": "The identifier of the lincense information is composed of: 'licenseInfo', license information identification authority, and expression.",
+    "id": "3T-SBOM-EMS-Definitions-LicenseInfo-identifier"
+  },
+  {
+    "class": "Tool",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier=type+editor.identifier+name+version+servicePack",
+    "name": "toolIdentifier",
+    "description": "The identifier of the tool is composed of: tool type, tool editor name, tool name, tool version, tool service pack.",
+    "id": "3T-SBOM-EMS-Activities-Tool-identifier"
+  },
+  {
+    "class": "Artifact",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='artifact'+supplier.identifier+identificationAuthority+name+version+checksum.identifier",
+    "name": "artifactIdentifier",
+    "description": "The identifier of the artifact is composed of: 'artifact', artifact supplier identifier, artifact identification authority, artifact name, artifact version, and artifact checksum identifier.",
+    "id": "3T-SBOM-EMS-Definitions-Artifact-identifier"
+  },
+  {
+    "class": "Agent",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier=type+identificationAuthority+name",
+    "name": "agentIdentifier",
+    "description": "The identifier of the agent is composed of: agent type, agent identification authority and agent name.",
+    "id": "3T-SBOM-EMS-Definitions-Agent-identifier"
+  },
+  {
+    "class": "Action",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='action'+identificationAuthority+name",
+    "name": "actionIdentifier",
+    "description": "The identifier of the action is composed of: 'action', identification authority and name.",
+    "id": "3T-SBOM-EMS-Activities-Action-identifier"
+  },
+  {
+    "class": "Annotation",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='action'+identificationAuthority+name",
+    "name": "annotationIdentifier",
+    "description": "The identifier of the annotation is composed of: 'annotation', identification authority and name.",
+    "id": "3T-SBOM-EMS-Definitions-Annotation-identifier"
+  },
+  {
+    "class": "PedigreeInfo",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='pedigreeInfo'+identificationAuthority+name",
+    "name": "pedigreeInfoIdentifier",
+    "description": "The identifier of the pedigree information is composed of: 'pedigreeInfo', identification authority and name.",
+    "id": "3T-SBOM-EMS-Activities-PedigreeInfo-identifier"
+  },
+  {
+    "class": "Document",
+    "attribute": "identifier",
+    "constraint": "identifier<-identifier='document'+creator.identifier+name+artifact.identifier+checksum.identifier",
+    "name": "documentIdentifier",
+    "description": "The identifier of the document is composed of: 'document', document creator identifier, document name, artifact identifier, document checksum identifier.",
+    "id": "3T-SBOM-EMS-Definitions-Document-identifier"
+  }
+]

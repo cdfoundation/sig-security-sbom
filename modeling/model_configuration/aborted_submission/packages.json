@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3T-SBOM-EMS-Relationships",
+    "name": "Relationships",
+    "description": "The 3T-SBOM-EMS Relationships package defines classes for creating relations between Software Bill of Material node elements. This enables a graph-based approach to SBOM composition and analysis. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Relationships package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Activities",
+    "name": "Activities",
+    "description": "The 3T-SBOM-EMS Activities package defines classes for handling the information about the transformations the elements detailed by the Software Bill of Material are subject of. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Activities package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Definitions",
+    "name": "Definitions",
+    "description": "The 3T-SBOM-EMS Definitions package defines classes for structuring Software Bill of Material documents. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Definitions package."
+  }
+]

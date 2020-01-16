@@ -1,17 +1,33 @@
 [
   {
-    "id": "3T-SBOM-EMS-Relationships",
-    "name": "Relationships",
-    "description": "The 3T-SBOM-EMS Relationships package defines classes for creating relations between Software Bill of Material node elements. This enables a graph-based approach to SBOM composition and analysis. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Relationships package."
+    "id": "3T-SBOM-EMS-Artifact",
+    "name": "Artifact",
+    "description": "The 3T-SBOM-EMS Artifact package defines fundation classes for structuring Software Bill of Material documents. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Artifact package."
   },
   {
-    "id": "3T-SBOM-EMS-Activities",
-    "name": "Activities",
-    "description": "The 3T-SBOM-EMS Activities package defines classes for handling the information about the transformations the elements detailed by the Software Bill of Material are subject of. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Activities package."
+    "id": "3T-SBOM-EMS-Relationship",
+    "name": "Relationship",
+    "description": "The 3T-SBOM-EMS Relationship package defines classes for handling relationships between model elements. All 3T-SBOM-EMS Provenance compliant tooling, repository, or efforts must support the Relationship package"
   },
   {
-    "id": "3T-SBOM-EMS-Definitions",
-    "name": "Definitions",
-    "description": "The 3T-SBOM-EMS Definitions package defines classes for structuring Software Bill of Material documents. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Definitions package."
+    "id": "3T-SBOM-EMS-Annotation",
+    "name": "Annotation",
+    "description": "The 3T-SBOM-EMS Annotation package defines classes for handling additional pieces of information to attach to model elements. All 3T-SBOM-EMS compliant tooling, repository, or efforts must support the Annotation package"
+  },
+  {
+    "id": "3T-SBOM-EMS-Content",
+    "name": "Content",
+    "description": "The 3T-SBOM-EMS Content package defines classes for handling more detailed pieces of information about the file content of the software under consideration in the SBoM document. "
+  },
+  {
+    "id": "3T-SBOM-EMS-Licensing",
+    "name": "Licensing",
+    "description": "The 3T-SBOM-EMS Licensing package defines classes for handling more detailed pieces of information about licensing and copyright. All 3T-SBOM-EMS IP protection compliant tooling, repository, or efforts must support the Licensing package."
+  },
+  {
+    "id": "3T-SBOM-EMS-Activity",
+    "name": "Activity",
+    "description": "The 3T-SBOM-EMS Activity package defines classes for handling more information about actions involved in producing and in ensuring the quality and compliance of the software under consideration in the SBoM document. All 3T-SBOM-EMS Assurance and Pedigree compliant tooling, repository, or efforts must support the Activity package"
   }
+  
 ]

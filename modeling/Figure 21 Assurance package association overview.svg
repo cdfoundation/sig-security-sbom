@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='279 171 820 329' xmlns:xlink='http://www.w3.org/1999/xlink' width='820.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='329.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='d8d61f75-c0a3-451d-97d8-3395f5103f24' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c31de9bc-1dae-41f2-b3e0-582d6ead4c89' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(239, 233, 222)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='dc752a7d-ef0e-4b16-8da8-3db5d0321964' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='c848c319-1af5-40dc-90ee-26156277cdfd' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g transform='translate(520.0,201.0)' id='_7Gbvsf6UEDe77dt-8PPK-w'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='470.0px' y='0.0' stroke-width='1.0' fill='url(#d8d61f75-c0a3-451d-97d8-3395f5103f24)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='235.0' y='19.0' font-size='13' font-style='italic' fill='rgb(3, 54, 86)'>Element</text>
+    <text text-anchor='middle' x='235.0' y='35.0' font-size='12' fill='rgb(105, 105, 105)'>(from Artifact)</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='470.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(309.0,304.0)' id='_uAwS4P6UEDe77dt-8PPK-w'>
+    <rect x='0.0' width='139.0px' y='0.0' stroke-width='1.0' fill='url(#c31de9bc-1dae-41f2-b3e0-582d6ead4c89)' stroke='rgb(194, 183, 159)' look='allInOne' height='38.0px'/>
+    <rect x='0.0' width='760.0px' y='38.0' stroke-width='1.0' fill='url(#c31de9bc-1dae-41f2-b3e0-582d6ead4c89)' stroke='rgb(194, 183, 159)' look='allInOne' height='128.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='69.5' y='18.0' font-size='13' fill='rgb(128, 98, 33)'>Assurance</text>
+    <text text-anchor='middle' x='69.5' y='34.0' font-size='12' fill='rgb(105, 105, 105)'>(from 3T-SBOM-EMS)</text>
+  </g>
+  <g transform='translate(522.0,380.0)' id='_4LWeoP6UEDe77dt-8PPK-w'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='470.0px' y='0.0' stroke-width='1.0' fill='url(#dc752a7d-ef0e-4b16-8da8-3db5d0321964)' stroke='rgb(187, 187, 187)' look='allInOne' height='80.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='235.0' y='19.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>Assessment</text>
+    <line y1='26.0' x1='0.0' y2='26.0' x2='470.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <g transform='translate(340.0,395.0)' id='_ddTDcv6bEDe77dt-8PPK-w'>
+    <rect rx='3.0' ry='3.0' x='0.0' width='119.0px' y='0.0' stroke-width='1.0' fill='url(#c848c319-1af5-40dc-90ee-26156277cdfd)' stroke='rgb(187, 187, 187)' look='allInOne' height='42.0px'/>
+    <text font-weight='bold' text-anchor='middle' x='59.5' y='18.0' font-size='12' fill='rgb(105, 105, 105)'>« Enumeration »</text>
+    <text font-weight='bold' text-anchor='middle' x='59.5' y='35.0' font-size='13' font-style='normal' fill='rgb(3, 54, 86)'>AssessmentType</text>
+    <line y1='42.0' x1='0.0' y2='42.0' x2='119.0' stroke-width='1.0' stroke='rgb(187, 187, 187)' look='border'/>
+  </g>
+  <text text-anchor='middle' x='580.0' y='375.0' fill='rgb(0, 0, 0)'>inputOfScans</text>
+  <text text-anchor='middle' x='507.0' y='297.0' fill='rgb(0, 0, 0)'>materials</text>
+  <text text-anchor='middle' x='519.0' y='375.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='547.0' y='297.0' fill='rgb(0, 0, 0)'>1..*</text>
+  <text text-anchor='middle' x='712.0' y='375.0' fill='rgb(0, 0, 0)'>outputOfScans</text>
+  <text text-anchor='middle' x='638.0' y='297.0' fill='rgb(0, 0, 0)'>products</text>
+  <text text-anchor='middle' x='656.0' y='375.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='683.0' y='297.0' fill='rgb(0, 0, 0)'>1..*</text>
+  <text text-anchor='middle' x='889.0' y='375.0' fill='rgb(0, 0, 0)'>meanOfScans</text>
+  <text text-anchor='middle' x='802.0' y='297.0' fill='rgb(0, 0, 0)'>byProducts</text>
+  <text text-anchor='middle' x='832.0' y='375.0' fill='rgb(0, 0, 0)'>*</text>
+  <text text-anchor='middle' x='851.0' y='297.0' fill='rgb(0, 0, 0)'>*</text>
+  <g id='_duN4gv6UEDe77dt-8PPK-w'>
+    <line y1='380.0' x1='959.0' y2='330.0' x2='959.0' id='_7G4bov6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_duN4gv6UEDe77dt-8PPK-w'>
+    <line y1='330.0' x1='959.0' y2='331.0' x2='959.0' id='_7G5Csv6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_duN4gv6UEDe77dt-8PPK-w'>
+    <line y1='331.0' x1='959.0' y2='281.0' x2='959.0' id='_7G5Cs_6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(959.0,281.0) rotate(-0.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='__xJLVP6UEDe77dt-8PPK-w'>
+    <line y1='380.0' x1='537.0' y2='330.0' x2='537.0' id='__xLAgv6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='__xJLVP6UEDe77dt-8PPK-w'>
+    <line y1='330.0' x1='537.0' y2='331.0' x2='537.0' id='__xLAhf6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='__xJLVP6UEDe77dt-8PPK-w'>
+    <line y1='331.0' x1='537.0' y2='281.0' x2='537.0' id='__xLAhv6UEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_ZS68cP6VEDe77dt-8PPK-w'>
+    <line y1='380.0' x1='665.0' y2='330.0' x2='665.0' id='_ZTAcAP6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_ZS68cP6VEDe77dt-8PPK-w'>
+    <line y1='330.0' x1='665.0' y2='331.0' x2='665.0' id='_ZTAcA_6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_ZS68cP6VEDe77dt-8PPK-w'>
+    <line y1='331.0' x1='665.0' y2='281.0' x2='665.0' id='_ZTAcBP6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_yTKt0P6VEDe77dt-8PPK-w'>
+    <line y1='380.0' x1='841.0' y2='330.0' x2='841.0' id='_yTOYMP6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_yTKt0P6VEDe77dt-8PPK-w'>
+    <line y1='330.0' x1='841.0' y2='331.0' x2='841.0' id='_yTOYM_6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_yTKt0P6VEDe77dt-8PPK-w'>
+    <line y1='331.0' x1='841.0' y2='281.0' x2='841.0' id='_yTOYNP6VEDe77dt-8PPK-w' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+</svg>

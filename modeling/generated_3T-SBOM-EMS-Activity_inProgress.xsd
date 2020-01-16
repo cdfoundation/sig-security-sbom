@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/activity" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Activity Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="CreationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="creationType_commit"/>
+      <xs:enumeration value="creationType_compile"/>
+      <xs:enumeration value="creationType_build"/>
+      <xs:enumeration value="creationType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="AssessmentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="assessmentType_codeReview"/>
+      <xs:enumeration value="assessmentType_vulnerability"/>
+      <xs:enumeration value="assessmentType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Activity">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="command" type="xs:string"/>
+          <xs:element name="products" type="artifact:Element" maxOccurs="unbounded"/>
+          <xs:element name="materials" type="artifact:Element" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="byProducts" type="artifact:Element" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="environment" type="activity:Environment" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="runs" type="activity:Run" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Creation">
+    <xs:complexContent>
+      <xs:extension base="activity:Activity">
+        <xs:sequence>
+          <xs:element name="type" type="activity:CreationType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Assessment">
+    <xs:complexContent>
+      <xs:extension base="activity:Activity">
+        <xs:sequence>
+          <xs:element name="type" type="activity:AssessmentType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Run">
+    <xs:sequence>
+      <xs:element name="actor" type="xs:string"/>
+      <xs:element name="created" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Environment">
+    <xs:sequence>
+      <xs:element name="key" type="xs:string"/>
+      <xs:element name="value" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

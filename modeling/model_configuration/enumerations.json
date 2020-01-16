@@ -1,44 +1,62 @@
 [
   {
-    "name": "FileType",
-    "package": "Definitions",
-    "description": "enumerated data type defines additional specifications of the the nature of the file.",
-    "id": "3T-SBOM-EMS-Definitions-FileType"
-  },
-  {
-    "name": "AgentType",
-    "package": "Definitions",
-    "description": "enumerated data type defines additional specifications of the of the nature of the agent.",
-    "id": "3T-SBOM-EMS-Definitions-AgentType"
-  },
-  {
-    "name": "ChecksumAlgorithm",
-    "package": "Definitions",
+    "name": "HashType",
+    "package": "Artifact",
     "description": "enumerated data type defines additional specifications of the of the algorithm used to compute the checksum.",
-    "id": "3T-SBOM-EMS-Definitions-ChecksumAlgorithm"
+    "id": "3T-SBOM-EMS-Artifact-HashType"
+  },
+  {
+    "name": "SignatureMethod",
+    "package": "Artifact",
+    "description": "enumerated data type defines additional specifications of the of the signature method used to sign the document.",
+    "id": "3T-SBOM-EMS-Artifact-SignatureMethod"
+  },
+ {
+    "name": "ArtifactType",
+    "package": "Artifact",
+    "description": "enumerated data type defines additional specifications of the of the type of artifact.",
+    "id": "3T-SBOM-EMS-Artifact-ArtifactType"
   },
   {
     "name": "PopulationMethod",
-    "package": "Definitions",
+    "package": "Artifact",
     "description": "enumerated data type defines additional specifications of the way the SBOM document was created.",
-    "id": "3T-SBOM-EMS-Definitions-PopulationMethod"
-  },
-  {
-    "name": "ToolType",
-    "package": "Activities",
-    "description": "enumerated data type defines additional specifications of the tool.",
-    "id": "3T-SBOM-EMS-Activities-ToolType"
-  },
-  {
-    "name": "AnnotationType",
-    "package": "Definitions",
-    "description": "enumerated data type defines additional specifications of the annotation.",
-    "id": "3T-SBOM-EMS-Definitions-AnnotationType"
+    "id": "3T-SBOM-EMS-Artifact-PopulationMethod"
   },
   {
     "name": "RelationshipType",
-    "package": "Relationships",
+    "package": "Relationship",
     "description": "enumerated data type defines additional specifications of the nature of the relation between the SBOM documents.",
-    "id": "3T-SBOM-EMS-Relationships-RelationshipType"
+    "id": "3T-SBOM-EMS-Relationship-RelationshipType"
+  },
+  {
+    "name": "FileType",
+    "package": "Content",
+    "description": "enumerated data type defines additional specifications of the the nature of the file.",
+    "id": "3T-SBOM-EMS-Content-FileType"
+  },
+  {
+    "name": "AnnotationType",
+    "package": "Annotation",
+    "description": "enumerated data type defines additional specifications of the of the nature of the annotation content.",
+    "id": "3T-SBOM-EMS-Annotation-AnnotationType"
+  },
+  {
+    "name": "LicenseInformationType",
+    "package": "Licensing",
+    "description": "enumerated data type defines additional specifications of the type of the license information.",
+    "id": "3T-SBOM-EMS-Licensing-LicenseInformationType"
+  },
+  {
+    "name": "CreationType",
+    "package": "Activity",
+    "description": "enumerated data type defines additional specifications of the type of the build activity.",
+    "id": "3T-SBOM-EMS-Activity-CreationType"
+  },
+  {
+    "name": "AssessmentType",
+    "package": "Activity",
+    "description": "enumerated data type defines additional specifications of the type of the assessment activity.",
+    "id": "3T-SBOM-EMS-Activity-AssessmentType"
   }
 ]

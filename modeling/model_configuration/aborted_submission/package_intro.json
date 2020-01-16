@@ -1,0 +1,14 @@
+[
+  {
+    "package": "Definitions",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Definitions Classes. It begins with an overview of the Definitions Classes metamodel inheritance structure shown in Figure 2 followed by a description of each element. The inheritance from the MOF::Element class is key to ensure the 3T-SBOM-EMS meta model integrates with existing MOF-based meta models. The Node class is pivotal to the 3T-SBOM-EMS as it brings the identification, lifecycle, annotation, and relationship capabilities to all inheriting classes and is called out in Figure 3 for better understanding of that portion of the Definitions Classes. Then, the Artifact and Document classes are at the core of software bill of material and are called out in Figure 4 for better understanding of that portion of the Definitions Classes."
+  },
+  {
+    "package": "Relationships",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Relationships Classes. It begins with an overview of the Relationships Classes metamodel inheritance structure shown in Figure 7 followed by a description of each element. Their adherence to the Node class from the Definitions package is shown in Figure 3; this is key as this means that one can define relationships between any Node of the 3T-SBOM-EMS meta model."
+  },
+  {
+    "package": "Activities",
+    "intro": "This chapter presents the normative specification for the Tool-to-Tool Software Bill of Materials Exchange Metamodel Standard metamodel Activities Classes. It begins with an overview of the main Activities Classes metamodel inheritance structure shown in Figure 5 followed by a description of each element.  The Action centric portion of the Activities Package is called out in Figure 6 for better understanding of that portion of the Activities Classes. Their adherence to the Node class from the Definitions package is shown in the same Figure 6; this is key as this means that one can define use any Node of the 3T-SBOM-EMS meta model as the input, the mean, and the output of an Action."
+  }
+]

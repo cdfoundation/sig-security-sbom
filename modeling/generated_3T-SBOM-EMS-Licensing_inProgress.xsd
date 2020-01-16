@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:artifact="http://www.it-cisq.org/schema/1.0/artifact" xmlns:relationship="http://www.it-cisq.org/schema/1.0/relationship" xmlns:annotation="http://www.it-cisq.org/schema/1.0/annotation" xmlns:content="http://www.it-cisq.org/schema/1.0/content" xmlns:licensing="http://www.it-cisq.org/schema/1.0/licensing" xmlns:activity="http://www.it-cisq.org/schema/1.0/activity" version="1.0" targetNamespace="http://www.it-cisq.org/schema/1.0/licensing" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>
+      <name>3T-SBOM-EMS Licensing Specification</name>
+      <url>https://www.it-cisq.org</url>
+      <license uri="http://www.apache.org/licenses/LICENSE-2.0" version="2.0">Apache License, Version 2.0</license>
+      <authors>
+        <author>Philippe-Emmanuel Douziech</author>
+      </authors>
+    </xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="LicenseInformationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="licenseInformationType_declared"/>
+      <xs:enumeration value="licenseInformationType_concluded"/>
+      <xs:enumeration value="licenseInformationType_distributed"/>
+      <xs:enumeration value="licenseInformationType_other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="AbstractLicensingInformation">
+    <xs:complexContent>
+      <xs:extension base="art:Element">
+        <xs:sequence>
+          <xs:element name="artifacts" type="artifact:AbstractArtifact" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="files" type="artifact:AbstractArtifact" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CopyrightInformation">
+    <xs:complexContent>
+      <xs:extension base="licensing:AbstractLicensingInformation">
+        <xs:sequence>
+          <xs:element name="expression" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LicenseInformation">
+    <xs:complexContent>
+      <xs:extension base="licensing:AbstractLicensingInformation">
+        <xs:sequence>
+          <xs:element name="expression" type="xs:string"/>
+          <xs:element name="type" type="licensing:LicenseInformationType"/>
+          <xs:element name="licenseReferences" type="licensing:LicenseReference" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LicenseReference">
+    <xs:complexContent>
+      <xs:extension base="licensing:AbstractLicensingInformation">
+        <xs:sequence>
+          <xs:element name="identifier" type="xs:string"/>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element name="expression" type="xs:string"/>
+          <xs:element name="urls" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
